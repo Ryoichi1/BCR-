@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.Threading;
-using System.IO;
+﻿using System.Linq;
 using System.Media;
+using System.Threading;
+using System.Windows.Forms;
 
 namespace BCR耐電圧_絶縁抵抗試験
 {

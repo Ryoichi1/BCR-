@@ -92,12 +92,6 @@
     <Compile Include="Form\SetOperatorForm.designer.cs">
       <DependentUpon>SetOperatorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\SetSpecForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\SetSpecForm.designer.cs">
-      <DependentUpon>SetSpecForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form\SplashForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +107,8 @@
       <DependentUpon>VerInfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="列挙型.cs" />
+    <Compile Include="検査規格\Configuration.cs" />
+    <Compile Include="検査規格\TestSpec.cs" />
     <EmbeddedResource Include="Form\DailyCheckForm.resx">
       <DependentUpon>DailyCheckForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,9 +126,6 @@
     </Compile>
     <EmbeddedResource Include="Form\SetOperatorForm.resx">
       <DependentUpon>SetOperatorForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\SetSpecForm.resx">
-      <DependentUpon>SetSpecForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>

@@ -152,40 +152,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             SetFocus();
         }
 
-        private void MenuItemUtility_SetSpec_Click(object sender, EventArgs e)
-        {
-            timerLbMessage.Stop();
-            panelOperator.BackColor = Color.Transparent;
-            panelSerial.BackColor = Color.Transparent;
-            labelMessage.BackColor = Color.Transparent;
-            labelMessage.Text = "";
-
-            this.Enabled = false;
-
-            //試験スペック変更フォームの作成
-            var sForm = new SetSpecForm();
-            // Form をモーダルで表示する
-            sForm.ShowDialog();
-
-            // 不要になった時点で破棄する (正しくは オブジェクトの破棄を保証する を参照)
-            sForm.Dispose();
-            this.Refresh();
-
-            //検査用パラメータのロード
-            if (!State.LoadParameter())
-            {
-                MessageBox.Show("パラメータロード異常\r\n" + "アプリケーションを終了します");
-                Environment.Exit(0);
-            }
-
-            this.Enabled = true;
-            timerLbMessage.Start();
-
-            //メインフォームの初期化
-            InitForm();
-
-            this.Refresh();
-        }
+        
 
         private void MenuItemUtility_SetOperator_Click(object sender, EventArgs e)
         {
@@ -589,7 +556,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             {
                 comboBoxOperatorName.Focus();
                 labelMessage.Text = Constants.MessOperator;
-                General.PlaySound2(Constants.SoundName);
+                //General.PlaySound2(Constants.SoundName);
                 return;
             }
 
@@ -598,7 +565,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             {
                 labelDailyCheck.Focus();    
                 labelMessage.Text = Constants.MessDailyCheck;
-                General.PlaySound2(Constants.SoundDailyCheck);
+                //General.PlaySound2(Constants.SoundDailyCheck);
                 return;
             }
 
@@ -608,7 +575,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             {
                 textBoxSerial.Focus();
                 labelMessage.Text = Constants.MessSet;
-                General.PlaySound2(Constants.SoundSet);
+                //General.PlaySound2(Constants.SoundSet);
                 return;
             }
 
@@ -694,9 +661,10 @@ namespace BCR耐電圧_絶縁抵抗試験
             //耐圧スペック
             labelBcr耐圧1_CH1.Text   = Method.SetContact(State.耐電圧スペックリストBcr[0].CH1);
             labelBcr耐圧1_CH2.Text   = Method.SetContact(State.耐電圧スペックリストBcr[0].CH2);
-            labelBcr耐圧1_CH3.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[0].CH3);
+            labelBcr耐圧1_CH3.Text   = Method.SetContact(State.耐電圧スペックリストBcr[0].CH3);
             labelBcr耐圧1_CH4.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[0].CH4);
             labelBcr耐圧1_CH5.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[0].CH5);
+            labelBcr耐圧1_CH6.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[0].CH6);
             labelBcr耐圧1Volt.Text   = "AC" + State.耐電圧スペックリストBcr[0].印加電圧.ToString("F0") + "V";
             labelBcr耐圧1Time.Text   = State.耐電圧スペックリストBcr[0].印加時間.ToString("F1") + "sec";
             labelBcr耐圧1Amp.Text    = State.耐電圧スペックリストBcr[0].漏れ電流.ToString("F0") + "mA以下";
@@ -704,9 +672,10 @@ namespace BCR耐電圧_絶縁抵抗試験
 
             labelBcr耐圧2_CH1.Text   = Method.SetContact(State.耐電圧スペックリストBcr[1].CH1);
             labelBcr耐圧2_CH2.Text   = Method.SetContact(State.耐電圧スペックリストBcr[1].CH2);
-            labelBcr耐圧2_CH3.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[1].CH3);
+            labelBcr耐圧2_CH3.Text   = Method.SetContact(State.耐電圧スペックリストBcr[1].CH3);
             labelBcr耐圧2_CH4.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[1].CH4);
             labelBcr耐圧2_CH5.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[1].CH5);
+            labelBcr耐圧2_CH6.Text 　= Method.SetContact(State.耐電圧スペックリストBcr[1].CH6);
             labelBcr耐圧2Volt.Text   = "AC" + State.耐電圧スペックリストBcr[1].印加電圧.ToString("F0") + "V";
             labelBcr耐圧2Time.Text   = State.耐電圧スペックリストBcr[1].印加時間.ToString("F1") + "sec";
             labelBcr耐圧2Amp.Text    = State.耐電圧スペックリストBcr[1].漏れ電流.ToString("F0") + "mA以下";
@@ -716,9 +685,10 @@ namespace BCR耐電圧_絶縁抵抗試験
             //絶縁スペック
             labelBcr絶縁1_CH1.Text   = Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH1);
             labelBcr絶縁1_CH2.Text   = Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH2);
-            labelBcr絶縁1_CH3.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH3);
+            labelBcr絶縁1_CH3.Text   = Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH3);
             labelBcr絶縁1_CH4.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH4);
             labelBcr絶縁1_CH5.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH5);
+            labelBcr絶縁1_CH6.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[0].CH6);
             labelBcr絶縁1Volt.Text   = "DC" + State.絶縁抵抗スペックリストBcr[0].印加電圧.ToString("F0") + "V";
             labelBcr絶縁1Time.Text   = State.絶縁抵抗スペックリストBcr[0].印加時間.ToString("F1") + "sec";
             labelBcr絶縁1Res.Text    = State.絶縁抵抗スペックリストBcr[0].絶縁抵抗値.ToString("F0") + "MΩ以上";
@@ -729,6 +699,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             labelBcr絶縁2_CH3.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[1].CH3);
             labelBcr絶縁2_CH4.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[1].CH4);
             labelBcr絶縁2_CH5.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[1].CH5);
+            labelBcr絶縁2_CH6.Text 　= Method.SetContact(State.絶縁抵抗スペックリストBcr[1].CH6);
             labelBcr絶縁2Volt.Text 　= "DC" + State.絶縁抵抗スペックリストBcr[1].印加電圧.ToString("F0") + "V";
             labelBcr絶縁2Time.Text 　= State.絶縁抵抗スペックリストBcr[1].印加時間.ToString("F1") + "sec";
             labelBcr絶縁2Res.Text 　 = State.絶縁抵抗スペックリストBcr[1].絶縁抵抗値.ToString("F0") + "MΩ以上";
@@ -739,12 +710,14 @@ namespace BCR耐電圧_絶縁抵抗試験
             labelBcr絶縁3_CH3.Text = Method.SetContact(State.絶縁抵抗スペックリストBcr[2].CH3);
             labelBcr絶縁3_CH4.Text = Method.SetContact(State.絶縁抵抗スペックリストBcr[2].CH4);
             labelBcr絶縁3_CH5.Text = Method.SetContact(State.絶縁抵抗スペックリストBcr[2].CH5);
+            labelBcr絶縁3_CH6.Text = Method.SetContact(State.絶縁抵抗スペックリストBcr[2].CH6);
             labelBcr絶縁3Volt.Text = "DC" + State.絶縁抵抗スペックリストBcr[2].印加電圧.ToString("F0") + "V";
             labelBcr絶縁3Time.Text = State.絶縁抵抗スペックリストBcr[2].印加時間.ToString("F1") + "sec";
             labelBcr絶縁3Res.Text = State.絶縁抵抗スペックリストBcr[2].絶縁抵抗値.ToString("F0") + "MΩ以上";
             labelBcr絶縁3計測値.Text = "---";
 
             labelBcr耐圧1計測値.ForeColor = Color.Black;
+            labelBcr耐圧2計測値.ForeColor = Color.Black;
             labelBcr絶縁1計測値.ForeColor = Color.Black;
             labelBcr絶縁2計測値.ForeColor = Color.Black;
             labelBcr絶縁3計測値.ForeColor = Color.Black;
@@ -881,9 +854,23 @@ namespace BCR耐電圧_絶縁抵抗試験
                     labelBcr耐圧1_CH2.BackColor = Color.Transparent;
                     labelBcr耐圧1_CH3.BackColor = Color.Transparent;
                     labelBcr耐圧1_CH4.BackColor = Color.Transparent;
+                    labelBcr耐圧1_CH5.BackColor = Color.Transparent;
+                    labelBcr耐圧1_CH6.BackColor = Color.Transparent;
                     labelBcr耐圧1Volt.BackColor = Color.Transparent;
                     labelBcr耐圧1Time.BackColor = Color.Transparent;
                     labelBcr耐圧1Amp.BackColor = Color.Transparent;
+
+                    labelBcr耐圧2ステップ.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH1.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH2.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH3.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH4.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH5.BackColor = Color.Transparent;
+                    labelBcr耐圧2_CH6.BackColor = Color.Transparent;
+                    labelBcr耐圧2Volt.BackColor = Color.Transparent;
+                    labelBcr耐圧2Time.BackColor = Color.Transparent;
+                    labelBcr耐圧2Amp.BackColor = Color.Transparent;
+
                 }
                 else
                 {
@@ -912,9 +899,24 @@ namespace BCR耐電圧_絶縁抵抗試験
                         labelBcr耐圧1_CH2.BackColor = Color.LightPink;
                         labelBcr耐圧1_CH3.BackColor = Color.LightPink;
                         labelBcr耐圧1_CH4.BackColor = Color.LightPink;
+                        labelBcr耐圧1_CH5.BackColor = Color.LightPink;
+                        labelBcr耐圧1_CH6.BackColor = Color.LightPink;
                         labelBcr耐圧1Volt.BackColor = Color.LightPink;
                         labelBcr耐圧1Time.BackColor = Color.LightPink;
                         labelBcr耐圧1Amp.BackColor = Color.LightPink;
+                        break;
+
+                    case "STEP2":
+                        labelBcr耐圧2ステップ.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH1.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH2.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH3.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH4.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH5.BackColor = Color.LightPink;
+                        labelBcr耐圧2_CH6.BackColor = Color.LightPink;
+                        labelBcr耐圧2Volt.BackColor = Color.LightPink;
+                        labelBcr耐圧2Time.BackColor = Color.LightPink;
+                        labelBcr耐圧2Amp.BackColor = Color.LightPink;
                         break;
 
                     default: break;
@@ -954,6 +956,8 @@ namespace BCR耐電圧_絶縁抵抗試験
                     labelBcr絶縁1_CH2.BackColor = color;
                     labelBcr絶縁1_CH3.BackColor = color;
                     labelBcr絶縁1_CH4.BackColor = color;
+                    labelBcr絶縁1_CH5.BackColor = color;
+                    labelBcr絶縁1_CH6.BackColor = color;
                     labelBcr絶縁1Volt.BackColor = color;
                     labelBcr絶縁1Time.BackColor = color;
                     labelBcr絶縁1Res.BackColor = color;
@@ -979,6 +983,8 @@ namespace BCR耐電圧_絶縁抵抗試験
                 labelBcr絶縁2_CH2.BackColor = color;
                 labelBcr絶縁2_CH3.BackColor = color;
                 labelBcr絶縁2_CH4.BackColor = color;
+                labelBcr絶縁2_CH5.BackColor = color;
+                labelBcr絶縁2_CH6.BackColor = color;
                 labelBcr絶縁2Volt.BackColor = color;
                 labelBcr絶縁2Time.BackColor = color;
                 labelBcr絶縁2Res.BackColor = color;
@@ -991,6 +997,8 @@ namespace BCR耐電圧_絶縁抵抗試験
                 labelBcr絶縁3_CH2.BackColor = color;
                 labelBcr絶縁3_CH3.BackColor = color;
                 labelBcr絶縁3_CH4.BackColor = color;
+                labelBcr絶縁3_CH5.BackColor = color;
+                labelBcr絶縁3_CH6.BackColor = color;
                 labelBcr絶縁3Volt.BackColor = color;
                 labelBcr絶縁3Time.BackColor = color;
                 labelBcr絶縁3Res.BackColor = color;
@@ -1094,6 +1102,7 @@ namespace BCR耐電圧_絶縁抵抗試験
                     TOS9200.Dsr = 0;    //DSRレジスタ初期化
                     TOS9200.Fail = 0;   //failレジスタ初期化
                     if (!TOS9200.SetFunction(spec)) goto NgStep;//試験設定
+                    SetSpecLabelColor((耐電圧試験スペック)null);//すべてのラベル色を戻すための処理
                     SetSpecLabelColor(spec);
 
                     TOS9200.TosStart();
@@ -1107,6 +1116,15 @@ namespace BCR耐電圧_絶縁抵抗試験
                             if (TOS9200.ErrorMess != TOS9200.ErrorMessage.正常終了)
                             {
                                 labelBcr耐圧1計測値.ForeColor = Color.Red;
+                                goto NgStep;
+                            }
+                            break;
+
+                        case "STEP2":
+                            labelBcr耐圧2計測値.Text = spec.計測値;
+                            if (TOS9200.ErrorMess != TOS9200.ErrorMessage.正常終了)
+                            {
+                                labelBcr耐圧2計測値.ForeColor = Color.Red;
                                 goto NgStep;
                             }
                             break;
@@ -1273,13 +1291,15 @@ namespace BCR耐電圧_絶縁抵抗試験
                     State.date,
                     State.OperatorName,
                     State.耐電圧スペックリストBcr[0].計測値,
+                    State.耐電圧スペックリストBcr[1].計測値,
                     State.絶縁抵抗スペックリストBcr[0].計測値,
                     State.絶縁抵抗スペックリストBcr[1].計測値,
                     State.絶縁抵抗スペックリストBcr[2].計測値,
-                    State.耐電圧スペックリストBcr[0].ステップ   + "/一次" + State.耐電圧スペックリストBcr[0].CH1   + "/二次" + State.耐電圧スペックリストBcr[0].CH2   + "/ダンパ" + State.耐電圧スペックリストBcr[0].CH3   + "/モニタ" + State.耐電圧スペックリストBcr[0].CH4   + "/" + State.耐電圧スペックリストBcr[0].印加電圧   + "/" + State.耐電圧スペックリストBcr[0].印加時間   +  "/" + State.耐電圧スペックリストBcr[0].漏れ電流,
-                    State.絶縁抵抗スペックリストBcr[0].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[0].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[0].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[0].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[0].CH4 + "/" + State.絶縁抵抗スペックリストBcr[0].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[0].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[0].絶縁抵抗値,
-                    State.絶縁抵抗スペックリストBcr[1].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[1].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[1].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[1].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[1].CH4 + "/" + State.絶縁抵抗スペックリストBcr[1].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[1].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[1].絶縁抵抗値,
-                    State.絶縁抵抗スペックリストBcr[2].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[2].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[2].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[2].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[2].CH4 + "/" + State.絶縁抵抗スペックリストBcr[2].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[2].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[2].絶縁抵抗値,
+                    State.耐電圧スペックリストBcr[0].ステップ   + "/一次" + State.耐電圧スペックリストBcr[0].CH1   + "/二次a" + State.耐電圧スペックリストBcr[0].CH2 + "/二次b" + State.耐電圧スペックリストBcr[0].CH3   + "/ダンパ" + State.耐電圧スペックリストBcr[0].CH4   + "/モニタ" + State.耐電圧スペックリストBcr[0].CH5 +"/アース" + State.耐電圧スペックリストBcr[0].CH6   + "/" + State.耐電圧スペックリストBcr[0].印加電圧   + "/" + State.耐電圧スペックリストBcr[0].印加時間   +  "/" + State.耐電圧スペックリストBcr[0].漏れ電流,
+                    State.耐電圧スペックリストBcr[1].ステップ   + "/一次" + State.耐電圧スペックリストBcr[1].CH1   + "/二次a" + State.耐電圧スペックリストBcr[1].CH2 + "/二次b" + State.耐電圧スペックリストBcr[1].CH3    + "/ダンパ" + State.耐電圧スペックリストBcr[1].CH4   + "/モニタ" + State.耐電圧スペックリストBcr[1].CH5  +"/アース" + State.耐電圧スペックリストBcr[1].CH6  + "/" + State.耐電圧スペックリストBcr[1].印加電圧   + "/" + State.耐電圧スペックリストBcr[1].印加時間   +  "/" + State.耐電圧スペックリストBcr[1].漏れ電流,
+                    State.絶縁抵抗スペックリストBcr[0].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[0].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[0].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[0].CH3  + "/ダンパ" + State.絶縁抵抗スペックリストBcr[0].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[0].CH5 +"/アース" + State.絶縁抵抗スペックリストBcr[0].CH6  + "/" + State.絶縁抵抗スペックリストBcr[0].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[0].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[0].絶縁抵抗値,
+                    State.絶縁抵抗スペックリストBcr[1].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[1].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[1].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[1].CH3  + "/ダンパ" + State.絶縁抵抗スペックリストBcr[1].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[1].CH5  +"/アース" + State.絶縁抵抗スペックリストBcr[1].CH6 + "/" + State.絶縁抵抗スペックリストBcr[1].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[1].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[1].絶縁抵抗値,
+                    State.絶縁抵抗スペックリストBcr[2].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[2].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[2].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[2].CH3  + "/ダンパ" + State.絶縁抵抗スペックリストBcr[2].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[2].CH5  +"/アース" + State.絶縁抵抗スペックリストBcr[2].CH6 + "/" + State.絶縁抵抗スペックリストBcr[2].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[2].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[2].絶縁抵抗値,
                 };
 
                 if (!Method.SaveTestData(PassData))
@@ -1379,13 +1399,15 @@ namespace BCR耐電圧_絶縁抵抗試験
                     State.date,
                     State.OperatorName,
                     State.耐電圧スペックリストBcr[0].計測値,
+                    State.耐電圧スペックリストBcr[1].計測値,
                     State.絶縁抵抗スペックリストBcr[0].計測値,
                     State.絶縁抵抗スペックリストBcr[1].計測値,
                     State.絶縁抵抗スペックリストBcr[2].計測値,
-                    State.耐電圧スペックリストBcr[0].ステップ   + "/一次" + State.耐電圧スペックリストBcr[0].CH1   + "/二次" + State.耐電圧スペックリストBcr[0].CH2   + "/ダンパ" + State.耐電圧スペックリストBcr[0].CH3   + "/モニタ" + State.耐電圧スペックリストBcr[0].CH4   + "/" + State.耐電圧スペックリストBcr[0].印加電圧   + "/" + State.耐電圧スペックリストBcr[0].印加時間   +  "/" + State.耐電圧スペックリストBcr[0].漏れ電流,
-                    State.絶縁抵抗スペックリストBcr[0].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[0].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[0].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[0].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[0].CH4 + "/" + State.絶縁抵抗スペックリストBcr[0].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[0].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[0].絶縁抵抗値,
-                    State.絶縁抵抗スペックリストBcr[1].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[1].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[1].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[1].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[1].CH4 + "/" + State.絶縁抵抗スペックリストBcr[1].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[1].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[1].絶縁抵抗値,
-                    State.絶縁抵抗スペックリストBcr[2].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[2].CH1 + "/二次" + State.絶縁抵抗スペックリストBcr[2].CH2 + "/ダンパ" + State.絶縁抵抗スペックリストBcr[2].CH3 + "/モニタ" + State.絶縁抵抗スペックリストBcr[2].CH4 + "/" + State.絶縁抵抗スペックリストBcr[2].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[2].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[2].絶縁抵抗値,                        
+                    State.耐電圧スペックリストBcr[0].ステップ   + "/一次" + State.耐電圧スペックリストBcr[0].CH1   + "/二次a" + State.耐電圧スペックリストBcr[0].CH2   + "/二次b" + State.耐電圧スペックリストBcr[0].CH3  + "/ダンパ" + State.耐電圧スペックリストBcr[0].CH4   + "/モニタ" + State.耐電圧スペックリストBcr[0].CH5  + "/アース" + State.耐電圧スペックリストBcr[0].CH6 + "/" + State.耐電圧スペックリストBcr[0].印加電圧   + "/" + State.耐電圧スペックリストBcr[0].印加時間   +  "/" + State.耐電圧スペックリストBcr[0].漏れ電流,
+                    State.耐電圧スペックリストBcr[1].ステップ   + "/一次" + State.耐電圧スペックリストBcr[1].CH1   + "/二次a" + State.耐電圧スペックリストBcr[1].CH2   + "/二次b" + State.耐電圧スペックリストBcr[1].CH3   + "/ダンパ" + State.耐電圧スペックリストBcr[1].CH4   + "/モニタ" + State.耐電圧スペックリストBcr[1].CH5  + "/アース" + State.耐電圧スペックリストBcr[1].CH6  + "/" + State.耐電圧スペックリストBcr[1].印加電圧   + "/" + State.耐電圧スペックリストBcr[1].印加時間   +  "/" + State.耐電圧スペックリストBcr[1].漏れ電流,
+                    State.絶縁抵抗スペックリストBcr[0].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[0].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[0].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[0].CH3   + "/ダンパ" + State.絶縁抵抗スペックリストBcr[0].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[0].CH5 + "/アース" + State.絶縁抵抗スペックリストBcr[0].CH6 + "/" + State.絶縁抵抗スペックリストBcr[0].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[0].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[0].絶縁抵抗値,
+                    State.絶縁抵抗スペックリストBcr[1].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[1].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[1].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[1].CH3  + "/ダンパ" + State.絶縁抵抗スペックリストBcr[1].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[1].CH5 + "/アース" + State.絶縁抵抗スペックリストBcr[1].CH6 + "/" + State.絶縁抵抗スペックリストBcr[1].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[1].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[1].絶縁抵抗値,
+                    State.絶縁抵抗スペックリストBcr[2].ステップ + "/一次" + State.絶縁抵抗スペックリストBcr[2].CH1 + "/二次a" + State.絶縁抵抗スペックリストBcr[2].CH2 + "/二次b" + State.絶縁抵抗スペックリストBcr[2].CH3  + "/ダンパ" + State.絶縁抵抗スペックリストBcr[2].CH4 + "/モニタ" + State.絶縁抵抗スペックリストBcr[2].CH5 + "/アース" + State.絶縁抵抗スペックリストBcr[2].CH6 + "/" + State.絶縁抵抗スペックリストBcr[2].印加電圧 + "/" + State.絶縁抵抗スペックリストBcr[2].印加時間 +  "/" + State.絶縁抵抗スペックリストBcr[2].絶縁抵抗値,                        
 
                 };
 
@@ -1458,6 +1480,16 @@ namespace BCR耐電圧_絶縁抵抗試験
 
             ClearForm();
             return;
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
 
         }
 

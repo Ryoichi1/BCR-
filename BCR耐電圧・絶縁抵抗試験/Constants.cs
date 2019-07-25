@@ -14,7 +14,8 @@ namespace BCR耐電圧_絶縁抵抗試験
         //public const string CheckerSoftVer = "2.00";//変更日時（2014.3.25）
                                                     //①クラス構成をステート集約型に変更
                                                     //②渡辺さんからの指示で試験ログデータの保存ファイル名を変更
-        public const string CheckerSoftVer = "3.00";//変更日時（2014.7.4）AUR機種追加
+        //public const string CheckerSoftVer = "3.00";//変更日時（2014.7.4）AUR機種追加
+        public const string CheckerSoftVer = "3.10";//変更日時（2019.7.24）BC-R 対アース間の耐電圧検査追加対応
 
         //ファイルパスいろいろ
         public const string ParameterFilePath = @"C:\BCR耐電圧・絶縁抵抗試験\parameter.ods";

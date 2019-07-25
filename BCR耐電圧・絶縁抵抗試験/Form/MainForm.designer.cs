@@ -36,7 +36,6 @@
             this.MenuItemFile_Close = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemUtility = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemUtility_SelfCheck = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItemUtility_SetSpec = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemUtility_SetOperator = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemHelp_Manual = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,25 +45,42 @@
             this.labelBcr耐圧1ステップ = new System.Windows.Forms.Label();
             this.labelBcr耐圧1_CH1 = new System.Windows.Forms.Label();
             this.labelBcr耐圧1_CH2 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1_CH3 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1_CH4 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1Volt = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1Time = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1Amp = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1計測値 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2ステップ = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1計測値 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2計測値 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1Amp = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2Amp = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1Time = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2Time = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1Volt = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2Volt = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1_CH6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH6 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1_CH5 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH5 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1_CH4 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH4 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧1_CH3 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH3 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH2 = new System.Windows.Forms.Label();
+            this.labelBcr耐圧2_CH1 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.labelErrorMessage = new System.Windows.Forms.Label();
@@ -92,43 +108,53 @@
             this.labelBcr絶縁3ステップ = new System.Windows.Forms.Label();
             this.labelBcr絶縁2ステップ = new System.Windows.Forms.Label();
             this.labelBcr絶縁1ステップ = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3_CH3 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3_CH4 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3_CH2 = new System.Windows.Forms.Label();
             this.labelBcr絶縁3_CH1 = new System.Windows.Forms.Label();
             this.labelBcr絶縁2_CH1 = new System.Windows.Forms.Label();
             this.labelBcr絶縁2_CH2 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2_CH3 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2_CH4 = new System.Windows.Forms.Label();
             this.labelBcr絶縁1_CH2 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1_CH3 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1_CH4 = new System.Windows.Forms.Label();
             this.labelBcr絶縁1_CH1 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3Volt = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2Volt = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1Volt = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3Time = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3Res = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3計測値 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2計測値 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2Res = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2Time = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1Time = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1Res = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1計測値 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1計測値 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2計測値 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3計測値 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1Res = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2Res = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3Res = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1Time = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2Time = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3Time = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1Volt = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2Volt = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3Volt = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1_CH6 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2_CH6 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3_CH6 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1_CH5 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2_CH5 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3_CH5 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1_CH4 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2_CH4 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁1_CH3 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁2_CH3 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3_CH3 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3_CH2 = new System.Windows.Forms.Label();
+            this.labelBcr絶縁3_CH4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -180,24 +206,6 @@
             this.labelAur耐圧1ステップ = new System.Windows.Forms.Label();
             this.labelAur耐圧1_CH3 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧1_CH5 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2ステップ = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2_CH2 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2_CH3 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2_CH4 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2_CH5 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2_CH1 = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2Volt = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2Time = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2Amp = new System.Windows.Forms.Label();
-            this.labelBcr耐圧2計測値 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁1_CH5 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁2_CH5 = new System.Windows.Forms.Label();
-            this.labelBcr絶縁3_CH5 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -248,7 +256,6 @@
             // 
             this.MenuItemUtility.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItemUtility_SelfCheck,
-            this.MenuItemUtility_SetSpec,
             this.MenuItemUtility_SetOperator});
             this.MenuItemUtility.Name = "MenuItemUtility";
             this.MenuItemUtility.Size = new System.Drawing.Size(77, 20);
@@ -257,21 +264,14 @@
             // MenuItemUtility_SelfCheck
             // 
             this.MenuItemUtility_SelfCheck.Name = "MenuItemUtility_SelfCheck";
-            this.MenuItemUtility_SelfCheck.Size = new System.Drawing.Size(168, 22);
+            this.MenuItemUtility_SelfCheck.Size = new System.Drawing.Size(164, 22);
             this.MenuItemUtility_SelfCheck.Text = "日常点検";
             this.MenuItemUtility_SelfCheck.Click += new System.EventHandler(this.MenuItemUtility_SelfCheck_Click);
-            // 
-            // MenuItemUtility_SetSpec
-            // 
-            this.MenuItemUtility_SetSpec.Name = "MenuItemUtility_SetSpec";
-            this.MenuItemUtility_SetSpec.Size = new System.Drawing.Size(168, 22);
-            this.MenuItemUtility_SetSpec.Text = "試験スペックの変更";
-            this.MenuItemUtility_SetSpec.Click += new System.EventHandler(this.MenuItemUtility_SetSpec_Click);
             // 
             // MenuItemUtility_SetOperator
             // 
             this.MenuItemUtility_SetOperator.Name = "MenuItemUtility_SetOperator";
-            this.MenuItemUtility_SetOperator.Size = new System.Drawing.Size(168, 22);
+            this.MenuItemUtility_SetOperator.Size = new System.Drawing.Size(164, 22);
             this.MenuItemUtility_SetOperator.Text = "作業者追加・変更";
             this.MenuItemUtility_SetOperator.Click += new System.EventHandler(this.MenuItemUtility_SetOperator_Click);
             // 
@@ -317,7 +317,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 10;
+            this.tableLayoutPanel1.ColumnCount = 11;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -326,43 +326,48 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 97F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 45F));
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2計測値, 9, 3);
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1ステップ, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH1, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH2, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH3, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH4, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.label26, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label19, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label27, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label7, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.label8, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label10, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label11, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label12, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label20, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 9, 1);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1計測値, 9, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label43, 8, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label37, 7, 1);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Amp, 8, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label28, 6, 1);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Time, 7, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label22, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label25, 5, 1);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Volt, 6, 2);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH5, 5, 2);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH2, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH3, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH4, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH5, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Volt, 6, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Time, 7, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Amp, 8, 3);
-            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH1, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2ステップ, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 10, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1計測値, 10, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label43, 9, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2計測値, 10, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Amp, 9, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label37, 8, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Amp, 9, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Time, 8, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label28, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Time, 8, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1Volt, 7, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label22, 6, 0);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2Volt, 7, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label25, 6, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label12, 5, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label11, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH6, 6, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label27, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH6, 6, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH5, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH5, 5, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH4, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label50, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH4, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label53, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH3, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH3, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH2, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧2_CH1, 1, 3);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(11, 36);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -371,7 +376,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(642, 95);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(658, 95);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // labelBcr耐圧1ステップ
@@ -401,33 +406,11 @@
             this.labelBcr耐圧1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧1_CH2.AutoSize = true;
             this.labelBcr耐圧1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1_CH2.Location = new System.Drawing.Point(124, 50);
+            this.labelBcr耐圧1_CH2.Location = new System.Drawing.Point(128, 50);
             this.labelBcr耐圧1_CH2.Name = "labelBcr耐圧1_CH2";
             this.labelBcr耐圧1_CH2.Size = new System.Drawing.Size(22, 20);
             this.labelBcr耐圧1_CH2.TabIndex = 13;
             this.labelBcr耐圧1_CH2.Text = "H";
-            // 
-            // labelBcr耐圧1_CH3
-            // 
-            this.labelBcr耐圧1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1_CH3.AutoSize = true;
-            this.labelBcr耐圧1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1_CH3.Location = new System.Drawing.Point(176, 50);
-            this.labelBcr耐圧1_CH3.Name = "labelBcr耐圧1_CH3";
-            this.labelBcr耐圧1_CH3.Size = new System.Drawing.Size(22, 20);
-            this.labelBcr耐圧1_CH3.TabIndex = 14;
-            this.labelBcr耐圧1_CH3.Text = "H";
-            // 
-            // labelBcr耐圧1_CH4
-            // 
-            this.labelBcr耐圧1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1_CH4.AutoSize = true;
-            this.labelBcr耐圧1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1_CH4.Location = new System.Drawing.Point(228, 50);
-            this.labelBcr耐圧1_CH4.Name = "labelBcr耐圧1_CH4";
-            this.labelBcr耐圧1_CH4.Size = new System.Drawing.Size(22, 20);
-            this.labelBcr耐圧1_CH4.TabIndex = 15;
-            this.labelBcr耐圧1_CH4.Text = "H";
             // 
             // label26
             // 
@@ -447,31 +430,9 @@
             this.label19.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label19.Location = new System.Drawing.Point(115, 25);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(40, 23);
+            this.label19.Size = new System.Drawing.Size(49, 23);
             this.label19.TabIndex = 5;
-            this.label19.Text = "二次";
-            // 
-            // label27
-            // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label27.Location = new System.Drawing.Point(162, 25);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(50, 23);
-            this.label27.TabIndex = 6;
-            this.label27.Text = "ﾀﾞﾝﾊﾟ";
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.Location = new System.Drawing.Point(222, 25);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 23);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "ﾓﾆﾀ";
+            this.label19.Text = "二次a";
             // 
             // label8
             // 
@@ -489,33 +450,11 @@
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label10.Location = new System.Drawing.Point(115, 1);
+            this.label10.Location = new System.Drawing.Point(119, 1);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 23);
             this.label10.TabIndex = 25;
             this.label10.Text = "CH2";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label11.Location = new System.Drawing.Point(167, 1);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 23);
-            this.label11.TabIndex = 26;
-            this.label11.Text = "CH3";
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label12.Location = new System.Drawing.Point(219, 1);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(40, 23);
-            this.label12.TabIndex = 27;
-            this.label12.Text = "CH4";
             // 
             // label20
             // 
@@ -528,100 +467,352 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "ｽﾃｯﾌﾟ";
             // 
-            // labelBcr耐圧1Volt
+            // labelBcr耐圧2ステップ
             // 
-            this.labelBcr耐圧1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1Volt.AutoSize = true;
-            this.labelBcr耐圧1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1Volt.Location = new System.Drawing.Point(313, 50);
-            this.labelBcr耐圧1Volt.Name = "labelBcr耐圧1Volt";
-            this.labelBcr耐圧1Volt.Size = new System.Drawing.Size(76, 20);
-            this.labelBcr耐圧1Volt.TabIndex = 11;
-            this.labelBcr耐圧1Volt.Text = "AC****V";
+            this.labelBcr耐圧2ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2ステップ.AutoSize = true;
+            this.labelBcr耐圧2ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2ステップ.Location = new System.Drawing.Point(4, 71);
+            this.labelBcr耐圧2ステップ.Name = "labelBcr耐圧2ステップ";
+            this.labelBcr耐圧2ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelBcr耐圧2ステップ.TabIndex = 31;
+            this.labelBcr耐圧2ステップ.Text = "STEP2";
             // 
-            // label28
+            // label1
             // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label28.Location = new System.Drawing.Point(316, 25);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(70, 23);
-            this.label28.TabIndex = 8;
-            this.label28.Text = "印加電圧";
-            // 
-            // labelBcr耐圧1Time
-            // 
-            this.labelBcr耐圧1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1Time.AutoSize = true;
-            this.labelBcr耐圧1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1Time.Location = new System.Drawing.Point(402, 50);
-            this.labelBcr耐圧1Time.Name = "labelBcr耐圧1Time";
-            this.labelBcr耐圧1Time.Size = new System.Drawing.Size(57, 20);
-            this.labelBcr耐圧1Time.TabIndex = 18;
-            this.labelBcr耐圧1Time.Text = "*.*sec";
-            // 
-            // label37
-            // 
-            this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label37.Location = new System.Drawing.Point(396, 25);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(70, 23);
-            this.label37.TabIndex = 10;
-            this.label37.Text = "印加時間";
-            // 
-            // labelBcr耐圧1Amp
-            // 
-            this.labelBcr耐圧1Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1Amp.AutoSize = true;
-            this.labelBcr耐圧1Amp.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1Amp.Location = new System.Drawing.Point(477, 50);
-            this.labelBcr耐圧1Amp.Name = "labelBcr耐圧1Amp";
-            this.labelBcr耐圧1Amp.Size = new System.Drawing.Size(82, 20);
-            this.labelBcr耐圧1Amp.TabIndex = 12;
-            this.labelBcr耐圧1Amp.Text = "**mA以下";
-            // 
-            // label43
-            // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label43.Location = new System.Drawing.Point(483, 25);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(70, 23);
-            this.label43.TabIndex = 9;
-            this.label43.Text = "漏れ電流";
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(600, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 20);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "計測値";
             // 
             // labelBcr耐圧1計測値
             // 
             this.labelBcr耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelBcr耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(575, 51);
+            this.labelBcr耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(594, 51);
             this.labelBcr耐圧1計測値.Name = "labelBcr耐圧1計測値";
             this.labelBcr耐圧1計測値.Size = new System.Drawing.Size(59, 18);
             this.labelBcr耐圧1計測値.TabIndex = 21;
             this.labelBcr耐圧1計測値.Text = "*.**mA";
             this.labelBcr耐圧1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // label43
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(577, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 23);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "計測値";
+            this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label43.Location = new System.Drawing.Point(518, 27);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(61, 20);
+            this.label43.TabIndex = 9;
+            this.label43.Text = "漏れ電流";
+            // 
+            // labelBcr耐圧2計測値
+            // 
+            this.labelBcr耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelBcr耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(594, 73);
+            this.labelBcr耐圧2計測値.Name = "labelBcr耐圧2計測値";
+            this.labelBcr耐圧2計測値.Size = new System.Drawing.Size(59, 18);
+            this.labelBcr耐圧2計測値.TabIndex = 40;
+            this.labelBcr耐圧2計測値.Text = "*.**mA";
+            this.labelBcr耐圧2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelBcr耐圧1Amp
+            // 
+            this.labelBcr耐圧1Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1Amp.AutoSize = true;
+            this.labelBcr耐圧1Amp.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1Amp.Location = new System.Drawing.Point(515, 51);
+            this.labelBcr耐圧1Amp.Name = "labelBcr耐圧1Amp";
+            this.labelBcr耐圧1Amp.Size = new System.Drawing.Size(66, 18);
+            this.labelBcr耐圧1Amp.TabIndex = 12;
+            this.labelBcr耐圧1Amp.Text = "**mA以下";
+            // 
+            // label37
+            // 
+            this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label37.Location = new System.Drawing.Point(446, 27);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(61, 20);
+            this.label37.TabIndex = 10;
+            this.label37.Text = "印加時間";
+            // 
+            // labelBcr耐圧2Amp
+            // 
+            this.labelBcr耐圧2Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2Amp.AutoSize = true;
+            this.labelBcr耐圧2Amp.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2Amp.Location = new System.Drawing.Point(515, 73);
+            this.labelBcr耐圧2Amp.Name = "labelBcr耐圧2Amp";
+            this.labelBcr耐圧2Amp.Size = new System.Drawing.Size(66, 18);
+            this.labelBcr耐圧2Amp.TabIndex = 39;
+            this.labelBcr耐圧2Amp.Text = "**mA以下";
+            // 
+            // labelBcr耐圧1Time
+            // 
+            this.labelBcr耐圧1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1Time.AutoSize = true;
+            this.labelBcr耐圧1Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1Time.Location = new System.Drawing.Point(454, 51);
+            this.labelBcr耐圧1Time.Name = "labelBcr耐圧1Time";
+            this.labelBcr耐圧1Time.Size = new System.Drawing.Size(45, 18);
+            this.labelBcr耐圧1Time.TabIndex = 18;
+            this.labelBcr耐圧1Time.Text = "*.*sec";
+            // 
+            // label28
+            // 
+            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label28.Location = new System.Drawing.Point(378, 27);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(61, 20);
+            this.label28.TabIndex = 8;
+            this.label28.Text = "印加電圧";
+            // 
+            // labelBcr耐圧2Time
+            // 
+            this.labelBcr耐圧2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2Time.AutoSize = true;
+            this.labelBcr耐圧2Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2Time.Location = new System.Drawing.Point(454, 73);
+            this.labelBcr耐圧2Time.Name = "labelBcr耐圧2Time";
+            this.labelBcr耐圧2Time.Size = new System.Drawing.Size(45, 18);
+            this.labelBcr耐圧2Time.TabIndex = 38;
+            this.labelBcr耐圧2Time.Text = "*.*sec";
+            // 
+            // labelBcr耐圧1Volt
+            // 
+            this.labelBcr耐圧1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1Volt.AutoSize = true;
+            this.labelBcr耐圧1Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1Volt.Location = new System.Drawing.Point(378, 51);
+            this.labelBcr耐圧1Volt.Name = "labelBcr耐圧1Volt";
+            this.labelBcr耐圧1Volt.Size = new System.Drawing.Size(60, 18);
+            this.labelBcr耐圧1Volt.TabIndex = 11;
+            this.labelBcr耐圧1Volt.Text = "AC****V";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.Location = new System.Drawing.Point(331, 1);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(40, 23);
+            this.label22.TabIndex = 28;
+            this.label22.Text = "CH6";
+            // 
+            // labelBcr耐圧2Volt
+            // 
+            this.labelBcr耐圧2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2Volt.AutoSize = true;
+            this.labelBcr耐圧2Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2Volt.Location = new System.Drawing.Point(378, 73);
+            this.labelBcr耐圧2Volt.Name = "labelBcr耐圧2Volt";
+            this.labelBcr耐圧2Volt.Size = new System.Drawing.Size(60, 18);
+            this.labelBcr耐圧2Volt.TabIndex = 37;
+            this.labelBcr耐圧2Volt.Text = "AC****V";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label25.Location = new System.Drawing.Point(331, 25);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(34, 23);
+            this.label25.TabIndex = 29;
+            this.label25.Text = "ｱｰｽ";
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label12.Location = new System.Drawing.Point(284, 1);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(40, 23);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "CH5";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label11.Location = new System.Drawing.Point(232, 1);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(40, 23);
+            this.label11.TabIndex = 26;
+            this.label11.Text = "CH4";
+            // 
+            // labelBcr耐圧1_CH6
+            // 
+            this.labelBcr耐圧1_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1_CH6.AutoSize = true;
+            this.labelBcr耐圧1_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1_CH6.Location = new System.Drawing.Point(340, 50);
+            this.labelBcr耐圧1_CH6.Name = "labelBcr耐圧1_CH6";
+            this.labelBcr耐圧1_CH6.Size = new System.Drawing.Size(22, 20);
+            this.labelBcr耐圧1_CH6.TabIndex = 30;
+            this.labelBcr耐圧1_CH6.Text = "H";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.Location = new System.Drawing.Point(287, 25);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(34, 23);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "ﾓﾆﾀ";
+            // 
+            // label27
+            // 
+            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label27.Location = new System.Drawing.Point(227, 25);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(50, 23);
+            this.label27.TabIndex = 6;
+            this.label27.Text = "ﾀﾞﾝﾊﾟ";
+            // 
+            // labelBcr耐圧2_CH6
+            // 
+            this.labelBcr耐圧2_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH6.AutoSize = true;
+            this.labelBcr耐圧2_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH6.Location = new System.Drawing.Point(340, 71);
+            this.labelBcr耐圧2_CH6.Name = "labelBcr耐圧2_CH6";
+            this.labelBcr耐圧2_CH6.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH6.TabIndex = 35;
+            this.labelBcr耐圧2_CH6.Text = "H";
+            // 
+            // labelBcr耐圧1_CH5
+            // 
+            this.labelBcr耐圧1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1_CH5.AutoSize = true;
+            this.labelBcr耐圧1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1_CH5.Location = new System.Drawing.Point(293, 50);
+            this.labelBcr耐圧1_CH5.Name = "labelBcr耐圧1_CH5";
+            this.labelBcr耐圧1_CH5.Size = new System.Drawing.Size(22, 20);
+            this.labelBcr耐圧1_CH5.TabIndex = 15;
+            this.labelBcr耐圧1_CH5.Text = "H";
+            // 
+            // labelBcr耐圧2_CH5
+            // 
+            this.labelBcr耐圧2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH5.AutoSize = true;
+            this.labelBcr耐圧2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH5.Location = new System.Drawing.Point(293, 71);
+            this.labelBcr耐圧2_CH5.Name = "labelBcr耐圧2_CH5";
+            this.labelBcr耐圧2_CH5.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH5.TabIndex = 34;
+            this.labelBcr耐圧2_CH5.Text = "H";
+            // 
+            // labelBcr耐圧1_CH4
+            // 
+            this.labelBcr耐圧1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1_CH4.AutoSize = true;
+            this.labelBcr耐圧1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1_CH4.Location = new System.Drawing.Point(241, 50);
+            this.labelBcr耐圧1_CH4.Name = "labelBcr耐圧1_CH4";
+            this.labelBcr耐圧1_CH4.Size = new System.Drawing.Size(22, 20);
+            this.labelBcr耐圧1_CH4.TabIndex = 14;
+            this.labelBcr耐圧1_CH4.Text = "H";
+            // 
+            // label50
+            // 
+            this.label50.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label50.Location = new System.Drawing.Point(175, 1);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(40, 23);
+            this.label50.TabIndex = 41;
+            this.label50.Text = "CH3";
+            // 
+            // labelBcr耐圧2_CH4
+            // 
+            this.labelBcr耐圧2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH4.AutoSize = true;
+            this.labelBcr耐圧2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH4.Location = new System.Drawing.Point(241, 71);
+            this.labelBcr耐圧2_CH4.Name = "labelBcr耐圧2_CH4";
+            this.labelBcr耐圧2_CH4.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH4.TabIndex = 33;
+            this.labelBcr耐圧2_CH4.Text = "H";
+            // 
+            // label53
+            // 
+            this.label53.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label53.Location = new System.Drawing.Point(171, 25);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(49, 23);
+            this.label53.TabIndex = 42;
+            this.label53.Text = "二次b";
+            // 
+            // labelBcr耐圧1_CH3
+            // 
+            this.labelBcr耐圧1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧1_CH3.AutoSize = true;
+            this.labelBcr耐圧1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧1_CH3.Location = new System.Drawing.Point(184, 50);
+            this.labelBcr耐圧1_CH3.Name = "labelBcr耐圧1_CH3";
+            this.labelBcr耐圧1_CH3.Size = new System.Drawing.Size(22, 20);
+            this.labelBcr耐圧1_CH3.TabIndex = 43;
+            this.labelBcr耐圧1_CH3.Text = "H";
+            // 
+            // labelBcr耐圧2_CH3
+            // 
+            this.labelBcr耐圧2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH3.AutoSize = true;
+            this.labelBcr耐圧2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH3.Location = new System.Drawing.Point(184, 71);
+            this.labelBcr耐圧2_CH3.Name = "labelBcr耐圧2_CH3";
+            this.labelBcr耐圧2_CH3.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH3.TabIndex = 44;
+            this.labelBcr耐圧2_CH3.Text = "H";
+            // 
+            // labelBcr耐圧2_CH2
+            // 
+            this.labelBcr耐圧2_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH2.AutoSize = true;
+            this.labelBcr耐圧2_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH2.Location = new System.Drawing.Point(128, 71);
+            this.labelBcr耐圧2_CH2.Name = "labelBcr耐圧2_CH2";
+            this.labelBcr耐圧2_CH2.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH2.TabIndex = 32;
+            this.labelBcr耐圧2_CH2.Text = "H";
+            // 
+            // labelBcr耐圧2_CH1
+            // 
+            this.labelBcr耐圧2_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr耐圧2_CH1.AutoSize = true;
+            this.labelBcr耐圧2_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr耐圧2_CH1.Location = new System.Drawing.Point(77, 71);
+            this.labelBcr耐圧2_CH1.Name = "labelBcr耐圧2_CH1";
+            this.labelBcr耐圧2_CH1.Size = new System.Drawing.Size(22, 23);
+            this.labelBcr耐圧2_CH1.TabIndex = 36;
+            this.labelBcr耐圧2_CH1.Text = "H";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label24.Location = new System.Drawing.Point(9, 167);
+            this.label24.Location = new System.Drawing.Point(9, 140);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(126, 28);
             this.label24.TabIndex = 3;
@@ -651,11 +842,11 @@
             // labelDecision
             // 
             this.labelDecision.AutoSize = true;
-            this.labelDecision.Font = new System.Drawing.Font("メイリオ", 69.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelDecision.Font = new System.Drawing.Font("メイリオ", 75.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.labelDecision.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.labelDecision.Location = new System.Drawing.Point(3, 17);
+            this.labelDecision.Location = new System.Drawing.Point(-9, 11);
             this.labelDecision.Name = "labelDecision";
-            this.labelDecision.Size = new System.Drawing.Size(296, 140);
+            this.labelDecision.Size = new System.Drawing.Size(320, 151);
             this.labelDecision.TabIndex = 4;
             this.labelDecision.Text = "PASS";
             this.labelDecision.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -668,7 +859,7 @@
             this.labelDanger.ForeColor = System.Drawing.Color.White;
             this.labelDanger.Location = new System.Drawing.Point(12, 35);
             this.labelDanger.Name = "labelDanger";
-            this.labelDanger.Size = new System.Drawing.Size(935, 111);
+            this.labelDanger.Size = new System.Drawing.Size(935, 98);
             this.labelDanger.TabIndex = 4;
             this.labelDanger.Text = "高 電 圧 注 意 ！";
             this.labelDanger.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -730,9 +921,9 @@
             this.labelDailyCheck.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelDailyCheck.Font = new System.Drawing.Font("メイリオ", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.labelDailyCheck.ForeColor = System.Drawing.Color.White;
-            this.labelDailyCheck.Location = new System.Drawing.Point(706, 167);
+            this.labelDailyCheck.Location = new System.Drawing.Point(676, 143);
             this.labelDailyCheck.Name = "labelDailyCheck";
-            this.labelDailyCheck.Size = new System.Drawing.Size(282, 86);
+            this.labelDailyCheck.Size = new System.Drawing.Size(312, 77);
             this.labelDailyCheck.TabIndex = 13;
             this.labelDailyCheck.Text = "日常点検";
             this.labelDailyCheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -742,7 +933,7 @@
             this.panelOperator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelOperator.Controls.Add(this.comboBoxOperatorName);
             this.panelOperator.Controls.Add(this.buttonClearOperator);
-            this.panelOperator.Location = new System.Drawing.Point(12, 172);
+            this.panelOperator.Location = new System.Drawing.Point(12, 161);
             this.panelOperator.Name = "panelOperator";
             this.panelOperator.Size = new System.Drawing.Size(243, 54);
             this.panelOperator.TabIndex = 14;
@@ -753,7 +944,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(28, 154);
+            this.label4.Location = new System.Drawing.Point(28, 143);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 28);
             this.label4.TabIndex = 87;
@@ -763,7 +954,7 @@
             // 
             this.panelSerial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelSerial.Controls.Add(this.textBoxSerial);
-            this.panelSerial.Location = new System.Drawing.Point(287, 167);
+            this.panelSerial.Location = new System.Drawing.Point(285, 158);
             this.panelSerial.Name = "panelSerial";
             this.panelSerial.Size = new System.Drawing.Size(371, 59);
             this.panelSerial.TabIndex = 88;
@@ -774,7 +965,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(303, 152);
+            this.label2.Location = new System.Drawing.Point(301, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 28);
             this.label2.TabIndex = 89;
@@ -793,29 +984,30 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.labelErrorMessage);
             this.panel2.Controls.Add(this.labelDecision);
-            this.panel2.Location = new System.Drawing.Point(688, 295);
+            this.panel2.Location = new System.Drawing.Point(706, 311);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(319, 260);
+            this.panel2.Size = new System.Drawing.Size(301, 260);
             this.panel2.TabIndex = 92;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("メイリオ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.Font = new System.Drawing.Font("メイリオ", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(706, 277);
+            this.label5.Location = new System.Drawing.Point(725, 293);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 36);
+            this.label5.Size = new System.Drawing.Size(78, 44);
             this.label5.TabIndex = 93;
             this.label5.Text = "判定";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.labelMessage);
             this.panel3.Controls.Add(this.pictureBoxWarning);
-            this.panel3.Location = new System.Drawing.Point(9, 617);
+            this.panel3.Location = new System.Drawing.Point(9, 591);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(998, 98);
             this.panel3.TabIndex = 94;
@@ -824,25 +1016,27 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(25, 601);
+            this.label6.Location = new System.Drawing.Point(11, 578);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(202, 28);
             this.label6.TabIndex = 95;
             this.label6.Text = "オペレーターへの指示";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // tabControlBcr
             // 
             this.tabControlBcr.Controls.Add(this.tabPage1);
             this.tabControlBcr.Controls.Add(this.tabPage2);
-            this.tabControlBcr.Location = new System.Drawing.Point(12, 232);
+            this.tabControlBcr.Location = new System.Drawing.Point(9, 223);
             this.tabControlBcr.Name = "tabControlBcr";
             this.tabControlBcr.SelectedIndex = 0;
-            this.tabControlBcr.Size = new System.Drawing.Size(670, 366);
+            this.tabControlBcr.Size = new System.Drawing.Size(695, 352);
             this.tabControlBcr.TabIndex = 96;
             this.tabControlBcr.Tag = "";
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.Cornsilk;
             this.tabPage1.Controls.Add(this.tableLayoutPanel3);
             this.tabPage1.Controls.Add(this.label24);
             this.tabPage1.Controls.Add(this.label23);
@@ -851,15 +1045,14 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(662, 340);
+            this.tabPage1.Size = new System.Drawing.Size(687, 326);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "BC-R";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel3.ColumnCount = 10;
+            this.tableLayoutPanel3.ColumnCount = 11;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -868,54 +1061,60 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3ステップ, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2ステップ, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1ステップ, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH3, 3, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH4, 4, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH2, 2, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH1, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH1, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH2, 2, 3);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH3, 3, 3);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH4, 4, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH2, 2, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH3, 3, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH4, 4, 2);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH1, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.label52, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label9, 4, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label59, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.label51, 2, 1);
             this.tableLayoutPanel3.Controls.Add(this.label13, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.label56, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label16, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label17, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label18, 4, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label63, 9, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1計測値, 9, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2計測値, 9, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label32, 8, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3計測値, 9, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Res, 8, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Res, 8, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label61, 7, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Res, 8, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Time, 7, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Time, 7, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label60, 6, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Time, 7, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Volt, 6, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Volt, 6, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label42, 5, 0);
-            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Volt, 6, 4);
-            this.tableLayoutPanel3.Controls.Add(this.label44, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label63, 10, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1計測値, 10, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2計測値, 10, 3);
+            this.tableLayoutPanel3.Controls.Add(this.label32, 9, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label61, 8, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label60, 7, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3計測値, 10, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Res, 9, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Res, 9, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Res, 9, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Time, 8, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Time, 8, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Time, 8, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1Volt, 7, 2);
+            this.tableLayoutPanel3.Controls.Add(this.label42, 6, 0);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2Volt, 7, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3Volt, 7, 4);
+            this.tableLayoutPanel3.Controls.Add(this.label18, 5, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label17, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label44, 6, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label9, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label59, 4, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH6, 6, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH6, 6, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH6, 6, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH5, 5, 2);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH5, 5, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH5, 5, 4);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(11, 197);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH4, 4, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH4, 4, 3);
+            this.tableLayoutPanel3.Controls.Add(this.label54, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label55, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1_CH3, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2_CH3, 3, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH3, 3, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH2, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3_CH4, 4, 4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(11, 167);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 5;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -924,7 +1123,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(642, 134);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(667, 143);
             this.tableLayoutPanel3.TabIndex = 6;
             // 
             // labelBcr絶縁3ステップ
@@ -932,7 +1131,7 @@
             this.labelBcr絶縁3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3ステップ.AutoSize = true;
             this.labelBcr絶縁3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3ステップ.Location = new System.Drawing.Point(4, 105);
+            this.labelBcr絶縁3ステップ.Location = new System.Drawing.Point(4, 109);
             this.labelBcr絶縁3ステップ.Name = "labelBcr絶縁3ステップ";
             this.labelBcr絶縁3ステップ.Size = new System.Drawing.Size(57, 23);
             this.labelBcr絶縁3ステップ.TabIndex = 3;
@@ -960,45 +1159,12 @@
             this.labelBcr絶縁1ステップ.TabIndex = 1;
             this.labelBcr絶縁1ステップ.Text = "STEP1";
             // 
-            // labelBcr絶縁3_CH3
-            // 
-            this.labelBcr絶縁3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3_CH3.AutoSize = true;
-            this.labelBcr絶縁3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH3.Location = new System.Drawing.Point(176, 104);
-            this.labelBcr絶縁3_CH3.Name = "labelBcr絶縁3_CH3";
-            this.labelBcr絶縁3_CH3.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁3_CH3.TabIndex = 44;
-            this.labelBcr絶縁3_CH3.Text = "H";
-            // 
-            // labelBcr絶縁3_CH4
-            // 
-            this.labelBcr絶縁3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3_CH4.AutoSize = true;
-            this.labelBcr絶縁3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH4.Location = new System.Drawing.Point(228, 104);
-            this.labelBcr絶縁3_CH4.Name = "labelBcr絶縁3_CH4";
-            this.labelBcr絶縁3_CH4.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁3_CH4.TabIndex = 43;
-            this.labelBcr絶縁3_CH4.Text = "H";
-            // 
-            // labelBcr絶縁3_CH2
-            // 
-            this.labelBcr絶縁3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3_CH2.AutoSize = true;
-            this.labelBcr絶縁3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH2.Location = new System.Drawing.Point(124, 104);
-            this.labelBcr絶縁3_CH2.Name = "labelBcr絶縁3_CH2";
-            this.labelBcr絶縁3_CH2.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁3_CH2.TabIndex = 25;
-            this.labelBcr絶縁3_CH2.Text = "H";
-            // 
             // labelBcr絶縁3_CH1
             // 
             this.labelBcr絶縁3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH1.AutoSize = true;
             this.labelBcr絶縁3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH1.Location = new System.Drawing.Point(77, 104);
+            this.labelBcr絶縁3_CH1.Location = new System.Drawing.Point(77, 109);
             this.labelBcr絶縁3_CH1.Name = "labelBcr絶縁3_CH1";
             this.labelBcr絶縁3_CH1.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH1.TabIndex = 26;
@@ -1020,66 +1186,22 @@
             this.labelBcr絶縁2_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁2_CH2.AutoSize = true;
             this.labelBcr絶縁2_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2_CH2.Location = new System.Drawing.Point(124, 75);
+            this.labelBcr絶縁2_CH2.Location = new System.Drawing.Point(128, 75);
             this.labelBcr絶縁2_CH2.Name = "labelBcr絶縁2_CH2";
             this.labelBcr絶縁2_CH2.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁2_CH2.TabIndex = 19;
             this.labelBcr絶縁2_CH2.Text = "H";
-            // 
-            // labelBcr絶縁2_CH3
-            // 
-            this.labelBcr絶縁2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2_CH3.AutoSize = true;
-            this.labelBcr絶縁2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2_CH3.Location = new System.Drawing.Point(176, 75);
-            this.labelBcr絶縁2_CH3.Name = "labelBcr絶縁2_CH3";
-            this.labelBcr絶縁2_CH3.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁2_CH3.TabIndex = 20;
-            this.labelBcr絶縁2_CH3.Text = "H";
-            // 
-            // labelBcr絶縁2_CH4
-            // 
-            this.labelBcr絶縁2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2_CH4.AutoSize = true;
-            this.labelBcr絶縁2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2_CH4.Location = new System.Drawing.Point(228, 75);
-            this.labelBcr絶縁2_CH4.Name = "labelBcr絶縁2_CH4";
-            this.labelBcr絶縁2_CH4.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁2_CH4.TabIndex = 42;
-            this.labelBcr絶縁2_CH4.Text = "H";
             // 
             // labelBcr絶縁1_CH2
             // 
             this.labelBcr絶縁1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁1_CH2.AutoSize = true;
             this.labelBcr絶縁1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1_CH2.Location = new System.Drawing.Point(124, 50);
+            this.labelBcr絶縁1_CH2.Location = new System.Drawing.Point(128, 50);
             this.labelBcr絶縁1_CH2.Name = "labelBcr絶縁1_CH2";
             this.labelBcr絶縁1_CH2.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁1_CH2.TabIndex = 14;
             this.labelBcr絶縁1_CH2.Text = "H";
-            // 
-            // labelBcr絶縁1_CH3
-            // 
-            this.labelBcr絶縁1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1_CH3.AutoSize = true;
-            this.labelBcr絶縁1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1_CH3.Location = new System.Drawing.Point(176, 50);
-            this.labelBcr絶縁1_CH3.Name = "labelBcr絶縁1_CH3";
-            this.labelBcr絶縁1_CH3.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁1_CH3.TabIndex = 15;
-            this.labelBcr絶縁1_CH3.Text = "H";
-            // 
-            // labelBcr絶縁1_CH4
-            // 
-            this.labelBcr絶縁1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1_CH4.AutoSize = true;
-            this.labelBcr絶縁1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1_CH4.Location = new System.Drawing.Point(228, 50);
-            this.labelBcr絶縁1_CH4.Name = "labelBcr絶縁1_CH4";
-            this.labelBcr絶縁1_CH4.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁1_CH4.TabIndex = 27;
-            this.labelBcr絶縁1_CH4.Text = "H";
             // 
             // labelBcr絶縁1_CH1
             // 
@@ -1092,107 +1214,6 @@
             this.labelBcr絶縁1_CH1.TabIndex = 13;
             this.labelBcr絶縁1_CH1.Text = "H";
             // 
-            // labelBcr絶縁3Volt
-            // 
-            this.labelBcr絶縁3Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3Volt.AutoSize = true;
-            this.labelBcr絶縁3Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Volt.Location = new System.Drawing.Point(314, 105);
-            this.labelBcr絶縁3Volt.Name = "labelBcr絶縁3Volt";
-            this.labelBcr絶縁3Volt.Size = new System.Drawing.Size(68, 23);
-            this.labelBcr絶縁3Volt.TabIndex = 34;
-            this.labelBcr絶縁3Volt.Text = "DC***V";
-            // 
-            // labelBcr絶縁2Volt
-            // 
-            this.labelBcr絶縁2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2Volt.AutoSize = true;
-            this.labelBcr絶縁2Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2Volt.Location = new System.Drawing.Point(314, 75);
-            this.labelBcr絶縁2Volt.Name = "labelBcr絶縁2Volt";
-            this.labelBcr絶縁2Volt.Size = new System.Drawing.Size(68, 23);
-            this.labelBcr絶縁2Volt.TabIndex = 33;
-            this.labelBcr絶縁2Volt.Text = "DC***V";
-            // 
-            // labelBcr絶縁1Volt
-            // 
-            this.labelBcr絶縁1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1Volt.AutoSize = true;
-            this.labelBcr絶縁1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1Volt.Location = new System.Drawing.Point(314, 50);
-            this.labelBcr絶縁1Volt.Name = "labelBcr絶縁1Volt";
-            this.labelBcr絶縁1Volt.Size = new System.Drawing.Size(68, 23);
-            this.labelBcr絶縁1Volt.TabIndex = 32;
-            this.labelBcr絶縁1Volt.Text = "DC***V";
-            // 
-            // labelBcr絶縁3Time
-            // 
-            this.labelBcr絶縁3Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3Time.AutoSize = true;
-            this.labelBcr絶縁3Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Time.Location = new System.Drawing.Point(396, 105);
-            this.labelBcr絶縁3Time.Name = "labelBcr絶縁3Time";
-            this.labelBcr絶縁3Time.Size = new System.Drawing.Size(57, 23);
-            this.labelBcr絶縁3Time.TabIndex = 31;
-            this.labelBcr絶縁3Time.Text = "*.*sec";
-            // 
-            // labelBcr絶縁3Res
-            // 
-            this.labelBcr絶縁3Res.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3Res.AutoSize = true;
-            this.labelBcr絶縁3Res.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Res.Location = new System.Drawing.Point(468, 105);
-            this.labelBcr絶縁3Res.Name = "labelBcr絶縁3Res";
-            this.labelBcr絶縁3Res.Size = new System.Drawing.Size(91, 23);
-            this.labelBcr絶縁3Res.TabIndex = 37;
-            this.labelBcr絶縁3Res.Text = "***MΩ以上";
-            // 
-            // labelBcr絶縁3計測値
-            // 
-            this.labelBcr絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelBcr絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(571, 107);
-            this.labelBcr絶縁3計測値.Name = "labelBcr絶縁3計測値";
-            this.labelBcr絶縁3計測値.Size = new System.Drawing.Size(64, 18);
-            this.labelBcr絶縁3計測値.TabIndex = 40;
-            this.labelBcr絶縁3計測値.Text = "*.**GΩ";
-            this.labelBcr絶縁3計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelBcr絶縁2計測値
-            // 
-            this.labelBcr絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelBcr絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(571, 78);
-            this.labelBcr絶縁2計測値.Name = "labelBcr絶縁2計測値";
-            this.labelBcr絶縁2計測値.Size = new System.Drawing.Size(64, 18);
-            this.labelBcr絶縁2計測値.TabIndex = 39;
-            this.labelBcr絶縁2計測値.Text = "*.**GΩ";
-            this.labelBcr絶縁2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // labelBcr絶縁2Res
-            // 
-            this.labelBcr絶縁2Res.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2Res.AutoSize = true;
-            this.labelBcr絶縁2Res.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2Res.Location = new System.Drawing.Point(468, 75);
-            this.labelBcr絶縁2Res.Name = "labelBcr絶縁2Res";
-            this.labelBcr絶縁2Res.Size = new System.Drawing.Size(91, 23);
-            this.labelBcr絶縁2Res.TabIndex = 36;
-            this.labelBcr絶縁2Res.Text = "***MΩ以上";
-            // 
-            // labelBcr絶縁2Time
-            // 
-            this.labelBcr絶縁2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2Time.AutoSize = true;
-            this.labelBcr絶縁2Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2Time.Location = new System.Drawing.Point(396, 75);
-            this.labelBcr絶縁2Time.Name = "labelBcr絶縁2Time";
-            this.labelBcr絶縁2Time.Size = new System.Drawing.Size(57, 23);
-            this.labelBcr絶縁2Time.TabIndex = 24;
-            this.labelBcr絶縁2Time.Text = "*.*sec";
-            // 
             // label52
             // 
             this.label52.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1204,106 +1225,6 @@
             this.label52.TabIndex = 0;
             this.label52.Text = "ｽﾃｯﾌﾟ";
             // 
-            // labelBcr絶縁1Time
-            // 
-            this.labelBcr絶縁1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1Time.AutoSize = true;
-            this.labelBcr絶縁1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1Time.Location = new System.Drawing.Point(396, 50);
-            this.labelBcr絶縁1Time.Name = "labelBcr絶縁1Time";
-            this.labelBcr絶縁1Time.Size = new System.Drawing.Size(57, 23);
-            this.labelBcr絶縁1Time.TabIndex = 18;
-            this.labelBcr絶縁1Time.Text = "*.*sec";
-            // 
-            // labelBcr絶縁1Res
-            // 
-            this.labelBcr絶縁1Res.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1Res.AutoSize = true;
-            this.labelBcr絶縁1Res.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1Res.Location = new System.Drawing.Point(468, 50);
-            this.labelBcr絶縁1Res.Name = "labelBcr絶縁1Res";
-            this.labelBcr絶縁1Res.Size = new System.Drawing.Size(91, 23);
-            this.labelBcr絶縁1Res.TabIndex = 35;
-            this.labelBcr絶縁1Res.Text = "***MΩ以上";
-            // 
-            // labelBcr絶縁1計測値
-            // 
-            this.labelBcr絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelBcr絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(571, 53);
-            this.labelBcr絶縁1計測値.Name = "labelBcr絶縁1計測値";
-            this.labelBcr絶縁1計測値.Size = new System.Drawing.Size(64, 18);
-            this.labelBcr絶縁1計測値.TabIndex = 38;
-            this.labelBcr絶縁1計測値.Text = "*.**GΩ";
-            this.labelBcr絶縁1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label63
-            // 
-            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label63.Location = new System.Drawing.Point(575, 25);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(55, 23);
-            this.label63.TabIndex = 20;
-            this.label63.Text = "計測値";
-            // 
-            // label32
-            // 
-            this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label32.Location = new System.Drawing.Point(479, 25);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(70, 23);
-            this.label32.TabIndex = 9;
-            this.label32.Text = "絶縁抵抗\r\n";
-            // 
-            // label61
-            // 
-            this.label61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label61.Location = new System.Drawing.Point(390, 25);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(70, 23);
-            this.label61.TabIndex = 10;
-            this.label61.Text = "印加時間";
-            // 
-            // label60
-            // 
-            this.label60.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label60.Location = new System.Drawing.Point(313, 25);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(70, 23);
-            this.label60.TabIndex = 8;
-            this.label60.Text = "印加電圧";
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.Location = new System.Drawing.Point(222, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 23);
-            this.label9.TabIndex = 41;
-            this.label9.Text = "ﾓﾆﾀ";
-            // 
-            // label59
-            // 
-            this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label59.Location = new System.Drawing.Point(162, 25);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(50, 23);
-            this.label59.TabIndex = 6;
-            this.label59.Text = "ﾀﾞﾝﾊﾟ";
-            // 
             // label51
             // 
             this.label51.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1311,9 +1232,9 @@
             this.label51.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label51.Location = new System.Drawing.Point(115, 25);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(40, 23);
+            this.label51.Size = new System.Drawing.Size(49, 23);
             this.label51.TabIndex = 5;
-            this.label51.Text = "二次";
+            this.label51.Text = "二次a";
             // 
             // label13
             // 
@@ -1342,33 +1263,419 @@
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label16.Location = new System.Drawing.Point(115, 1);
+            this.label16.Location = new System.Drawing.Point(119, 1);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(40, 23);
             this.label16.TabIndex = 46;
             this.label16.Text = "CH2";
             // 
-            // label17
+            // label63
             // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label17.Location = new System.Drawing.Point(167, 1);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(40, 23);
-            this.label17.TabIndex = 47;
-            this.label17.Text = "CH3";
+            this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label63.Location = new System.Drawing.Point(605, 27);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(48, 20);
+            this.label63.TabIndex = 20;
+            this.label63.Text = "計測値";
+            // 
+            // labelBcr絶縁1計測値
+            // 
+            this.labelBcr絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelBcr絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(597, 53);
+            this.labelBcr絶縁1計測値.Name = "labelBcr絶縁1計測値";
+            this.labelBcr絶縁1計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelBcr絶縁1計測値.TabIndex = 38;
+            this.labelBcr絶縁1計測値.Text = "*.**GΩ";
+            this.labelBcr絶縁1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelBcr絶縁2計測値
+            // 
+            this.labelBcr絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelBcr絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(597, 78);
+            this.labelBcr絶縁2計測値.Name = "labelBcr絶縁2計測値";
+            this.labelBcr絶縁2計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelBcr絶縁2計測値.TabIndex = 39;
+            this.labelBcr絶縁2計測値.Text = "*.**GΩ";
+            this.labelBcr絶縁2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label32
+            // 
+            this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label32.Location = new System.Drawing.Point(521, 27);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(61, 20);
+            this.label32.TabIndex = 9;
+            this.label32.Text = "絶縁抵抗\r\n";
+            // 
+            // label61
+            // 
+            this.label61.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label61.Location = new System.Drawing.Point(446, 27);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(61, 20);
+            this.label61.TabIndex = 10;
+            this.label61.Text = "印加時間";
+            // 
+            // label60
+            // 
+            this.label60.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label60.Location = new System.Drawing.Point(378, 27);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(61, 20);
+            this.label60.TabIndex = 8;
+            this.label60.Text = "印加電圧";
+            // 
+            // labelBcr絶縁3計測値
+            // 
+            this.labelBcr絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelBcr絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(597, 112);
+            this.labelBcr絶縁3計測値.Name = "labelBcr絶縁3計測値";
+            this.labelBcr絶縁3計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelBcr絶縁3計測値.TabIndex = 40;
+            this.labelBcr絶縁3計測値.Text = "*.**GΩ";
+            this.labelBcr絶縁3計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelBcr絶縁1Res
+            // 
+            this.labelBcr絶縁1Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1Res.AutoSize = true;
+            this.labelBcr絶縁1Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1Res.Location = new System.Drawing.Point(515, 53);
+            this.labelBcr絶縁1Res.Name = "labelBcr絶縁1Res";
+            this.labelBcr絶縁1Res.Size = new System.Drawing.Size(73, 18);
+            this.labelBcr絶縁1Res.TabIndex = 35;
+            this.labelBcr絶縁1Res.Text = "***MΩ以上";
+            // 
+            // labelBcr絶縁2Res
+            // 
+            this.labelBcr絶縁2Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2Res.AutoSize = true;
+            this.labelBcr絶縁2Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2Res.Location = new System.Drawing.Point(515, 78);
+            this.labelBcr絶縁2Res.Name = "labelBcr絶縁2Res";
+            this.labelBcr絶縁2Res.Size = new System.Drawing.Size(73, 18);
+            this.labelBcr絶縁2Res.TabIndex = 36;
+            this.labelBcr絶縁2Res.Text = "***MΩ以上";
+            // 
+            // labelBcr絶縁3Res
+            // 
+            this.labelBcr絶縁3Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3Res.AutoSize = true;
+            this.labelBcr絶縁3Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3Res.Location = new System.Drawing.Point(515, 112);
+            this.labelBcr絶縁3Res.Name = "labelBcr絶縁3Res";
+            this.labelBcr絶縁3Res.Size = new System.Drawing.Size(73, 18);
+            this.labelBcr絶縁3Res.TabIndex = 37;
+            this.labelBcr絶縁3Res.Text = "***MΩ以上";
+            // 
+            // labelBcr絶縁1Time
+            // 
+            this.labelBcr絶縁1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1Time.AutoSize = true;
+            this.labelBcr絶縁1Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1Time.Location = new System.Drawing.Point(454, 53);
+            this.labelBcr絶縁1Time.Name = "labelBcr絶縁1Time";
+            this.labelBcr絶縁1Time.Size = new System.Drawing.Size(45, 18);
+            this.labelBcr絶縁1Time.TabIndex = 18;
+            this.labelBcr絶縁1Time.Text = "*.*sec";
+            // 
+            // labelBcr絶縁2Time
+            // 
+            this.labelBcr絶縁2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2Time.AutoSize = true;
+            this.labelBcr絶縁2Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2Time.Location = new System.Drawing.Point(454, 78);
+            this.labelBcr絶縁2Time.Name = "labelBcr絶縁2Time";
+            this.labelBcr絶縁2Time.Size = new System.Drawing.Size(45, 18);
+            this.labelBcr絶縁2Time.TabIndex = 24;
+            this.labelBcr絶縁2Time.Text = "*.*sec";
+            // 
+            // labelBcr絶縁3Time
+            // 
+            this.labelBcr絶縁3Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3Time.AutoSize = true;
+            this.labelBcr絶縁3Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3Time.Location = new System.Drawing.Point(454, 112);
+            this.labelBcr絶縁3Time.Name = "labelBcr絶縁3Time";
+            this.labelBcr絶縁3Time.Size = new System.Drawing.Size(45, 18);
+            this.labelBcr絶縁3Time.TabIndex = 31;
+            this.labelBcr絶縁3Time.Text = "*.*sec";
+            // 
+            // labelBcr絶縁1Volt
+            // 
+            this.labelBcr絶縁1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1Volt.AutoSize = true;
+            this.labelBcr絶縁1Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1Volt.Location = new System.Drawing.Point(381, 53);
+            this.labelBcr絶縁1Volt.Name = "labelBcr絶縁1Volt";
+            this.labelBcr絶縁1Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelBcr絶縁1Volt.TabIndex = 32;
+            this.labelBcr絶縁1Volt.Text = "DC***V";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label42.Location = new System.Drawing.Point(331, 1);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(40, 23);
+            this.label42.TabIndex = 49;
+            this.label42.Text = "CH6";
+            // 
+            // labelBcr絶縁2Volt
+            // 
+            this.labelBcr絶縁2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2Volt.AutoSize = true;
+            this.labelBcr絶縁2Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2Volt.Location = new System.Drawing.Point(381, 78);
+            this.labelBcr絶縁2Volt.Name = "labelBcr絶縁2Volt";
+            this.labelBcr絶縁2Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelBcr絶縁2Volt.TabIndex = 33;
+            this.labelBcr絶縁2Volt.Text = "DC***V";
+            // 
+            // labelBcr絶縁3Volt
+            // 
+            this.labelBcr絶縁3Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3Volt.AutoSize = true;
+            this.labelBcr絶縁3Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3Volt.Location = new System.Drawing.Point(381, 112);
+            this.labelBcr絶縁3Volt.Name = "labelBcr絶縁3Volt";
+            this.labelBcr絶縁3Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelBcr絶縁3Volt.TabIndex = 34;
+            this.labelBcr絶縁3Volt.Text = "DC***V";
             // 
             // label18
             // 
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label18.Location = new System.Drawing.Point(219, 1);
+            this.label18.Location = new System.Drawing.Point(284, 1);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(40, 23);
             this.label18.TabIndex = 48;
-            this.label18.Text = "CH4";
+            this.label18.Text = "CH5";
+            // 
+            // label17
+            // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.Location = new System.Drawing.Point(232, 1);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(40, 23);
+            this.label17.TabIndex = 47;
+            this.label17.Text = "CH4";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label44.Location = new System.Drawing.Point(331, 25);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(34, 23);
+            this.label44.TabIndex = 50;
+            this.label44.Text = "ｱｰｽ";
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.Location = new System.Drawing.Point(287, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(34, 23);
+            this.label9.TabIndex = 41;
+            this.label9.Text = "ﾓﾆﾀ";
+            // 
+            // label59
+            // 
+            this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label59.Location = new System.Drawing.Point(227, 25);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(50, 23);
+            this.label59.TabIndex = 6;
+            this.label59.Text = "ﾀﾞﾝﾊﾟ";
+            // 
+            // labelBcr絶縁1_CH6
+            // 
+            this.labelBcr絶縁1_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1_CH6.AutoSize = true;
+            this.labelBcr絶縁1_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1_CH6.Location = new System.Drawing.Point(340, 50);
+            this.labelBcr絶縁1_CH6.Name = "labelBcr絶縁1_CH6";
+            this.labelBcr絶縁1_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁1_CH6.TabIndex = 51;
+            this.labelBcr絶縁1_CH6.Text = "H";
+            // 
+            // labelBcr絶縁2_CH6
+            // 
+            this.labelBcr絶縁2_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2_CH6.AutoSize = true;
+            this.labelBcr絶縁2_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2_CH6.Location = new System.Drawing.Point(340, 75);
+            this.labelBcr絶縁2_CH6.Name = "labelBcr絶縁2_CH6";
+            this.labelBcr絶縁2_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁2_CH6.TabIndex = 52;
+            this.labelBcr絶縁2_CH6.Text = "H";
+            // 
+            // labelBcr絶縁3_CH6
+            // 
+            this.labelBcr絶縁3_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3_CH6.AutoSize = true;
+            this.labelBcr絶縁3_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3_CH6.Location = new System.Drawing.Point(340, 109);
+            this.labelBcr絶縁3_CH6.Name = "labelBcr絶縁3_CH6";
+            this.labelBcr絶縁3_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁3_CH6.TabIndex = 53;
+            this.labelBcr絶縁3_CH6.Text = "H";
+            // 
+            // labelBcr絶縁1_CH5
+            // 
+            this.labelBcr絶縁1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1_CH5.AutoSize = true;
+            this.labelBcr絶縁1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1_CH5.Location = new System.Drawing.Point(293, 50);
+            this.labelBcr絶縁1_CH5.Name = "labelBcr絶縁1_CH5";
+            this.labelBcr絶縁1_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁1_CH5.TabIndex = 27;
+            this.labelBcr絶縁1_CH5.Text = "H";
+            // 
+            // labelBcr絶縁2_CH5
+            // 
+            this.labelBcr絶縁2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2_CH5.AutoSize = true;
+            this.labelBcr絶縁2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2_CH5.Location = new System.Drawing.Point(293, 75);
+            this.labelBcr絶縁2_CH5.Name = "labelBcr絶縁2_CH5";
+            this.labelBcr絶縁2_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁2_CH5.TabIndex = 42;
+            this.labelBcr絶縁2_CH5.Text = "H";
+            // 
+            // labelBcr絶縁3_CH5
+            // 
+            this.labelBcr絶縁3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3_CH5.AutoSize = true;
+            this.labelBcr絶縁3_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3_CH5.Location = new System.Drawing.Point(293, 109);
+            this.labelBcr絶縁3_CH5.Name = "labelBcr絶縁3_CH5";
+            this.labelBcr絶縁3_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁3_CH5.TabIndex = 43;
+            this.labelBcr絶縁3_CH5.Text = "H";
+            // 
+            // labelBcr絶縁1_CH4
+            // 
+            this.labelBcr絶縁1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1_CH4.AutoSize = true;
+            this.labelBcr絶縁1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1_CH4.Location = new System.Drawing.Point(241, 50);
+            this.labelBcr絶縁1_CH4.Name = "labelBcr絶縁1_CH4";
+            this.labelBcr絶縁1_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁1_CH4.TabIndex = 15;
+            this.labelBcr絶縁1_CH4.Text = "H";
+            // 
+            // labelBcr絶縁2_CH4
+            // 
+            this.labelBcr絶縁2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2_CH4.AutoSize = true;
+            this.labelBcr絶縁2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2_CH4.Location = new System.Drawing.Point(241, 75);
+            this.labelBcr絶縁2_CH4.Name = "labelBcr絶縁2_CH4";
+            this.labelBcr絶縁2_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁2_CH4.TabIndex = 20;
+            this.labelBcr絶縁2_CH4.Text = "H";
+            // 
+            // label54
+            // 
+            this.label54.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label54.Location = new System.Drawing.Point(175, 1);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(40, 23);
+            this.label54.TabIndex = 54;
+            this.label54.Text = "CH3";
+            // 
+            // label55
+            // 
+            this.label55.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label55.Location = new System.Drawing.Point(171, 25);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(49, 23);
+            this.label55.TabIndex = 55;
+            this.label55.Text = "二次b";
+            // 
+            // labelBcr絶縁1_CH3
+            // 
+            this.labelBcr絶縁1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁1_CH3.AutoSize = true;
+            this.labelBcr絶縁1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁1_CH3.Location = new System.Drawing.Point(184, 50);
+            this.labelBcr絶縁1_CH3.Name = "labelBcr絶縁1_CH3";
+            this.labelBcr絶縁1_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁1_CH3.TabIndex = 56;
+            this.labelBcr絶縁1_CH3.Text = "H";
+            // 
+            // labelBcr絶縁2_CH3
+            // 
+            this.labelBcr絶縁2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁2_CH3.AutoSize = true;
+            this.labelBcr絶縁2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁2_CH3.Location = new System.Drawing.Point(184, 75);
+            this.labelBcr絶縁2_CH3.Name = "labelBcr絶縁2_CH3";
+            this.labelBcr絶縁2_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁2_CH3.TabIndex = 57;
+            this.labelBcr絶縁2_CH3.Text = "H";
+            // 
+            // labelBcr絶縁3_CH3
+            // 
+            this.labelBcr絶縁3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3_CH3.AutoSize = true;
+            this.labelBcr絶縁3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3_CH3.Location = new System.Drawing.Point(184, 109);
+            this.labelBcr絶縁3_CH3.Name = "labelBcr絶縁3_CH3";
+            this.labelBcr絶縁3_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁3_CH3.TabIndex = 58;
+            this.labelBcr絶縁3_CH3.Text = "H";
+            // 
+            // labelBcr絶縁3_CH2
+            // 
+            this.labelBcr絶縁3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3_CH2.AutoSize = true;
+            this.labelBcr絶縁3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3_CH2.Location = new System.Drawing.Point(128, 109);
+            this.labelBcr絶縁3_CH2.Name = "labelBcr絶縁3_CH2";
+            this.labelBcr絶縁3_CH2.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁3_CH2.TabIndex = 25;
+            this.labelBcr絶縁3_CH2.Text = "H";
+            // 
+            // labelBcr絶縁3_CH4
+            // 
+            this.labelBcr絶縁3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelBcr絶縁3_CH4.AutoSize = true;
+            this.labelBcr絶縁3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcr絶縁3_CH4.Location = new System.Drawing.Point(241, 109);
+            this.labelBcr絶縁3_CH4.Name = "labelBcr絶縁3_CH4";
+            this.labelBcr絶縁3_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelBcr絶縁3_CH4.TabIndex = 44;
+            this.labelBcr絶縁3_CH4.Text = "H";
             // 
             // label3
             // 
@@ -1384,6 +1691,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.Beige;
             this.tabPage2.Controls.Add(this.tableLayoutPanel2);
             this.tabPage2.Controls.Add(this.label58);
             this.tabPage2.Controls.Add(this.label62);
@@ -1392,10 +1700,9 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(662, 300);
+            this.tabPage2.Size = new System.Drawing.Size(687, 326);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "AUR890";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
             // 
@@ -2006,207 +2313,12 @@
             this.label82.TabIndex = 97;
             this.label82.Text = "AUR890 検査データ";
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label22.Location = new System.Drawing.Point(266, 1);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(40, 23);
-            this.label22.TabIndex = 28;
-            this.label22.Text = "CH5";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label25.Location = new System.Drawing.Point(266, 25);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(34, 23);
-            this.label25.TabIndex = 29;
-            this.label25.Text = "ｱｰｽ";
-            // 
-            // labelBcr耐圧1_CH5
-            // 
-            this.labelBcr耐圧1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧1_CH5.AutoSize = true;
-            this.labelBcr耐圧1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1_CH5.Location = new System.Drawing.Point(275, 50);
-            this.labelBcr耐圧1_CH5.Name = "labelBcr耐圧1_CH5";
-            this.labelBcr耐圧1_CH5.Size = new System.Drawing.Size(22, 20);
-            this.labelBcr耐圧1_CH5.TabIndex = 30;
-            this.labelBcr耐圧1_CH5.Text = "H";
-            // 
-            // labelBcr耐圧2ステップ
-            // 
-            this.labelBcr耐圧2ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2ステップ.AutoSize = true;
-            this.labelBcr耐圧2ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2ステップ.Location = new System.Drawing.Point(4, 71);
-            this.labelBcr耐圧2ステップ.Name = "labelBcr耐圧2ステップ";
-            this.labelBcr耐圧2ステップ.Size = new System.Drawing.Size(57, 23);
-            this.labelBcr耐圧2ステップ.TabIndex = 31;
-            this.labelBcr耐圧2ステップ.Text = "STEP2";
-            // 
-            // labelBcr耐圧2_CH2
-            // 
-            this.labelBcr耐圧2_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2_CH2.AutoSize = true;
-            this.labelBcr耐圧2_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2_CH2.Location = new System.Drawing.Point(124, 71);
-            this.labelBcr耐圧2_CH2.Name = "labelBcr耐圧2_CH2";
-            this.labelBcr耐圧2_CH2.Size = new System.Drawing.Size(22, 23);
-            this.labelBcr耐圧2_CH2.TabIndex = 32;
-            this.labelBcr耐圧2_CH2.Text = "H";
-            // 
-            // labelBcr耐圧2_CH3
-            // 
-            this.labelBcr耐圧2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2_CH3.AutoSize = true;
-            this.labelBcr耐圧2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2_CH3.Location = new System.Drawing.Point(176, 71);
-            this.labelBcr耐圧2_CH3.Name = "labelBcr耐圧2_CH3";
-            this.labelBcr耐圧2_CH3.Size = new System.Drawing.Size(22, 23);
-            this.labelBcr耐圧2_CH3.TabIndex = 33;
-            this.labelBcr耐圧2_CH3.Text = "H";
-            // 
-            // labelBcr耐圧2_CH4
-            // 
-            this.labelBcr耐圧2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2_CH4.AutoSize = true;
-            this.labelBcr耐圧2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2_CH4.Location = new System.Drawing.Point(228, 71);
-            this.labelBcr耐圧2_CH4.Name = "labelBcr耐圧2_CH4";
-            this.labelBcr耐圧2_CH4.Size = new System.Drawing.Size(22, 23);
-            this.labelBcr耐圧2_CH4.TabIndex = 34;
-            this.labelBcr耐圧2_CH4.Text = "H";
-            // 
-            // labelBcr耐圧2_CH5
-            // 
-            this.labelBcr耐圧2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2_CH5.AutoSize = true;
-            this.labelBcr耐圧2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2_CH5.Location = new System.Drawing.Point(275, 71);
-            this.labelBcr耐圧2_CH5.Name = "labelBcr耐圧2_CH5";
-            this.labelBcr耐圧2_CH5.Size = new System.Drawing.Size(22, 23);
-            this.labelBcr耐圧2_CH5.TabIndex = 35;
-            this.labelBcr耐圧2_CH5.Text = "H";
-            // 
-            // labelBcr耐圧2_CH1
-            // 
-            this.labelBcr耐圧2_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2_CH1.AutoSize = true;
-            this.labelBcr耐圧2_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2_CH1.Location = new System.Drawing.Point(77, 71);
-            this.labelBcr耐圧2_CH1.Name = "labelBcr耐圧2_CH1";
-            this.labelBcr耐圧2_CH1.Size = new System.Drawing.Size(22, 23);
-            this.labelBcr耐圧2_CH1.TabIndex = 36;
-            this.labelBcr耐圧2_CH1.Text = "H";
-            // 
-            // labelBcr耐圧2Volt
-            // 
-            this.labelBcr耐圧2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2Volt.AutoSize = true;
-            this.labelBcr耐圧2Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2Volt.Location = new System.Drawing.Point(313, 71);
-            this.labelBcr耐圧2Volt.Name = "labelBcr耐圧2Volt";
-            this.labelBcr耐圧2Volt.Size = new System.Drawing.Size(76, 23);
-            this.labelBcr耐圧2Volt.TabIndex = 37;
-            this.labelBcr耐圧2Volt.Text = "AC****V";
-            // 
-            // labelBcr耐圧2Time
-            // 
-            this.labelBcr耐圧2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2Time.AutoSize = true;
-            this.labelBcr耐圧2Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2Time.Location = new System.Drawing.Point(402, 71);
-            this.labelBcr耐圧2Time.Name = "labelBcr耐圧2Time";
-            this.labelBcr耐圧2Time.Size = new System.Drawing.Size(57, 23);
-            this.labelBcr耐圧2Time.TabIndex = 38;
-            this.labelBcr耐圧2Time.Text = "*.*sec";
-            // 
-            // labelBcr耐圧2Amp
-            // 
-            this.labelBcr耐圧2Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2Amp.AutoSize = true;
-            this.labelBcr耐圧2Amp.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2Amp.Location = new System.Drawing.Point(477, 71);
-            this.labelBcr耐圧2Amp.Name = "labelBcr耐圧2Amp";
-            this.labelBcr耐圧2Amp.Size = new System.Drawing.Size(82, 23);
-            this.labelBcr耐圧2Amp.TabIndex = 39;
-            this.labelBcr耐圧2Amp.Text = "**mA以下";
-            // 
-            // labelBcr耐圧2計測値
-            // 
-            this.labelBcr耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelBcr耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(575, 73);
-            this.labelBcr耐圧2計測値.Name = "labelBcr耐圧2計測値";
-            this.labelBcr耐圧2計測値.Size = new System.Drawing.Size(59, 18);
-            this.labelBcr耐圧2計測値.TabIndex = 40;
-            this.labelBcr耐圧2計測値.Text = "*.**mA";
-            this.labelBcr耐圧2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label42.Location = new System.Drawing.Point(266, 1);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(40, 23);
-            this.label42.TabIndex = 49;
-            this.label42.Text = "CH5";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label44.Location = new System.Drawing.Point(266, 25);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(34, 23);
-            this.label44.TabIndex = 50;
-            this.label44.Text = "ｱｰｽ";
-            // 
-            // labelBcr絶縁1_CH5
-            // 
-            this.labelBcr絶縁1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁1_CH5.AutoSize = true;
-            this.labelBcr絶縁1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1_CH5.Location = new System.Drawing.Point(275, 50);
-            this.labelBcr絶縁1_CH5.Name = "labelBcr絶縁1_CH5";
-            this.labelBcr絶縁1_CH5.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁1_CH5.TabIndex = 51;
-            this.labelBcr絶縁1_CH5.Text = "H";
-            // 
-            // labelBcr絶縁2_CH5
-            // 
-            this.labelBcr絶縁2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁2_CH5.AutoSize = true;
-            this.labelBcr絶縁2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2_CH5.Location = new System.Drawing.Point(275, 75);
-            this.labelBcr絶縁2_CH5.Name = "labelBcr絶縁2_CH5";
-            this.labelBcr絶縁2_CH5.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁2_CH5.TabIndex = 52;
-            this.labelBcr絶縁2_CH5.Text = "H";
-            // 
-            // labelBcr絶縁3_CH5
-            // 
-            this.labelBcr絶縁3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelBcr絶縁3_CH5.AutoSize = true;
-            this.labelBcr絶縁3_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH5.Location = new System.Drawing.Point(275, 104);
-            this.labelBcr絶縁3_CH5.Name = "labelBcr絶縁3_CH5";
-            this.labelBcr絶縁3_CH5.Size = new System.Drawing.Size(22, 24);
-            this.labelBcr絶縁3_CH5.TabIndex = 53;
-            this.labelBcr絶縁3_CH5.Text = "H";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1014, 723);
+            this.ClientSize = new System.Drawing.Size(1014, 695);
             this.Controls.Add(this.tabControlBcr);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
@@ -2265,7 +2377,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuItemHelp;
         private System.Windows.Forms.ToolStripMenuItem MenuItemHelp_Manual;
         private System.Windows.Forms.ToolStripMenuItem MenuItemHelp_VerInfo;
-        private System.Windows.Forms.ToolStripMenuItem MenuItemUtility_SetSpec;
         private System.Windows.Forms.TextBox textBoxSerial;
         private System.Windows.Forms.ToolStripMenuItem MenuItemFile_Close;
         private System.Windows.Forms.ToolStripMenuItem MenuItemUtility_SelfCheck;
@@ -2281,7 +2392,7 @@
         private System.Windows.Forms.Timer timerLbMessage;
         private System.Windows.Forms.Label labelDailyCheck;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label labelBcr耐圧1_CH4;
+        private System.Windows.Forms.Label labelBcr耐圧1_CH5;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label labelBcr耐圧1ステップ;
@@ -2343,14 +2454,14 @@
         private System.Windows.Forms.Label labelAur耐圧1Volt;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label labelBcr耐圧1_CH1;
-        private System.Windows.Forms.Label labelBcr耐圧1_CH3;
+        private System.Windows.Forms.Label labelBcr耐圧1_CH4;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label labelBcr絶縁3_CH2;
-        private System.Windows.Forms.Label labelBcr絶縁2_CH3;
+        private System.Windows.Forms.Label labelBcr絶縁2_CH4;
         private System.Windows.Forms.Label labelBcr絶縁2_CH2;
-        private System.Windows.Forms.Label labelBcr絶縁1_CH3;
+        private System.Windows.Forms.Label labelBcr絶縁1_CH4;
         private System.Windows.Forms.Label labelBcr絶縁1_CH2;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
@@ -2378,11 +2489,11 @@
         private System.Windows.Forms.Label labelBcr絶縁3Time;
         private System.Windows.Forms.Label labelBcr絶縁2Volt;
         private System.Windows.Forms.Label labelBcr絶縁3Volt;
-        private System.Windows.Forms.Label labelBcr絶縁1_CH4;
-        private System.Windows.Forms.Label labelBcr絶縁2_CH4;
-        private System.Windows.Forms.Label labelBcr絶縁3_CH4;
+        private System.Windows.Forms.Label labelBcr絶縁1_CH5;
+        private System.Windows.Forms.Label labelBcr絶縁2_CH5;
+        private System.Windows.Forms.Label labelBcr絶縁3_CH5;
         private System.Windows.Forms.Label labelBcr絶縁3_CH1;
-        private System.Windows.Forms.Label labelBcr絶縁3_CH3;
+        private System.Windows.Forms.Label labelBcr絶縁3_CH4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -2411,11 +2522,11 @@
         private System.Windows.Forms.Label labelBcr耐圧2計測値;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label labelBcr耐圧1_CH5;
+        private System.Windows.Forms.Label labelBcr耐圧1_CH6;
         private System.Windows.Forms.Label labelBcr耐圧2_CH2;
-        private System.Windows.Forms.Label labelBcr耐圧2_CH3;
         private System.Windows.Forms.Label labelBcr耐圧2_CH4;
         private System.Windows.Forms.Label labelBcr耐圧2_CH5;
+        private System.Windows.Forms.Label labelBcr耐圧2_CH6;
         private System.Windows.Forms.Label labelBcr耐圧2Volt;
         private System.Windows.Forms.Label labelBcr耐圧2Time;
         private System.Windows.Forms.Label labelBcr耐圧2Amp;
@@ -2423,9 +2534,18 @@
         private System.Windows.Forms.Label labelBcr耐圧2ステップ;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label labelBcr絶縁1_CH5;
-        private System.Windows.Forms.Label labelBcr絶縁2_CH5;
-        private System.Windows.Forms.Label labelBcr絶縁3_CH5;
+        private System.Windows.Forms.Label labelBcr絶縁1_CH6;
+        private System.Windows.Forms.Label labelBcr絶縁2_CH6;
+        private System.Windows.Forms.Label labelBcr絶縁3_CH6;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label labelBcr耐圧1_CH3;
+        private System.Windows.Forms.Label labelBcr耐圧2_CH3;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label labelBcr絶縁1_CH3;
+        private System.Windows.Forms.Label labelBcr絶縁2_CH3;
+        private System.Windows.Forms.Label labelBcr絶縁3_CH3;
     }
 }
 

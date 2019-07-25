@@ -35,8 +35,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labelErrorMess = new System.Windows.Forms.Label();
             this.buttonStart = new System.Windows.Forms.Button();
-            this.labelBcrCh1Ch3Check = new System.Windows.Forms.Label();
-            this.labelBcrCh2Ch4Check = new System.Windows.Forms.Label();
+            this.labelBcrCh1Ch4Check = new System.Windows.Forms.Label();
+            this.labelBcrCh23Ch5Check = new System.Windows.Forms.Label();
             this.labelMessage = new System.Windows.Forms.Label();
             this.labelDanger = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -106,27 +106,27 @@
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
-            // labelBcrCh1Ch3Check
+            // labelBcrCh1Ch4Check
             // 
-            this.labelBcrCh1Ch3Check.AutoSize = true;
-            this.labelBcrCh1Ch3Check.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcrCh1Ch3Check.ForeColor = System.Drawing.Color.Black;
-            this.labelBcrCh1Ch3Check.Location = new System.Drawing.Point(16, 39);
-            this.labelBcrCh1Ch3Check.Name = "labelBcrCh1Ch3Check";
-            this.labelBcrCh1Ch3Check.Size = new System.Drawing.Size(259, 28);
-            this.labelBcrCh1Ch3Check.TabIndex = 5;
-            this.labelBcrCh1Ch3Check.Text = "①BCR側 CH1-CH3導通ﾁｪｯｸ";
+            this.labelBcrCh1Ch4Check.AutoSize = true;
+            this.labelBcrCh1Ch4Check.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcrCh1Ch4Check.ForeColor = System.Drawing.Color.Black;
+            this.labelBcrCh1Ch4Check.Location = new System.Drawing.Point(16, 39);
+            this.labelBcrCh1Ch4Check.Name = "labelBcrCh1Ch4Check";
+            this.labelBcrCh1Ch4Check.Size = new System.Drawing.Size(259, 28);
+            this.labelBcrCh1Ch4Check.TabIndex = 5;
+            this.labelBcrCh1Ch4Check.Text = "①BCR側 CH1-CH4導通ﾁｪｯｸ";
             // 
-            // labelBcrCh2Ch4Check
+            // labelBcrCh23Ch5Check
             // 
-            this.labelBcrCh2Ch4Check.AutoSize = true;
-            this.labelBcrCh2Ch4Check.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcrCh2Ch4Check.ForeColor = System.Drawing.Color.Black;
-            this.labelBcrCh2Ch4Check.Location = new System.Drawing.Point(16, 79);
-            this.labelBcrCh2Ch4Check.Name = "labelBcrCh2Ch4Check";
-            this.labelBcrCh2Ch4Check.Size = new System.Drawing.Size(259, 28);
-            this.labelBcrCh2Ch4Check.TabIndex = 6;
-            this.labelBcrCh2Ch4Check.Text = "②BCR側 CH2-CH4導通ﾁｪｯｸ";
+            this.labelBcrCh23Ch5Check.AutoSize = true;
+            this.labelBcrCh23Ch5Check.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelBcrCh23Ch5Check.ForeColor = System.Drawing.Color.Black;
+            this.labelBcrCh23Ch5Check.Location = new System.Drawing.Point(16, 79);
+            this.labelBcrCh23Ch5Check.Name = "labelBcrCh23Ch5Check";
+            this.labelBcrCh23Ch5Check.Size = new System.Drawing.Size(278, 28);
+            this.labelBcrCh23Ch5Check.TabIndex = 6;
+            this.labelBcrCh23Ch5Check.Text = "②BCR側 CH2,3-CH5導通ﾁｪｯｸ";
             // 
             // labelMessage
             // 
@@ -169,8 +169,8 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.labelAurCh1Ch2Check);
-            this.groupBox2.Controls.Add(this.labelBcrCh1Ch3Check);
-            this.groupBox2.Controls.Add(this.labelBcrCh2Ch4Check);
+            this.groupBox2.Controls.Add(this.labelBcrCh1Ch4Check);
+            this.groupBox2.Controls.Add(this.labelBcrCh23Ch5Check);
             this.groupBox2.Font = new System.Drawing.Font("メイリオ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.groupBox2.Location = new System.Drawing.Point(12, 174);
             this.groupBox2.Name = "groupBox2";
@@ -242,8 +242,8 @@
         private System.Windows.Forms.Label labelDecision;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button buttonStart;
-        private System.Windows.Forms.Label labelBcrCh1Ch3Check;
-        private System.Windows.Forms.Label labelBcrCh2Ch4Check;
+        private System.Windows.Forms.Label labelBcrCh1Ch4Check;
+        private System.Windows.Forms.Label labelBcrCh23Ch5Check;
         private System.Windows.Forms.Label labelMessage;
         private System.Windows.Forms.Label labelDanger;
         private System.Windows.Forms.GroupBox groupBox5;

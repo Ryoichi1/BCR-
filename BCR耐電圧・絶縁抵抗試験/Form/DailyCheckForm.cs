@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
 namespace BCR耐電圧_絶縁抵抗試験
 {
@@ -15,23 +10,31 @@ namespace BCR耐電圧_絶縁抵抗試験
         private bool TestFlag;
 
 
-        耐電圧試験スペック BcrCh13 = new 耐電圧試験スペック()
+        耐電圧試験スペック BcrCh1_4 = new 耐電圧試験スペック()
         {
             CH1         = "2",  //High
-            CH2         = "0",  //Open
-            CH3         = "1",  //Low
-            CH4         = "0",  //Open
+            CH2/*二次a*/= "0",  //Open
+            CH3/*二次b*/= "0",  //Open
+            CH4         = "1",  //Low
+            CH5         = "0",  //Open
+            CH6         = "0",  //Open
+            CH7         = "0",  //Open
+            CH8         = "0",  //Open
             印加電圧    = 100,  //AC100V
             印加時間    = 1,    //1秒
             漏れ電流    = 1     //1mA
         };
 
-        耐電圧試験スペック BcrCh24 = new 耐電圧試験スペック()
+        耐電圧試験スペック BcrCh23_5 = new 耐電圧試験スペック()
         {
             CH1         = "0",  //Open
-            CH2         = "2",  //High
-            CH3         = "0",  //Open
-            CH4         = "1",  //Low
+            CH2/*二次a*/= "2",  //High
+            CH3/*二次b*/= "2",  //High
+            CH4         = "0",  //Open
+            CH5         = "1",  //Low
+            CH6         = "0",  //Open
+            CH7         = "0",  //Open
+            CH8         = "0",  //Open
             印加電圧    = 100,  //AC100V
             印加時間    = 1,    //1秒
             漏れ電流    = 1     //1mAA
@@ -43,6 +46,10 @@ namespace BCR耐電圧_絶縁抵抗試験
             CH2         = "1",  //Low
             CH3         = "0",  //Open
             CH4         = "0",  //Open
+            CH5         = "0",  //Open
+            CH6         = "0",  //Open
+            CH7         = "0",  //Open
+            CH8         = "0",  //Open
             印加電圧    = 100,  //AC100V
             印加時間    = 1,    //1秒
             漏れ電流    = 1     //1mAA
@@ -56,8 +63,8 @@ namespace BCR耐電圧_絶縁抵抗試験
         private void DailyCheckForm_Load(object sender, EventArgs e)
         {
 
-            labelBcrCh1Ch3Check.ForeColor = Color.Black;
-            labelBcrCh2Ch4Check.ForeColor = Color.Black;
+            labelBcrCh1Ch4Check.ForeColor = Color.Black;
+            labelBcrCh23Ch5Check.ForeColor = Color.Black;
             labelAurCh1Ch2Check.ForeColor = Color.Black;
 
             labelDecision.Text = "";
@@ -143,8 +150,8 @@ namespace BCR耐電圧_絶縁抵抗試験
 
             labelDanger.BackColor = Color.Red;
             labelDecision.Text = "";
-            labelBcrCh1Ch3Check.ForeColor = Color.Black;
-            labelBcrCh2Ch4Check.ForeColor = Color.Black;
+            labelBcrCh1Ch4Check.ForeColor = Color.Black;
+            labelBcrCh23Ch5Check.ForeColor = Color.Black;
 
             Method.InterLock解除();
 
@@ -165,35 +172,35 @@ namespace BCR耐電圧_絶縁抵抗試験
             TOS9200.SendCommand("STOP");
             TOS9200.Dsr = 0;    //DSRレジスタ初期化
             TOS9200.Fail = 0;   //failレジスタ初期化
-            TOS9200.SetFunction(BcrCh13, 1,"ON");//試験設定
+            TOS9200.SetFunction(BcrCh1_4, 1,"ON");//試験設定
 
             TOS9200.TosStart();
 
             if(TOS9200.ErrorMess != TOS9200.ErrorMessage.漏洩電流上限異常)
             {
-                labelBcrCh1Ch3Check.ForeColor = Color.Red;
+                labelBcrCh1Ch4Check.ForeColor = Color.Red;
                 goto StepNg;
             }
 
             TOS9200.SendCommand("STOP");
-            labelBcrCh1Ch3Check.ForeColor = Color.LightSeaGreen;
+            labelBcrCh1Ch4Check.ForeColor = Color.LightSeaGreen;
 
 
             //ＣＨ２－４の導通チェック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
             TOS9200.Dsr = 0;    //DSRレジスタ初期化
             TOS9200.Fail = 0;   //failレジスタ初期化
-            TOS9200.SetFunction(BcrCh24, 1, "ON");//試験設定
+            TOS9200.SetFunction(BcrCh23_5, 1, "ON");//試験設定
 
             TOS9200.TosStart();
 
             if (TOS9200.ErrorMess != TOS9200.ErrorMessage.漏洩電流上限異常)
             {
-                labelBcrCh2Ch4Check.ForeColor = Color.Red;
+                labelBcrCh23Ch5Check.ForeColor = Color.Red;
                 goto StepNg;
             }
 
             TOS9200.SendCommand("STOP");
-            labelBcrCh2Ch4Check.ForeColor = Color.LightSeaGreen;
+            labelBcrCh23Ch5Check.ForeColor = Color.LightSeaGreen;
 
 
             labelDanger.BackColor = Color.MistyRose;
@@ -332,8 +339,8 @@ namespace BCR耐電圧_絶縁抵抗試験
 
             labelMessage.Text = "ＢＣＲ側の治具に点検用サンプルをセットして開始ボタンを押してください";
             pictureBox1.ImageLocation = Constants.SetBcrPath;
-            labelBcrCh1Ch3Check.ForeColor = Color.Black;
-            labelBcrCh2Ch4Check.ForeColor = Color.Black;
+            labelBcrCh1Ch4Check.ForeColor = Color.Black;
+            labelBcrCh23Ch5Check.ForeColor = Color.Black;
             labelAurCh1Ch2Check.ForeColor = Color.Black;
             labelDecision.Text = "";
             labelErrorMess.Text = "";

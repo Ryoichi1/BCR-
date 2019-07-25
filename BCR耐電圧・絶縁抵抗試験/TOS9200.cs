@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO.Ports;
 using System.Windows.Forms;
-using System.Timers;
-using System.Threading;
 
 namespace BCR耐電圧_絶縁抵抗試験
 {
@@ -198,6 +193,18 @@ namespace BCR耐電圧_絶縁抵抗試験
             SendCommand("A:SCAN 4," + spec.CH4);
             if (!Query("A:SCAN?4", (data) => data == spec.CH4)) goto 設定異常;
 
+            SendCommand("A:SCAN 5," + spec.CH5);
+            if (!Query("A:SCAN?5", (data) => data == spec.CH5)) goto 設定異常;
+
+            SendCommand("A:SCAN 6," + spec.CH6);
+            if (!Query("A:SCAN?6", (data) => data == spec.CH6)) goto 設定異常;
+
+            SendCommand("A:SCAN 7," + spec.CH7);
+            if (!Query("A:SCAN?7", (data) => data == spec.CH7)) goto 設定異常;
+
+            SendCommand("A:SCAN 8," + spec.CH8);
+            if (!Query("A:SCAN?8", (data) => data == spec.CH8)) goto 設定異常;
+
             SendCommand("A:CCH " + コンタクトチェック);
 
             SendCommand("DSE #HFF");//デバイスステータスイネーブルレジスタをFFに設定
@@ -246,6 +253,18 @@ namespace BCR耐電圧_絶縁抵抗試験
 
             SendCommand("I:SCAN 4," + spec.CH4);
             if (!Query("I:SCAN?4", (data) => data == spec.CH4)) goto 設定異常;
+
+            SendCommand("I:SCAN 5," + spec.CH5);
+            if (!Query("I:SCAN?5", (data) => data == spec.CH5)) goto 設定異常;
+
+            SendCommand("I:SCAN 6," + spec.CH6);
+            if (!Query("I:SCAN?6", (data) => data == spec.CH6)) goto 設定異常;
+
+            SendCommand("I:SCAN 7," + spec.CH7);
+            if (!Query("I:SCAN?7", (data) => data == spec.CH7)) goto 設定異常;
+
+            SendCommand("I:SCAN 8," + spec.CH8);
+            if (!Query("I:SCAN?8", (data) => data == spec.CH8)) goto 設定異常;
 
             SendCommand("I:CCH " + コンタクトチェック);
 

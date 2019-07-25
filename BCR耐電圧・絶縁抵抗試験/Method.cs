@@ -1,19 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using System.Threading;
-using System.IO;
 
 namespace BCR耐電圧_絶縁抵抗試験
 {
 
-  
-    
+
+
     public static class Method
     {
         public static EPX64R io = new EPX64R();
@@ -220,30 +215,30 @@ namespace BCR耐電圧_絶縁抵抗試験
             switch (data)
             {
                 case "0":
-                    return "Open";
+                    return "-";
                 case "1":
-                    return "Low";
+                    return "L";
                 case "2":
-                    return "High";
+                    return "H";
                 default:
-                    return "Open";
+                    return "-";
             }
         }
 
-        public static string ResetContact(string data)
-        {
-            switch (data)
-            {
-                case "Open":
-                    return "0";
-                case "Low":
-                    return "1";
-                case "High":
-                    return "2";
-                default:
-                    return "0";
-            }
-        }
+        //public static string ResetContact(string data)
+        //{
+        //    switch (data)
+        //    {
+        //        case "Open":
+        //            return "0";
+        //        case "Low":
+        //            return "1";
+        //        case "High":
+        //            return "2";
+        //        default:
+        //            return "0";
+        //    }
+        //}
 
     }
 }
