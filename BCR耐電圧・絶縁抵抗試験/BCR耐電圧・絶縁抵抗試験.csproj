@@ -82,6 +82,7 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="General.cs" />
+    <Compile Include="GeneralTimer.cs" />
     <Compile Include="Method.cs" />
     <Compile Include="OpenOffice.cs" />
     <Compile Include="Program.cs" />

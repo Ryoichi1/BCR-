@@ -46,6 +46,39 @@ namespace BCR耐電圧_絶縁抵抗試験
             General.Wait(1000);
         }
 
+
+        public static void SetLed(bool sw)
+        {
+            switch (State.Category)
+            {
+                case State.CATEGORY.BCR:
+                    SetLed_Bcr(sw);
+                    break;
+                case State.CATEGORY.Q890:
+                    SetLed_Q890(sw);
+                    break;
+                case State.CATEGORY.NEW_AUR:
+                    SetLed_Aur(sw);
+                    break;
+            }
+        }
+
+        private static void SetLed_Bcr(bool sw)
+        {
+            io.OutBit(EPX64R.PortName.P4, EPX64R.BitName.b3, sw ? EPX64R.OutData.H : EPX64R.OutData.L);
+        }
+
+        private static void SetLed_Q890(bool sw)
+        {
+            io.OutBit(EPX64R.PortName.P4, EPX64R.BitName.b4, sw ? EPX64R.OutData.H : EPX64R.OutData.L);
+        }
+
+        private static void SetLed_Aur(bool sw)
+        {
+            io.OutBit(EPX64R.PortName.P4, EPX64R.BitName.b5, sw ? EPX64R.OutData.H : EPX64R.OutData.L);
+        }
+
+
         //◎
         //**************************************************************************
         //日常点検フラグのセット
@@ -125,9 +158,9 @@ namespace BCR耐電圧_絶縁抵抗試験
         public static bool SaveTestData(List<string> testData)
         {
             string dataFilePath = "";
-            
+
             //State.date = dt.ToString("yyyyMMdd,HH:mm:ss");
-            var year  = State.date.Substring(0, 4);
+            var year = State.date.Substring(0, 4);
             var month = State.date.Substring(4, 2);
             dataFilePath = Constants.検査ﾃﾞｰﾀBcrFolderPath + year + "年" + month + "月.ods";
 
@@ -136,8 +169,8 @@ namespace BCR耐電圧_絶縁抵抗試験
             {
                 File.Copy(Constants.検査ﾃﾞｰﾀBcrFolderPath + "format.ods", dataFilePath);
             }
-            
-            
+
+
             OpenOffice calc = new OpenOffice();
             try
             {
@@ -188,7 +221,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             //PC4ログファイルがなければ新規作成する
             if (!System.IO.File.Exists(State.pc4LogFilePath))
             {
-                File.Copy(Constants.Pc4LogFileFolder + "Format.txt", State.pc4LogFilePath);
+                File.Copy(Constants.fileName_FormatLog, State.pc4LogFilePath);
             }
 
             //ログデータファイルの更新
@@ -207,7 +240,7 @@ namespace BCR耐電圧_絶縁抵抗試験
                 }
                 //usingステートメントにより確実にCloseメソッドが呼び出されます
             }
-        
+
         }
 
         public static string SetContact(string data)

@@ -160,39 +160,39 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label49 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1_CH1 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1計測値 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1Res = new System.Windows.Forms.Label();
-            this.labelAur絶縁1Time = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1_CH1 = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1計測値 = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1Res = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1Time = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1_CH4 = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1_CH4 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1Volt = new System.Windows.Forms.Label();
-            this.labelAur絶縁1_CH2 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1_CH3 = new System.Windows.Forms.Label();
-            this.labelAur絶縁1ステップ = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1Volt = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1_CH2 = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1_CH3 = new System.Windows.Forms.Label();
+            this.labelQ890絶縁1ステップ = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label29 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1_CH2 = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1_CH2 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1計測値 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1Amp = new System.Windows.Forms.Label();
-            this.labelAur耐圧1Time = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1計測値 = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1Amp = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1Time = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1Volt = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1Volt = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -201,11 +201,118 @@
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1_CH1 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1_CH4 = new System.Windows.Forms.Label();
-            this.labelAur耐圧1ステップ = new System.Windows.Forms.Label();
-            this.labelAur耐圧1_CH3 = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1_CH1 = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1_CH4 = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1ステップ = new System.Windows.Forms.Label();
+            this.labelQ890耐圧1_CH3 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelNewAur絶縁3ステップ = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2ステップ = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1ステップ = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH1 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH1 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH1 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.label121 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label125 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1計測値 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2計測値 = new System.Windows.Forms.Label();
+            this.label128 = new System.Windows.Forms.Label();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3計測値 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1Res = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2Res = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3Res = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1Time = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2Time = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3Time = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1Volt = new System.Windows.Forms.Label();
+            this.label139 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2Volt = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3Volt = new System.Windows.Forms.Label();
+            this.label142 = new System.Windows.Forms.Label();
+            this.label143 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.label145 = new System.Windows.Forms.Label();
+            this.label146 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH6 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH6 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH6 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH4 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH4 = new System.Windows.Forms.Label();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁1_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁2_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur絶縁3_CH4 = new System.Windows.Forms.Label();
+            this.label162 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelNewAur耐圧1ステップ = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH1 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH2 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2ステップ = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1計測値 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2計測値 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1Amp = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2Amp = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1Time = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2Time = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1Volt = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2Volt = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH6 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH6 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH4 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH4 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧1_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧2_CH1 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3ステップ = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH5 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH4 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH6 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH1 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3Volt = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3Time = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3Amp = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3計測値 = new System.Windows.Forms.Label();
+            this.timerLed = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWarning)).BeginInit();
@@ -219,6 +326,9 @@
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // timerCurrentTime
@@ -304,9 +414,9 @@
             this.textBoxSerial.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxSerial.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBoxSerial.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.textBoxSerial.Location = new System.Drawing.Point(11, 15);
+            this.textBoxSerial.Location = new System.Drawing.Point(13, 17);
             this.textBoxSerial.Name = "textBoxSerial";
-            this.textBoxSerial.Size = new System.Drawing.Size(343, 36);
+            this.textBoxSerial.Size = new System.Drawing.Size(370, 36);
             this.textBoxSerial.TabIndex = 1;
             this.textBoxSerial.Text = "S03010140807001";
             this.textBoxSerial.TextChanged += new System.EventHandler(this.textBoxSerial_TextChanged);
@@ -328,7 +438,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1ステップ, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH1, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH2, 2, 2);
@@ -483,7 +593,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(600, 27);
+            this.label1.Location = new System.Drawing.Point(601, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 20);
             this.label1.TabIndex = 20;
@@ -494,7 +604,7 @@
             this.labelBcr耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(594, 51);
+            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(595, 51);
             this.labelBcr耐圧1計測値.Name = "labelBcr耐圧1計測値";
             this.labelBcr耐圧1計測値.Size = new System.Drawing.Size(59, 18);
             this.labelBcr耐圧1計測値.TabIndex = 21;
@@ -517,7 +627,7 @@
             this.labelBcr耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(594, 73);
+            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(595, 73);
             this.labelBcr耐圧2計測値.Name = "labelBcr耐圧2計測値";
             this.labelBcr耐圧2計測値.Size = new System.Drawing.Size(59, 18);
             this.labelBcr耐圧2計測値.TabIndex = 40;
@@ -855,11 +965,11 @@
             // 
             this.labelDanger.BackColor = System.Drawing.Color.MistyRose;
             this.labelDanger.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelDanger.Font = new System.Drawing.Font("MS UI Gothic", 69.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelDanger.Font = new System.Drawing.Font("MS UI Gothic", 63.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.labelDanger.ForeColor = System.Drawing.Color.White;
             this.labelDanger.Location = new System.Drawing.Point(12, 35);
             this.labelDanger.Name = "labelDanger";
-            this.labelDanger.Size = new System.Drawing.Size(935, 98);
+            this.labelDanger.Size = new System.Drawing.Size(935, 86);
             this.labelDanger.TabIndex = 4;
             this.labelDanger.Text = "高 電 圧 注 意 ！";
             this.labelDanger.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -890,7 +1000,7 @@
             // 
             this.buttonClearOperator.AutoSize = true;
             this.buttonClearOperator.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonClearOperator.Location = new System.Drawing.Point(164, 9);
+            this.buttonClearOperator.Location = new System.Drawing.Point(164, 15);
             this.buttonClearOperator.Name = "buttonClearOperator";
             this.buttonClearOperator.Size = new System.Drawing.Size(59, 29);
             this.buttonClearOperator.TabIndex = 13;
@@ -904,7 +1014,7 @@
             this.comboBoxOperatorName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxOperatorName.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.comboBoxOperatorName.FormattingEnabled = true;
-            this.comboBoxOperatorName.Location = new System.Drawing.Point(14, 10);
+            this.comboBoxOperatorName.Location = new System.Drawing.Point(10, 17);
             this.comboBoxOperatorName.Name = "comboBoxOperatorName";
             this.comboBoxOperatorName.Size = new System.Drawing.Size(136, 32);
             this.comboBoxOperatorName.TabIndex = 0;
@@ -921,9 +1031,9 @@
             this.labelDailyCheck.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelDailyCheck.Font = new System.Drawing.Font("メイリオ", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.labelDailyCheck.ForeColor = System.Drawing.Color.White;
-            this.labelDailyCheck.Location = new System.Drawing.Point(676, 143);
+            this.labelDailyCheck.Location = new System.Drawing.Point(706, 133);
             this.labelDailyCheck.Name = "labelDailyCheck";
-            this.labelDailyCheck.Size = new System.Drawing.Size(312, 77);
+            this.labelDailyCheck.Size = new System.Drawing.Size(289, 77);
             this.labelDailyCheck.TabIndex = 13;
             this.labelDailyCheck.Text = "日常点検";
             this.labelDailyCheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -933,9 +1043,9 @@
             this.panelOperator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelOperator.Controls.Add(this.comboBoxOperatorName);
             this.panelOperator.Controls.Add(this.buttonClearOperator);
-            this.panelOperator.Location = new System.Drawing.Point(12, 161);
+            this.panelOperator.Location = new System.Drawing.Point(13, 143);
             this.panelOperator.Name = "panelOperator";
-            this.panelOperator.Size = new System.Drawing.Size(243, 54);
+            this.panelOperator.Size = new System.Drawing.Size(243, 61);
             this.panelOperator.TabIndex = 14;
             // 
             // label4
@@ -944,7 +1054,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(28, 143);
+            this.label4.Location = new System.Drawing.Point(27, 131);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 28);
             this.label4.TabIndex = 87;
@@ -954,9 +1064,9 @@
             // 
             this.panelSerial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelSerial.Controls.Add(this.textBoxSerial);
-            this.panelSerial.Location = new System.Drawing.Point(285, 158);
+            this.panelSerial.Location = new System.Drawing.Point(282, 143);
             this.panelSerial.Name = "panelSerial";
-            this.panelSerial.Size = new System.Drawing.Size(371, 59);
+            this.panelSerial.Size = new System.Drawing.Size(399, 61);
             this.panelSerial.TabIndex = 88;
             // 
             // label2
@@ -965,7 +1075,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(301, 143);
+            this.label2.Location = new System.Drawing.Point(296, 131);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 28);
             this.label2.TabIndex = 89;
@@ -1027,10 +1137,11 @@
             // 
             this.tabControlBcr.Controls.Add(this.tabPage1);
             this.tabControlBcr.Controls.Add(this.tabPage2);
-            this.tabControlBcr.Location = new System.Drawing.Point(9, 223);
+            this.tabControlBcr.Controls.Add(this.tabPage3);
+            this.tabControlBcr.Location = new System.Drawing.Point(9, 208);
             this.tabControlBcr.Name = "tabControlBcr";
             this.tabControlBcr.SelectedIndex = 0;
-            this.tabControlBcr.Size = new System.Drawing.Size(695, 352);
+            this.tabControlBcr.Size = new System.Drawing.Size(695, 367);
             this.tabControlBcr.TabIndex = 96;
             this.tabControlBcr.Tag = "";
             // 
@@ -1045,7 +1156,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(687, 326);
+            this.tabPage1.Size = new System.Drawing.Size(687, 341);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "BC-R";
             // 
@@ -1063,7 +1174,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3ステップ, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2ステップ, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1ステップ, 0, 2);
@@ -1123,7 +1234,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(667, 143);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(667, 127);
             this.tableLayoutPanel3.TabIndex = 6;
             // 
             // labelBcr絶縁3ステップ
@@ -1131,7 +1242,7 @@
             this.labelBcr絶縁3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3ステップ.AutoSize = true;
             this.labelBcr絶縁3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3ステップ.Location = new System.Drawing.Point(4, 109);
+            this.labelBcr絶縁3ステップ.Location = new System.Drawing.Point(4, 101);
             this.labelBcr絶縁3ステップ.Name = "labelBcr絶縁3ステップ";
             this.labelBcr絶縁3ステップ.Size = new System.Drawing.Size(57, 23);
             this.labelBcr絶縁3ステップ.TabIndex = 3;
@@ -1164,7 +1275,7 @@
             this.labelBcr絶縁3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH1.AutoSize = true;
             this.labelBcr絶縁3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH1.Location = new System.Drawing.Point(77, 109);
+            this.labelBcr絶縁3_CH1.Location = new System.Drawing.Point(77, 101);
             this.labelBcr絶縁3_CH1.Name = "labelBcr絶縁3_CH1";
             this.labelBcr絶縁3_CH1.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH1.TabIndex = 26;
@@ -1274,7 +1385,7 @@
             this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label63.Location = new System.Drawing.Point(605, 27);
+            this.label63.Location = new System.Drawing.Point(606, 27);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(48, 20);
             this.label63.TabIndex = 20;
@@ -1285,7 +1396,7 @@
             this.labelBcr絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(597, 53);
+            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(598, 53);
             this.labelBcr絶縁1計測値.Name = "labelBcr絶縁1計測値";
             this.labelBcr絶縁1計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁1計測値.TabIndex = 38;
@@ -1297,7 +1408,7 @@
             this.labelBcr絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(597, 78);
+            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(598, 78);
             this.labelBcr絶縁2計測値.Name = "labelBcr絶縁2計測値";
             this.labelBcr絶縁2計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁2計測値.TabIndex = 39;
@@ -1342,7 +1453,7 @@
             this.labelBcr絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(597, 112);
+            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(598, 104);
             this.labelBcr絶縁3計測値.Name = "labelBcr絶縁3計測値";
             this.labelBcr絶縁3計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁3計測値.TabIndex = 40;
@@ -1376,7 +1487,7 @@
             this.labelBcr絶縁3Res.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3Res.AutoSize = true;
             this.labelBcr絶縁3Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Res.Location = new System.Drawing.Point(515, 112);
+            this.labelBcr絶縁3Res.Location = new System.Drawing.Point(515, 104);
             this.labelBcr絶縁3Res.Name = "labelBcr絶縁3Res";
             this.labelBcr絶縁3Res.Size = new System.Drawing.Size(73, 18);
             this.labelBcr絶縁3Res.TabIndex = 37;
@@ -1409,7 +1520,7 @@
             this.labelBcr絶縁3Time.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3Time.AutoSize = true;
             this.labelBcr絶縁3Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Time.Location = new System.Drawing.Point(454, 112);
+            this.labelBcr絶縁3Time.Location = new System.Drawing.Point(454, 104);
             this.labelBcr絶縁3Time.Name = "labelBcr絶縁3Time";
             this.labelBcr絶縁3Time.Size = new System.Drawing.Size(45, 18);
             this.labelBcr絶縁3Time.TabIndex = 31;
@@ -1452,7 +1563,7 @@
             this.labelBcr絶縁3Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3Volt.AutoSize = true;
             this.labelBcr絶縁3Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3Volt.Location = new System.Drawing.Point(381, 112);
+            this.labelBcr絶縁3Volt.Location = new System.Drawing.Point(381, 104);
             this.labelBcr絶縁3Volt.Name = "labelBcr絶縁3Volt";
             this.labelBcr絶縁3Volt.Size = new System.Drawing.Size(54, 18);
             this.labelBcr絶縁3Volt.TabIndex = 34;
@@ -1539,7 +1650,7 @@
             this.labelBcr絶縁3_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH6.AutoSize = true;
             this.labelBcr絶縁3_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH6.Location = new System.Drawing.Point(340, 109);
+            this.labelBcr絶縁3_CH6.Location = new System.Drawing.Point(340, 101);
             this.labelBcr絶縁3_CH6.Name = "labelBcr絶縁3_CH6";
             this.labelBcr絶縁3_CH6.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH6.TabIndex = 53;
@@ -1572,7 +1683,7 @@
             this.labelBcr絶縁3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH5.AutoSize = true;
             this.labelBcr絶縁3_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH5.Location = new System.Drawing.Point(293, 109);
+            this.labelBcr絶縁3_CH5.Location = new System.Drawing.Point(293, 101);
             this.labelBcr絶縁3_CH5.Name = "labelBcr絶縁3_CH5";
             this.labelBcr絶縁3_CH5.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH5.TabIndex = 43;
@@ -1649,7 +1760,7 @@
             this.labelBcr絶縁3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH3.AutoSize = true;
             this.labelBcr絶縁3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH3.Location = new System.Drawing.Point(184, 109);
+            this.labelBcr絶縁3_CH3.Location = new System.Drawing.Point(184, 101);
             this.labelBcr絶縁3_CH3.Name = "labelBcr絶縁3_CH3";
             this.labelBcr絶縁3_CH3.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH3.TabIndex = 58;
@@ -1660,7 +1771,7 @@
             this.labelBcr絶縁3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH2.AutoSize = true;
             this.labelBcr絶縁3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH2.Location = new System.Drawing.Point(128, 109);
+            this.labelBcr絶縁3_CH2.Location = new System.Drawing.Point(128, 101);
             this.labelBcr絶縁3_CH2.Name = "labelBcr絶縁3_CH2";
             this.labelBcr絶縁3_CH2.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH2.TabIndex = 25;
@@ -1671,7 +1782,7 @@
             this.labelBcr絶縁3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3_CH4.AutoSize = true;
             this.labelBcr絶縁3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3_CH4.Location = new System.Drawing.Point(241, 109);
+            this.labelBcr絶縁3_CH4.Location = new System.Drawing.Point(241, 101);
             this.labelBcr絶縁3_CH4.Name = "labelBcr絶縁3_CH4";
             this.labelBcr絶縁3_CH4.Size = new System.Drawing.Size(22, 24);
             this.labelBcr絶縁3_CH4.TabIndex = 44;
@@ -1683,7 +1794,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(493, 2);
+            this.label3.Location = new System.Drawing.Point(506, 5);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(160, 28);
             this.label3.TabIndex = 91;
@@ -1700,9 +1811,9 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(687, 326);
+            this.tabPage2.Size = new System.Drawing.Size(687, 341);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "AUR890";
+            this.tabPage2.Text = "Q890";
             // 
             // tableLayoutPanel2
             // 
@@ -1719,26 +1830,26 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.Controls.Add(this.label49, 4, 1);
             this.tableLayoutPanel2.Controls.Add(this.label48, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1_CH1, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1計測値, 8, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1Res, 7, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1Time, 6, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1_CH1, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1計測値, 8, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1Res, 7, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1Time, 6, 2);
             this.tableLayoutPanel2.Controls.Add(this.label30, 8, 1);
             this.tableLayoutPanel2.Controls.Add(this.label21, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label14, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.label33, 7, 1);
             this.tableLayoutPanel2.Controls.Add(this.label35, 6, 1);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1_CH4, 4, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1_CH4, 4, 2);
             this.tableLayoutPanel2.Controls.Add(this.label41, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label34, 5, 1);
             this.tableLayoutPanel2.Controls.Add(this.label45, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.label46, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label47, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.label15, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1Volt, 5, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1_CH2, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1_CH3, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.labelAur絶縁1ステップ, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1Volt, 5, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1_CH2, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1_CH3, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.labelQ890絶縁1ステップ, 0, 2);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(8, 153);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -1771,50 +1882,50 @@
             this.label48.TabIndex = 45;
             this.label48.Text = "未使用";
             // 
-            // labelAur絶縁1_CH1
+            // labelQ890絶縁1_CH1
             // 
-            this.labelAur絶縁1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1_CH1.AutoSize = true;
-            this.labelAur絶縁1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1_CH1.Location = new System.Drawing.Point(84, 51);
-            this.labelAur絶縁1_CH1.Name = "labelAur絶縁1_CH1";
-            this.labelAur絶縁1_CH1.Size = new System.Drawing.Size(22, 24);
-            this.labelAur絶縁1_CH1.TabIndex = 13;
-            this.labelAur絶縁1_CH1.Text = "H";
+            this.labelQ890絶縁1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1_CH1.AutoSize = true;
+            this.labelQ890絶縁1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1_CH1.Location = new System.Drawing.Point(84, 51);
+            this.labelQ890絶縁1_CH1.Name = "labelQ890絶縁1_CH1";
+            this.labelQ890絶縁1_CH1.Size = new System.Drawing.Size(22, 24);
+            this.labelQ890絶縁1_CH1.TabIndex = 13;
+            this.labelQ890絶縁1_CH1.Text = "H";
             // 
-            // labelAur絶縁1計測値
+            // labelQ890絶縁1計測値
             // 
-            this.labelAur絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelAur絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1計測値.Location = new System.Drawing.Point(572, 54);
-            this.labelAur絶縁1計測値.Name = "labelAur絶縁1計測値";
-            this.labelAur絶縁1計測値.Size = new System.Drawing.Size(64, 18);
-            this.labelAur絶縁1計測値.TabIndex = 38;
-            this.labelAur絶縁1計測値.Text = "*.**GΩ";
-            this.labelAur絶縁1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelQ890絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelQ890絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1計測値.Location = new System.Drawing.Point(572, 54);
+            this.labelQ890絶縁1計測値.Name = "labelQ890絶縁1計測値";
+            this.labelQ890絶縁1計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelQ890絶縁1計測値.TabIndex = 38;
+            this.labelQ890絶縁1計測値.Text = "*.**GΩ";
+            this.labelQ890絶縁1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelAur絶縁1Res
+            // labelQ890絶縁1Res
             // 
-            this.labelAur絶縁1Res.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1Res.AutoSize = true;
-            this.labelAur絶縁1Res.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1Res.Location = new System.Drawing.Point(470, 51);
-            this.labelAur絶縁1Res.Name = "labelAur絶縁1Res";
-            this.labelAur絶縁1Res.Size = new System.Drawing.Size(91, 23);
-            this.labelAur絶縁1Res.TabIndex = 35;
-            this.labelAur絶縁1Res.Text = "***MΩ以上";
+            this.labelQ890絶縁1Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1Res.AutoSize = true;
+            this.labelQ890絶縁1Res.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1Res.Location = new System.Drawing.Point(470, 51);
+            this.labelQ890絶縁1Res.Name = "labelQ890絶縁1Res";
+            this.labelQ890絶縁1Res.Size = new System.Drawing.Size(91, 23);
+            this.labelQ890絶縁1Res.TabIndex = 35;
+            this.labelQ890絶縁1Res.Text = "***MΩ以上";
             // 
-            // labelAur絶縁1Time
+            // labelQ890絶縁1Time
             // 
-            this.labelAur絶縁1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1Time.AutoSize = true;
-            this.labelAur絶縁1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1Time.Location = new System.Drawing.Point(399, 51);
-            this.labelAur絶縁1Time.Name = "labelAur絶縁1Time";
-            this.labelAur絶縁1Time.Size = new System.Drawing.Size(57, 23);
-            this.labelAur絶縁1Time.TabIndex = 18;
-            this.labelAur絶縁1Time.Text = "*.*sec";
+            this.labelQ890絶縁1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1Time.AutoSize = true;
+            this.labelQ890絶縁1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1Time.Location = new System.Drawing.Point(399, 51);
+            this.labelQ890絶縁1Time.Name = "labelQ890絶縁1Time";
+            this.labelQ890絶縁1Time.Size = new System.Drawing.Size(57, 23);
+            this.labelQ890絶縁1Time.TabIndex = 18;
+            this.labelQ890絶縁1Time.Text = "*.*sec";
             // 
             // label30
             // 
@@ -1871,16 +1982,16 @@
             this.label35.TabIndex = 8;
             this.label35.Text = "印加電圧";
             // 
-            // labelAur絶縁1_CH4
+            // labelQ890絶縁1_CH4
             // 
-            this.labelAur絶縁1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1_CH4.AutoSize = true;
-            this.labelAur絶縁1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1_CH4.Location = new System.Drawing.Point(270, 51);
-            this.labelAur絶縁1_CH4.Name = "labelAur絶縁1_CH4";
-            this.labelAur絶縁1_CH4.Size = new System.Drawing.Size(22, 24);
-            this.labelAur絶縁1_CH4.TabIndex = 40;
-            this.labelAur絶縁1_CH4.Text = "H";
+            this.labelQ890絶縁1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1_CH4.AutoSize = true;
+            this.labelQ890絶縁1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1_CH4.Location = new System.Drawing.Point(270, 51);
+            this.labelQ890絶縁1_CH4.Name = "labelQ890絶縁1_CH4";
+            this.labelQ890絶縁1_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelQ890絶縁1_CH4.TabIndex = 40;
+            this.labelQ890絶縁1_CH4.Text = "H";
             // 
             // label41
             // 
@@ -1948,49 +2059,49 @@
             this.label15.TabIndex = 0;
             this.label15.Text = "ｽﾃｯﾌﾟ";
             // 
-            // labelAur絶縁1Volt
+            // labelQ890絶縁1Volt
             // 
-            this.labelAur絶縁1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1Volt.AutoSize = true;
-            this.labelAur絶縁1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1Volt.Location = new System.Drawing.Point(317, 51);
-            this.labelAur絶縁1Volt.Name = "labelAur絶縁1Volt";
-            this.labelAur絶縁1Volt.Size = new System.Drawing.Size(68, 23);
-            this.labelAur絶縁1Volt.TabIndex = 32;
-            this.labelAur絶縁1Volt.Text = "DC***V";
+            this.labelQ890絶縁1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1Volt.AutoSize = true;
+            this.labelQ890絶縁1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1Volt.Location = new System.Drawing.Point(317, 51);
+            this.labelQ890絶縁1Volt.Name = "labelQ890絶縁1Volt";
+            this.labelQ890絶縁1Volt.Size = new System.Drawing.Size(68, 23);
+            this.labelQ890絶縁1Volt.TabIndex = 32;
+            this.labelQ890絶縁1Volt.Text = "DC***V";
             // 
-            // labelAur絶縁1_CH2
+            // labelQ890絶縁1_CH2
             // 
-            this.labelAur絶縁1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1_CH2.AutoSize = true;
-            this.labelAur絶縁1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1_CH2.Location = new System.Drawing.Point(146, 51);
-            this.labelAur絶縁1_CH2.Name = "labelAur絶縁1_CH2";
-            this.labelAur絶縁1_CH2.Size = new System.Drawing.Size(22, 24);
-            this.labelAur絶縁1_CH2.TabIndex = 14;
-            this.labelAur絶縁1_CH2.Text = "H";
+            this.labelQ890絶縁1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1_CH2.AutoSize = true;
+            this.labelQ890絶縁1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1_CH2.Location = new System.Drawing.Point(146, 51);
+            this.labelQ890絶縁1_CH2.Name = "labelQ890絶縁1_CH2";
+            this.labelQ890絶縁1_CH2.Size = new System.Drawing.Size(22, 24);
+            this.labelQ890絶縁1_CH2.TabIndex = 14;
+            this.labelQ890絶縁1_CH2.Text = "H";
             // 
-            // labelAur絶縁1_CH3
+            // labelQ890絶縁1_CH3
             // 
-            this.labelAur絶縁1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1_CH3.AutoSize = true;
-            this.labelAur絶縁1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1_CH3.Location = new System.Drawing.Point(208, 51);
-            this.labelAur絶縁1_CH3.Name = "labelAur絶縁1_CH3";
-            this.labelAur絶縁1_CH3.Size = new System.Drawing.Size(22, 24);
-            this.labelAur絶縁1_CH3.TabIndex = 41;
-            this.labelAur絶縁1_CH3.Text = "H";
+            this.labelQ890絶縁1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1_CH3.AutoSize = true;
+            this.labelQ890絶縁1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1_CH3.Location = new System.Drawing.Point(208, 51);
+            this.labelQ890絶縁1_CH3.Name = "labelQ890絶縁1_CH3";
+            this.labelQ890絶縁1_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelQ890絶縁1_CH3.TabIndex = 41;
+            this.labelQ890絶縁1_CH3.Text = "H";
             // 
-            // labelAur絶縁1ステップ
+            // labelQ890絶縁1ステップ
             // 
-            this.labelAur絶縁1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur絶縁1ステップ.AutoSize = true;
-            this.labelAur絶縁1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur絶縁1ステップ.Location = new System.Drawing.Point(4, 51);
-            this.labelAur絶縁1ステップ.Name = "labelAur絶縁1ステップ";
-            this.labelAur絶縁1ステップ.Size = new System.Drawing.Size(57, 23);
-            this.labelAur絶縁1ステップ.TabIndex = 1;
-            this.labelAur絶縁1ステップ.Text = "STEP1";
+            this.labelQ890絶縁1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890絶縁1ステップ.AutoSize = true;
+            this.labelQ890絶縁1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890絶縁1ステップ.Location = new System.Drawing.Point(4, 51);
+            this.labelQ890絶縁1ステップ.Name = "labelQ890絶縁1ステップ";
+            this.labelQ890絶縁1ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelQ890絶縁1ステップ.TabIndex = 1;
+            this.labelQ890絶縁1ステップ.Text = "STEP1";
             // 
             // label58
             // 
@@ -2026,15 +2137,15 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel4.Controls.Add(this.label29, 1, 0);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1_CH2, 2, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1_CH2, 2, 2);
             this.tableLayoutPanel4.Controls.Add(this.label68, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.label70, 1, 1);
             this.tableLayoutPanel4.Controls.Add(this.label67, 2, 1);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1計測値, 8, 2);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1Amp, 7, 2);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1Time, 6, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1計測値, 8, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1Amp, 7, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1Time, 6, 2);
             this.tableLayoutPanel4.Controls.Add(this.label73, 8, 1);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1Volt, 5, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1Volt, 5, 2);
             this.tableLayoutPanel4.Controls.Add(this.label75, 7, 1);
             this.tableLayoutPanel4.Controls.Add(this.label76, 6, 1);
             this.tableLayoutPanel4.Controls.Add(this.label31, 2, 0);
@@ -2043,10 +2154,10 @@
             this.tableLayoutPanel4.Controls.Add(this.label38, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.label39, 3, 1);
             this.tableLayoutPanel4.Controls.Add(this.label40, 4, 1);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1_CH1, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1_CH4, 4, 2);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1ステップ, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.labelAur耐圧1_CH3, 3, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1_CH1, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1_CH4, 4, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1ステップ, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.labelQ890耐圧1_CH3, 3, 2);
             this.tableLayoutPanel4.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tableLayoutPanel4.Location = new System.Drawing.Point(8, 45);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -2069,16 +2180,16 @@
             this.label29.TabIndex = 24;
             this.label29.Text = "CH1";
             // 
-            // labelAur耐圧1_CH2
+            // labelQ890耐圧1_CH2
             // 
-            this.labelAur耐圧1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1_CH2.AutoSize = true;
-            this.labelAur耐圧1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1_CH2.Location = new System.Drawing.Point(146, 50);
-            this.labelAur耐圧1_CH2.Name = "labelAur耐圧1_CH2";
-            this.labelAur耐圧1_CH2.Size = new System.Drawing.Size(22, 23);
-            this.labelAur耐圧1_CH2.TabIndex = 15;
-            this.labelAur耐圧1_CH2.Text = "H";
+            this.labelQ890耐圧1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1_CH2.AutoSize = true;
+            this.labelQ890耐圧1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1_CH2.Location = new System.Drawing.Point(146, 50);
+            this.labelQ890耐圧1_CH2.Name = "labelQ890耐圧1_CH2";
+            this.labelQ890耐圧1_CH2.Size = new System.Drawing.Size(22, 23);
+            this.labelQ890耐圧1_CH2.TabIndex = 15;
+            this.labelQ890耐圧1_CH2.Text = "H";
             // 
             // label68
             // 
@@ -2113,39 +2224,39 @@
             this.label67.TabIndex = 5;
             this.label67.Text = "アース";
             // 
-            // labelAur耐圧1計測値
+            // labelQ890耐圧1計測値
             // 
-            this.labelAur耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.labelAur耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1計測値.Location = new System.Drawing.Point(573, 52);
-            this.labelAur耐圧1計測値.Name = "labelAur耐圧1計測値";
-            this.labelAur耐圧1計測値.Size = new System.Drawing.Size(59, 18);
-            this.labelAur耐圧1計測値.TabIndex = 21;
-            this.labelAur耐圧1計測値.Text = "*.**mA";
-            this.labelAur耐圧1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelQ890耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelQ890耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1計測値.Location = new System.Drawing.Point(573, 52);
+            this.labelQ890耐圧1計測値.Name = "labelQ890耐圧1計測値";
+            this.labelQ890耐圧1計測値.Size = new System.Drawing.Size(59, 18);
+            this.labelQ890耐圧1計測値.TabIndex = 21;
+            this.labelQ890耐圧1計測値.Text = "*.**mA";
+            this.labelQ890耐圧1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelAur耐圧1Amp
+            // labelQ890耐圧1Amp
             // 
-            this.labelAur耐圧1Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1Amp.AutoSize = true;
-            this.labelAur耐圧1Amp.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1Amp.Location = new System.Drawing.Point(476, 50);
-            this.labelAur耐圧1Amp.Name = "labelAur耐圧1Amp";
-            this.labelAur耐圧1Amp.Size = new System.Drawing.Size(82, 23);
-            this.labelAur耐圧1Amp.TabIndex = 12;
-            this.labelAur耐圧1Amp.Text = "**mA以下";
+            this.labelQ890耐圧1Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1Amp.AutoSize = true;
+            this.labelQ890耐圧1Amp.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1Amp.Location = new System.Drawing.Point(476, 50);
+            this.labelQ890耐圧1Amp.Name = "labelQ890耐圧1Amp";
+            this.labelQ890耐圧1Amp.Size = new System.Drawing.Size(82, 23);
+            this.labelQ890耐圧1Amp.TabIndex = 12;
+            this.labelQ890耐圧1Amp.Text = "**mA以下";
             // 
-            // labelAur耐圧1Time
+            // labelQ890耐圧1Time
             // 
-            this.labelAur耐圧1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1Time.AutoSize = true;
-            this.labelAur耐圧1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1Time.Location = new System.Drawing.Point(405, 50);
-            this.labelAur耐圧1Time.Name = "labelAur耐圧1Time";
-            this.labelAur耐圧1Time.Size = new System.Drawing.Size(57, 23);
-            this.labelAur耐圧1Time.TabIndex = 18;
-            this.labelAur耐圧1Time.Text = "*.*sec";
+            this.labelQ890耐圧1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1Time.AutoSize = true;
+            this.labelQ890耐圧1Time.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1Time.Location = new System.Drawing.Point(405, 50);
+            this.labelQ890耐圧1Time.Name = "labelQ890耐圧1Time";
+            this.labelQ890耐圧1Time.Size = new System.Drawing.Size(57, 23);
+            this.labelQ890耐圧1Time.TabIndex = 18;
+            this.labelQ890耐圧1Time.Text = "*.*sec";
             // 
             // label73
             // 
@@ -2158,16 +2269,16 @@
             this.label73.TabIndex = 20;
             this.label73.Text = "計測値";
             // 
-            // labelAur耐圧1Volt
+            // labelQ890耐圧1Volt
             // 
-            this.labelAur耐圧1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1Volt.AutoSize = true;
-            this.labelAur耐圧1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1Volt.Location = new System.Drawing.Point(316, 50);
-            this.labelAur耐圧1Volt.Name = "labelAur耐圧1Volt";
-            this.labelAur耐圧1Volt.Size = new System.Drawing.Size(76, 23);
-            this.labelAur耐圧1Volt.TabIndex = 11;
-            this.labelAur耐圧1Volt.Text = "AC****V";
+            this.labelQ890耐圧1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1Volt.AutoSize = true;
+            this.labelQ890耐圧1Volt.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1Volt.Location = new System.Drawing.Point(316, 50);
+            this.labelQ890耐圧1Volt.Name = "labelQ890耐圧1Volt";
+            this.labelQ890耐圧1Volt.Size = new System.Drawing.Size(76, 23);
+            this.labelQ890耐圧1Volt.TabIndex = 11;
+            this.labelQ890耐圧1Volt.Text = "AC****V";
             // 
             // label75
             // 
@@ -2257,49 +2368,49 @@
             this.label40.TabIndex = 29;
             this.label40.Text = "未使用";
             // 
-            // labelAur耐圧1_CH1
+            // labelQ890耐圧1_CH1
             // 
-            this.labelAur耐圧1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1_CH1.AutoSize = true;
-            this.labelAur耐圧1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1_CH1.Location = new System.Drawing.Point(84, 50);
-            this.labelAur耐圧1_CH1.Name = "labelAur耐圧1_CH1";
-            this.labelAur耐圧1_CH1.Size = new System.Drawing.Size(22, 23);
-            this.labelAur耐圧1_CH1.TabIndex = 13;
-            this.labelAur耐圧1_CH1.Text = "H";
+            this.labelQ890耐圧1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1_CH1.AutoSize = true;
+            this.labelQ890耐圧1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1_CH1.Location = new System.Drawing.Point(84, 50);
+            this.labelQ890耐圧1_CH1.Name = "labelQ890耐圧1_CH1";
+            this.labelQ890耐圧1_CH1.Size = new System.Drawing.Size(22, 23);
+            this.labelQ890耐圧1_CH1.TabIndex = 13;
+            this.labelQ890耐圧1_CH1.Text = "H";
             // 
-            // labelAur耐圧1_CH4
+            // labelQ890耐圧1_CH4
             // 
-            this.labelAur耐圧1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1_CH4.AutoSize = true;
-            this.labelAur耐圧1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1_CH4.Location = new System.Drawing.Point(270, 50);
-            this.labelAur耐圧1_CH4.Name = "labelAur耐圧1_CH4";
-            this.labelAur耐圧1_CH4.Size = new System.Drawing.Size(22, 23);
-            this.labelAur耐圧1_CH4.TabIndex = 22;
-            this.labelAur耐圧1_CH4.Text = "H";
+            this.labelQ890耐圧1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1_CH4.AutoSize = true;
+            this.labelQ890耐圧1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1_CH4.Location = new System.Drawing.Point(270, 50);
+            this.labelQ890耐圧1_CH4.Name = "labelQ890耐圧1_CH4";
+            this.labelQ890耐圧1_CH4.Size = new System.Drawing.Size(22, 23);
+            this.labelQ890耐圧1_CH4.TabIndex = 22;
+            this.labelQ890耐圧1_CH4.Text = "H";
             // 
-            // labelAur耐圧1ステップ
+            // labelQ890耐圧1ステップ
             // 
-            this.labelAur耐圧1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1ステップ.AutoSize = true;
-            this.labelAur耐圧1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1ステップ.Location = new System.Drawing.Point(4, 50);
-            this.labelAur耐圧1ステップ.Name = "labelAur耐圧1ステップ";
-            this.labelAur耐圧1ステップ.Size = new System.Drawing.Size(57, 23);
-            this.labelAur耐圧1ステップ.TabIndex = 1;
-            this.labelAur耐圧1ステップ.Text = "STEP1";
+            this.labelQ890耐圧1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1ステップ.AutoSize = true;
+            this.labelQ890耐圧1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1ステップ.Location = new System.Drawing.Point(4, 50);
+            this.labelQ890耐圧1ステップ.Name = "labelQ890耐圧1ステップ";
+            this.labelQ890耐圧1ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelQ890耐圧1ステップ.TabIndex = 1;
+            this.labelQ890耐圧1ステップ.Text = "STEP1";
             // 
-            // labelAur耐圧1_CH3
+            // labelQ890耐圧1_CH3
             // 
-            this.labelAur耐圧1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelAur耐圧1_CH3.AutoSize = true;
-            this.labelAur耐圧1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelAur耐圧1_CH3.Location = new System.Drawing.Point(208, 50);
-            this.labelAur耐圧1_CH3.Name = "labelAur耐圧1_CH3";
-            this.labelAur耐圧1_CH3.Size = new System.Drawing.Size(22, 23);
-            this.labelAur耐圧1_CH3.TabIndex = 23;
-            this.labelAur耐圧1_CH3.Text = "H";
+            this.labelQ890耐圧1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelQ890耐圧1_CH3.AutoSize = true;
+            this.labelQ890耐圧1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelQ890耐圧1_CH3.Location = new System.Drawing.Point(208, 50);
+            this.labelQ890耐圧1_CH3.Name = "labelQ890耐圧1_CH3";
+            this.labelQ890耐圧1_CH3.Size = new System.Drawing.Size(22, 23);
+            this.labelQ890耐圧1_CH3.TabIndex = 23;
+            this.labelQ890耐圧1_CH3.Text = "H";
             // 
             // label82
             // 
@@ -2307,11 +2418,1318 @@
             this.label82.BackColor = System.Drawing.Color.Transparent;
             this.label82.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label82.ForeColor = System.Drawing.Color.Black;
-            this.label82.Location = new System.Drawing.Point(464, 8);
+            this.label82.Location = new System.Drawing.Point(463, 11);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(189, 28);
             this.label82.TabIndex = 97;
             this.label82.Text = "AUR890 検査データ";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Cornsilk;
+            this.tabPage3.Controls.Add(this.tableLayoutPanel6);
+            this.tabPage3.Controls.Add(this.label162);
+            this.tabPage3.Controls.Add(this.label57);
+            this.tabPage3.Controls.Add(this.tableLayoutPanel5);
+            this.tabPage3.Controls.Add(this.label111);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(687, 341);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "AUR455/355";
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel6.ColumnCount = 11;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3ステップ, 0, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2ステップ, 0, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1ステップ, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH1, 1, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH1, 1, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH2, 2, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH2, 2, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH1, 1, 2);
+            this.tableLayoutPanel6.Controls.Add(this.label120, 0, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label121, 2, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label122, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label123, 1, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label124, 2, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label125, 10, 1);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1計測値, 10, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2計測値, 10, 3);
+            this.tableLayoutPanel6.Controls.Add(this.label128, 9, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label129, 8, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label130, 7, 1);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3計測値, 10, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1Res, 9, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2Res, 9, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3Res, 9, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1Time, 8, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2Time, 8, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3Time, 8, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1Volt, 7, 2);
+            this.tableLayoutPanel6.Controls.Add(this.label139, 6, 0);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2Volt, 7, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3Volt, 7, 4);
+            this.tableLayoutPanel6.Controls.Add(this.label142, 5, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label143, 4, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label144, 6, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label145, 5, 1);
+            this.tableLayoutPanel6.Controls.Add(this.label146, 4, 1);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH6, 6, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH6, 6, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH6, 6, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH5, 5, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH5, 5, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH5, 5, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH4, 4, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH4, 4, 3);
+            this.tableLayoutPanel6.Controls.Add(this.label155, 3, 0);
+            this.tableLayoutPanel6.Controls.Add(this.label156, 3, 1);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1_CH3, 3, 2);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2_CH3, 3, 3);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH3, 3, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH2, 1, 4);
+            this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3_CH4, 4, 4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(8, 207);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 5;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(667, 125);
+            this.tableLayoutPanel6.TabIndex = 96;
+            // 
+            // labelNewAur絶縁3ステップ
+            // 
+            this.labelNewAur絶縁3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3ステップ.AutoSize = true;
+            this.labelNewAur絶縁3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3ステップ.Location = new System.Drawing.Point(4, 100);
+            this.labelNewAur絶縁3ステップ.Name = "labelNewAur絶縁3ステップ";
+            this.labelNewAur絶縁3ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelNewAur絶縁3ステップ.TabIndex = 3;
+            this.labelNewAur絶縁3ステップ.Text = "STEP3";
+            // 
+            // labelNewAur絶縁2ステップ
+            // 
+            this.labelNewAur絶縁2ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2ステップ.AutoSize = true;
+            this.labelNewAur絶縁2ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2ステップ.Location = new System.Drawing.Point(4, 75);
+            this.labelNewAur絶縁2ステップ.Name = "labelNewAur絶縁2ステップ";
+            this.labelNewAur絶縁2ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelNewAur絶縁2ステップ.TabIndex = 2;
+            this.labelNewAur絶縁2ステップ.Text = "STEP2";
+            // 
+            // labelNewAur絶縁1ステップ
+            // 
+            this.labelNewAur絶縁1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1ステップ.AutoSize = true;
+            this.labelNewAur絶縁1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1ステップ.Location = new System.Drawing.Point(4, 50);
+            this.labelNewAur絶縁1ステップ.Name = "labelNewAur絶縁1ステップ";
+            this.labelNewAur絶縁1ステップ.Size = new System.Drawing.Size(57, 23);
+            this.labelNewAur絶縁1ステップ.TabIndex = 1;
+            this.labelNewAur絶縁1ステップ.Text = "STEP1";
+            // 
+            // labelNewAur絶縁3_CH1
+            // 
+            this.labelNewAur絶縁3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH1.AutoSize = true;
+            this.labelNewAur絶縁3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH1.Location = new System.Drawing.Point(77, 100);
+            this.labelNewAur絶縁3_CH1.Name = "labelNewAur絶縁3_CH1";
+            this.labelNewAur絶縁3_CH1.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH1.TabIndex = 26;
+            this.labelNewAur絶縁3_CH1.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH1
+            // 
+            this.labelNewAur絶縁2_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH1.AutoSize = true;
+            this.labelNewAur絶縁2_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH1.Location = new System.Drawing.Point(77, 75);
+            this.labelNewAur絶縁2_CH1.Name = "labelNewAur絶縁2_CH1";
+            this.labelNewAur絶縁2_CH1.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH1.TabIndex = 17;
+            this.labelNewAur絶縁2_CH1.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH2
+            // 
+            this.labelNewAur絶縁2_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH2.AutoSize = true;
+            this.labelNewAur絶縁2_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH2.Location = new System.Drawing.Point(124, 75);
+            this.labelNewAur絶縁2_CH2.Name = "labelNewAur絶縁2_CH2";
+            this.labelNewAur絶縁2_CH2.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH2.TabIndex = 19;
+            this.labelNewAur絶縁2_CH2.Text = "H";
+            // 
+            // labelNewAur絶縁1_CH2
+            // 
+            this.labelNewAur絶縁1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH2.AutoSize = true;
+            this.labelNewAur絶縁1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH2.Location = new System.Drawing.Point(124, 50);
+            this.labelNewAur絶縁1_CH2.Name = "labelNewAur絶縁1_CH2";
+            this.labelNewAur絶縁1_CH2.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH2.TabIndex = 14;
+            this.labelNewAur絶縁1_CH2.Text = "H";
+            // 
+            // labelNewAur絶縁1_CH1
+            // 
+            this.labelNewAur絶縁1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH1.AutoSize = true;
+            this.labelNewAur絶縁1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH1.Location = new System.Drawing.Point(77, 50);
+            this.labelNewAur絶縁1_CH1.Name = "labelNewAur絶縁1_CH1";
+            this.labelNewAur絶縁1_CH1.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH1.TabIndex = 13;
+            this.labelNewAur絶縁1_CH1.Text = "H";
+            // 
+            // label120
+            // 
+            this.label120.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label120.AutoSize = true;
+            this.label120.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label120.Location = new System.Drawing.Point(7, 25);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(50, 24);
+            this.label120.TabIndex = 0;
+            this.label120.Text = "ｽﾃｯﾌﾟ";
+            // 
+            // label121
+            // 
+            this.label121.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label121.AutoSize = true;
+            this.label121.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label121.Location = new System.Drawing.Point(115, 25);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(40, 23);
+            this.label121.TabIndex = 5;
+            this.label121.Text = "二次";
+            // 
+            // label122
+            // 
+            this.label122.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label122.AutoSize = true;
+            this.label122.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label122.Location = new System.Drawing.Point(68, 25);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(40, 23);
+            this.label122.TabIndex = 45;
+            this.label122.Text = "一次";
+            // 
+            // label123
+            // 
+            this.label123.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label123.AutoSize = true;
+            this.label123.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label123.Location = new System.Drawing.Point(68, 1);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(40, 23);
+            this.label123.TabIndex = 4;
+            this.label123.Text = "CH1";
+            // 
+            // label124
+            // 
+            this.label124.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label124.AutoSize = true;
+            this.label124.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label124.Location = new System.Drawing.Point(115, 1);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(40, 23);
+            this.label124.TabIndex = 46;
+            this.label124.Text = "CH2";
+            // 
+            // label125
+            // 
+            this.label125.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label125.AutoSize = true;
+            this.label125.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label125.Location = new System.Drawing.Point(597, 27);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(48, 20);
+            this.label125.TabIndex = 20;
+            this.label125.Text = "計測値";
+            // 
+            // labelNewAur絶縁1計測値
+            // 
+            this.labelNewAur絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1計測値.Location = new System.Drawing.Point(589, 53);
+            this.labelNewAur絶縁1計測値.Name = "labelNewAur絶縁1計測値";
+            this.labelNewAur絶縁1計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelNewAur絶縁1計測値.TabIndex = 38;
+            this.labelNewAur絶縁1計測値.Text = "*.**GΩ";
+            this.labelNewAur絶縁1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelNewAur絶縁2計測値
+            // 
+            this.labelNewAur絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2計測値.Location = new System.Drawing.Point(589, 78);
+            this.labelNewAur絶縁2計測値.Name = "labelNewAur絶縁2計測値";
+            this.labelNewAur絶縁2計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelNewAur絶縁2計測値.TabIndex = 39;
+            this.labelNewAur絶縁2計測値.Text = "*.**GΩ";
+            this.labelNewAur絶縁2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label128
+            // 
+            this.label128.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label128.AutoSize = true;
+            this.label128.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label128.Location = new System.Drawing.Point(505, 27);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(61, 20);
+            this.label128.TabIndex = 9;
+            this.label128.Text = "絶縁抵抗\r\n";
+            // 
+            // label129
+            // 
+            this.label129.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label129.AutoSize = true;
+            this.label129.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label129.Location = new System.Drawing.Point(430, 27);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(61, 20);
+            this.label129.TabIndex = 10;
+            this.label129.Text = "印加時間";
+            // 
+            // label130
+            // 
+            this.label130.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label130.AutoSize = true;
+            this.label130.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label130.Location = new System.Drawing.Point(362, 27);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(61, 20);
+            this.label130.TabIndex = 8;
+            this.label130.Text = "印加電圧";
+            // 
+            // labelNewAur絶縁3計測値
+            // 
+            this.labelNewAur絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3計測値.Location = new System.Drawing.Point(589, 103);
+            this.labelNewAur絶縁3計測値.Name = "labelNewAur絶縁3計測値";
+            this.labelNewAur絶縁3計測値.Size = new System.Drawing.Size(64, 18);
+            this.labelNewAur絶縁3計測値.TabIndex = 40;
+            this.labelNewAur絶縁3計測値.Text = "*.**GΩ";
+            this.labelNewAur絶縁3計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelNewAur絶縁1Res
+            // 
+            this.labelNewAur絶縁1Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1Res.AutoSize = true;
+            this.labelNewAur絶縁1Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1Res.Location = new System.Drawing.Point(499, 53);
+            this.labelNewAur絶縁1Res.Name = "labelNewAur絶縁1Res";
+            this.labelNewAur絶縁1Res.Size = new System.Drawing.Size(73, 18);
+            this.labelNewAur絶縁1Res.TabIndex = 35;
+            this.labelNewAur絶縁1Res.Text = "***MΩ以上";
+            // 
+            // labelNewAur絶縁2Res
+            // 
+            this.labelNewAur絶縁2Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2Res.AutoSize = true;
+            this.labelNewAur絶縁2Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2Res.Location = new System.Drawing.Point(499, 78);
+            this.labelNewAur絶縁2Res.Name = "labelNewAur絶縁2Res";
+            this.labelNewAur絶縁2Res.Size = new System.Drawing.Size(73, 18);
+            this.labelNewAur絶縁2Res.TabIndex = 36;
+            this.labelNewAur絶縁2Res.Text = "***MΩ以上";
+            // 
+            // labelNewAur絶縁3Res
+            // 
+            this.labelNewAur絶縁3Res.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3Res.AutoSize = true;
+            this.labelNewAur絶縁3Res.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3Res.Location = new System.Drawing.Point(499, 103);
+            this.labelNewAur絶縁3Res.Name = "labelNewAur絶縁3Res";
+            this.labelNewAur絶縁3Res.Size = new System.Drawing.Size(73, 18);
+            this.labelNewAur絶縁3Res.TabIndex = 37;
+            this.labelNewAur絶縁3Res.Text = "***MΩ以上";
+            // 
+            // labelNewAur絶縁1Time
+            // 
+            this.labelNewAur絶縁1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1Time.AutoSize = true;
+            this.labelNewAur絶縁1Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1Time.Location = new System.Drawing.Point(438, 53);
+            this.labelNewAur絶縁1Time.Name = "labelNewAur絶縁1Time";
+            this.labelNewAur絶縁1Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur絶縁1Time.TabIndex = 18;
+            this.labelNewAur絶縁1Time.Text = "*.*sec";
+            // 
+            // labelNewAur絶縁2Time
+            // 
+            this.labelNewAur絶縁2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2Time.AutoSize = true;
+            this.labelNewAur絶縁2Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2Time.Location = new System.Drawing.Point(438, 78);
+            this.labelNewAur絶縁2Time.Name = "labelNewAur絶縁2Time";
+            this.labelNewAur絶縁2Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur絶縁2Time.TabIndex = 24;
+            this.labelNewAur絶縁2Time.Text = "*.*sec";
+            // 
+            // labelNewAur絶縁3Time
+            // 
+            this.labelNewAur絶縁3Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3Time.AutoSize = true;
+            this.labelNewAur絶縁3Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3Time.Location = new System.Drawing.Point(438, 103);
+            this.labelNewAur絶縁3Time.Name = "labelNewAur絶縁3Time";
+            this.labelNewAur絶縁3Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur絶縁3Time.TabIndex = 31;
+            this.labelNewAur絶縁3Time.Text = "*.*sec";
+            // 
+            // labelNewAur絶縁1Volt
+            // 
+            this.labelNewAur絶縁1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1Volt.AutoSize = true;
+            this.labelNewAur絶縁1Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1Volt.Location = new System.Drawing.Point(365, 53);
+            this.labelNewAur絶縁1Volt.Name = "labelNewAur絶縁1Volt";
+            this.labelNewAur絶縁1Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelNewAur絶縁1Volt.TabIndex = 32;
+            this.labelNewAur絶縁1Volt.Text = "DC***V";
+            // 
+            // label139
+            // 
+            this.label139.AutoSize = true;
+            this.label139.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label139.Location = new System.Drawing.Point(315, 1);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(40, 23);
+            this.label139.TabIndex = 49;
+            this.label139.Text = "CH6";
+            // 
+            // labelNewAur絶縁2Volt
+            // 
+            this.labelNewAur絶縁2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2Volt.AutoSize = true;
+            this.labelNewAur絶縁2Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2Volt.Location = new System.Drawing.Point(365, 78);
+            this.labelNewAur絶縁2Volt.Name = "labelNewAur絶縁2Volt";
+            this.labelNewAur絶縁2Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelNewAur絶縁2Volt.TabIndex = 33;
+            this.labelNewAur絶縁2Volt.Text = "DC***V";
+            // 
+            // labelNewAur絶縁3Volt
+            // 
+            this.labelNewAur絶縁3Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3Volt.AutoSize = true;
+            this.labelNewAur絶縁3Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3Volt.Location = new System.Drawing.Point(365, 103);
+            this.labelNewAur絶縁3Volt.Name = "labelNewAur絶縁3Volt";
+            this.labelNewAur絶縁3Volt.Size = new System.Drawing.Size(54, 18);
+            this.labelNewAur絶縁3Volt.TabIndex = 34;
+            this.labelNewAur絶縁3Volt.Text = "DC***V";
+            // 
+            // label142
+            // 
+            this.label142.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label142.AutoSize = true;
+            this.label142.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label142.Location = new System.Drawing.Point(268, 1);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(40, 23);
+            this.label142.TabIndex = 48;
+            this.label142.Text = "CH5";
+            // 
+            // label143
+            // 
+            this.label143.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label143.AutoSize = true;
+            this.label143.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label143.Location = new System.Drawing.Point(216, 1);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(40, 23);
+            this.label143.TabIndex = 47;
+            this.label143.Text = "CH4";
+            // 
+            // label144
+            // 
+            this.label144.AutoSize = true;
+            this.label144.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label144.Location = new System.Drawing.Point(315, 25);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(34, 23);
+            this.label144.TabIndex = 50;
+            this.label144.Text = "ｱｰｽ";
+            // 
+            // label145
+            // 
+            this.label145.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label145.AutoSize = true;
+            this.label145.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label145.Location = new System.Drawing.Point(271, 25);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(34, 23);
+            this.label145.TabIndex = 41;
+            this.label145.Text = "ﾓﾆﾀ";
+            // 
+            // label146
+            // 
+            this.label146.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label146.AutoSize = true;
+            this.label146.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label146.Location = new System.Drawing.Point(211, 25);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(50, 23);
+            this.label146.TabIndex = 6;
+            this.label146.Text = "ﾀﾞﾝﾊﾟ";
+            // 
+            // labelNewAur絶縁1_CH6
+            // 
+            this.labelNewAur絶縁1_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH6.AutoSize = true;
+            this.labelNewAur絶縁1_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH6.Location = new System.Drawing.Point(324, 50);
+            this.labelNewAur絶縁1_CH6.Name = "labelNewAur絶縁1_CH6";
+            this.labelNewAur絶縁1_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH6.TabIndex = 51;
+            this.labelNewAur絶縁1_CH6.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH6
+            // 
+            this.labelNewAur絶縁2_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH6.AutoSize = true;
+            this.labelNewAur絶縁2_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH6.Location = new System.Drawing.Point(324, 75);
+            this.labelNewAur絶縁2_CH6.Name = "labelNewAur絶縁2_CH6";
+            this.labelNewAur絶縁2_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH6.TabIndex = 52;
+            this.labelNewAur絶縁2_CH6.Text = "H";
+            // 
+            // labelNewAur絶縁3_CH6
+            // 
+            this.labelNewAur絶縁3_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH6.AutoSize = true;
+            this.labelNewAur絶縁3_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH6.Location = new System.Drawing.Point(324, 100);
+            this.labelNewAur絶縁3_CH6.Name = "labelNewAur絶縁3_CH6";
+            this.labelNewAur絶縁3_CH6.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH6.TabIndex = 53;
+            this.labelNewAur絶縁3_CH6.Text = "H";
+            // 
+            // labelNewAur絶縁1_CH5
+            // 
+            this.labelNewAur絶縁1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH5.AutoSize = true;
+            this.labelNewAur絶縁1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH5.Location = new System.Drawing.Point(277, 50);
+            this.labelNewAur絶縁1_CH5.Name = "labelNewAur絶縁1_CH5";
+            this.labelNewAur絶縁1_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH5.TabIndex = 27;
+            this.labelNewAur絶縁1_CH5.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH5
+            // 
+            this.labelNewAur絶縁2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH5.AutoSize = true;
+            this.labelNewAur絶縁2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH5.Location = new System.Drawing.Point(277, 75);
+            this.labelNewAur絶縁2_CH5.Name = "labelNewAur絶縁2_CH5";
+            this.labelNewAur絶縁2_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH5.TabIndex = 42;
+            this.labelNewAur絶縁2_CH5.Text = "H";
+            // 
+            // labelNewAur絶縁3_CH5
+            // 
+            this.labelNewAur絶縁3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH5.AutoSize = true;
+            this.labelNewAur絶縁3_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH5.Location = new System.Drawing.Point(277, 100);
+            this.labelNewAur絶縁3_CH5.Name = "labelNewAur絶縁3_CH5";
+            this.labelNewAur絶縁3_CH5.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH5.TabIndex = 43;
+            this.labelNewAur絶縁3_CH5.Text = "H";
+            // 
+            // labelNewAur絶縁1_CH4
+            // 
+            this.labelNewAur絶縁1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH4.AutoSize = true;
+            this.labelNewAur絶縁1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH4.Location = new System.Drawing.Point(225, 50);
+            this.labelNewAur絶縁1_CH4.Name = "labelNewAur絶縁1_CH4";
+            this.labelNewAur絶縁1_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH4.TabIndex = 15;
+            this.labelNewAur絶縁1_CH4.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH4
+            // 
+            this.labelNewAur絶縁2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH4.AutoSize = true;
+            this.labelNewAur絶縁2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH4.Location = new System.Drawing.Point(225, 75);
+            this.labelNewAur絶縁2_CH4.Name = "labelNewAur絶縁2_CH4";
+            this.labelNewAur絶縁2_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH4.TabIndex = 20;
+            this.labelNewAur絶縁2_CH4.Text = "H";
+            // 
+            // label155
+            // 
+            this.label155.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label155.Location = new System.Drawing.Point(163, 1);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(40, 23);
+            this.label155.TabIndex = 54;
+            this.label155.Text = "CH3";
+            // 
+            // label156
+            // 
+            this.label156.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label156.Location = new System.Drawing.Point(162, 25);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(42, 23);
+            this.label156.TabIndex = 55;
+            this.label156.Text = "ﾌﾚｰﾑ";
+            // 
+            // labelNewAur絶縁1_CH3
+            // 
+            this.labelNewAur絶縁1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁1_CH3.AutoSize = true;
+            this.labelNewAur絶縁1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁1_CH3.Location = new System.Drawing.Point(172, 50);
+            this.labelNewAur絶縁1_CH3.Name = "labelNewAur絶縁1_CH3";
+            this.labelNewAur絶縁1_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁1_CH3.TabIndex = 56;
+            this.labelNewAur絶縁1_CH3.Text = "H";
+            // 
+            // labelNewAur絶縁2_CH3
+            // 
+            this.labelNewAur絶縁2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁2_CH3.AutoSize = true;
+            this.labelNewAur絶縁2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁2_CH3.Location = new System.Drawing.Point(172, 75);
+            this.labelNewAur絶縁2_CH3.Name = "labelNewAur絶縁2_CH3";
+            this.labelNewAur絶縁2_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁2_CH3.TabIndex = 57;
+            this.labelNewAur絶縁2_CH3.Text = "H";
+            // 
+            // labelNewAur絶縁3_CH3
+            // 
+            this.labelNewAur絶縁3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH3.AutoSize = true;
+            this.labelNewAur絶縁3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH3.Location = new System.Drawing.Point(172, 100);
+            this.labelNewAur絶縁3_CH3.Name = "labelNewAur絶縁3_CH3";
+            this.labelNewAur絶縁3_CH3.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH3.TabIndex = 58;
+            this.labelNewAur絶縁3_CH3.Text = "H";
+            // 
+            // labelNewAur絶縁3_CH2
+            // 
+            this.labelNewAur絶縁3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH2.AutoSize = true;
+            this.labelNewAur絶縁3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH2.Location = new System.Drawing.Point(124, 100);
+            this.labelNewAur絶縁3_CH2.Name = "labelNewAur絶縁3_CH2";
+            this.labelNewAur絶縁3_CH2.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH2.TabIndex = 25;
+            this.labelNewAur絶縁3_CH2.Text = "H";
+            // 
+            // labelNewAur絶縁3_CH4
+            // 
+            this.labelNewAur絶縁3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur絶縁3_CH4.AutoSize = true;
+            this.labelNewAur絶縁3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur絶縁3_CH4.Location = new System.Drawing.Point(225, 100);
+            this.labelNewAur絶縁3_CH4.Name = "labelNewAur絶縁3_CH4";
+            this.labelNewAur絶縁3_CH4.Size = new System.Drawing.Size(22, 24);
+            this.labelNewAur絶縁3_CH4.TabIndex = 44;
+            this.labelNewAur絶縁3_CH4.Text = "H";
+            // 
+            // label162
+            // 
+            this.label162.AutoSize = true;
+            this.label162.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label162.Location = new System.Drawing.Point(6, 176);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(126, 28);
+            this.label162.TabIndex = 95;
+            this.label162.Text = "絶縁抵抗試験";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label57.Location = new System.Drawing.Point(6, 12);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(107, 28);
+            this.label57.TabIndex = 92;
+            this.label57.Text = "耐電圧試験";
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel5.ColumnCount = 11;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH3, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH2, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH1, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH4, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1ステップ, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH1, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH2, 2, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label69, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label71, 2, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label72, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label74, 2, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label78, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2ステップ, 0, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label80, 10, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1計測値, 10, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label83, 9, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2計測値, 10, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1Amp, 9, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label86, 8, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2Amp, 9, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1Time, 8, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label89, 7, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2Time, 8, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1Volt, 7, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label92, 6, 0);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2Volt, 7, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label94, 6, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label95, 5, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label96, 4, 0);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH6, 6, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label98, 5, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label99, 4, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH6, 6, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH5, 5, 2);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH5, 5, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH4, 4, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label104, 3, 0);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH4, 4, 3);
+            this.tableLayoutPanel5.Controls.Add(this.label106, 3, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧1_CH3, 3, 2);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH3, 3, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH2, 2, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧2_CH1, 1, 3);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH5, 1, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH6, 3, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3ステップ, 0, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3Volt, 7, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3Time, 8, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3Amp, 9, 4);
+            this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3計測値, 10, 4);
+            this.tableLayoutPanel5.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(8, 43);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 5;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(658, 114);
+            this.tableLayoutPanel5.TabIndex = 93;
+            // 
+            // labelNewAur耐圧1ステップ
+            // 
+            this.labelNewAur耐圧1ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1ステップ.AutoSize = true;
+            this.labelNewAur耐圧1ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1ステップ.Location = new System.Drawing.Point(4, 50);
+            this.labelNewAur耐圧1ステップ.Name = "labelNewAur耐圧1ステップ";
+            this.labelNewAur耐圧1ステップ.Size = new System.Drawing.Size(57, 20);
+            this.labelNewAur耐圧1ステップ.TabIndex = 1;
+            this.labelNewAur耐圧1ステップ.Text = "STEP1";
+            // 
+            // labelNewAur耐圧1_CH1
+            // 
+            this.labelNewAur耐圧1_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH1.AutoSize = true;
+            this.labelNewAur耐圧1_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH1.Location = new System.Drawing.Point(77, 50);
+            this.labelNewAur耐圧1_CH1.Name = "labelNewAur耐圧1_CH1";
+            this.labelNewAur耐圧1_CH1.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH1.TabIndex = 23;
+            this.labelNewAur耐圧1_CH1.Text = "H";
+            // 
+            // labelNewAur耐圧1_CH2
+            // 
+            this.labelNewAur耐圧1_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH2.AutoSize = true;
+            this.labelNewAur耐圧1_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH2.Location = new System.Drawing.Point(124, 50);
+            this.labelNewAur耐圧1_CH2.Name = "labelNewAur耐圧1_CH2";
+            this.labelNewAur耐圧1_CH2.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH2.TabIndex = 13;
+            this.labelNewAur耐圧1_CH2.Text = "H";
+            // 
+            // label69
+            // 
+            this.label69.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label69.Location = new System.Drawing.Point(68, 25);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(40, 23);
+            this.label69.TabIndex = 4;
+            this.label69.Text = "一次";
+            // 
+            // label71
+            // 
+            this.label71.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label71.Location = new System.Drawing.Point(115, 25);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(40, 23);
+            this.label71.TabIndex = 5;
+            this.label71.Text = "二次";
+            // 
+            // label72
+            // 
+            this.label72.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label72.Location = new System.Drawing.Point(68, 1);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(40, 23);
+            this.label72.TabIndex = 24;
+            this.label72.Text = "CH1";
+            // 
+            // label74
+            // 
+            this.label74.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label74.Location = new System.Drawing.Point(115, 1);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(40, 23);
+            this.label74.TabIndex = 25;
+            this.label74.Text = "CH2";
+            // 
+            // label78
+            // 
+            this.label78.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label78.Location = new System.Drawing.Point(7, 25);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(50, 24);
+            this.label78.TabIndex = 0;
+            this.label78.Text = "ｽﾃｯﾌﾟ";
+            // 
+            // labelNewAur耐圧2ステップ
+            // 
+            this.labelNewAur耐圧2ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2ステップ.AutoSize = true;
+            this.labelNewAur耐圧2ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2ステップ.Location = new System.Drawing.Point(4, 71);
+            this.labelNewAur耐圧2ステップ.Name = "labelNewAur耐圧2ステップ";
+            this.labelNewAur耐圧2ステップ.Size = new System.Drawing.Size(57, 20);
+            this.labelNewAur耐圧2ステップ.TabIndex = 31;
+            this.labelNewAur耐圧2ステップ.Text = "STEP2";
+            // 
+            // label80
+            // 
+            this.label80.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label80.Location = new System.Drawing.Point(590, 27);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(48, 20);
+            this.label80.TabIndex = 20;
+            this.label80.Text = "計測値";
+            // 
+            // labelNewAur耐圧1計測値
+            // 
+            this.labelNewAur耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1計測値.Location = new System.Drawing.Point(585, 51);
+            this.labelNewAur耐圧1計測値.Name = "labelNewAur耐圧1計測値";
+            this.labelNewAur耐圧1計測値.Size = new System.Drawing.Size(59, 18);
+            this.labelNewAur耐圧1計測値.TabIndex = 21;
+            this.labelNewAur耐圧1計測値.Text = "*.**mA";
+            this.labelNewAur耐圧1計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label83
+            // 
+            this.label83.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label83.Location = new System.Drawing.Point(502, 27);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(61, 20);
+            this.label83.TabIndex = 9;
+            this.label83.Text = "漏れ電流";
+            // 
+            // labelNewAur耐圧2計測値
+            // 
+            this.labelNewAur耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2計測値.Location = new System.Drawing.Point(585, 72);
+            this.labelNewAur耐圧2計測値.Name = "labelNewAur耐圧2計測値";
+            this.labelNewAur耐圧2計測値.Size = new System.Drawing.Size(59, 18);
+            this.labelNewAur耐圧2計測値.TabIndex = 40;
+            this.labelNewAur耐圧2計測値.Text = "*.**mA";
+            this.labelNewAur耐圧2計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelNewAur耐圧1Amp
+            // 
+            this.labelNewAur耐圧1Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1Amp.AutoSize = true;
+            this.labelNewAur耐圧1Amp.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1Amp.Location = new System.Drawing.Point(499, 51);
+            this.labelNewAur耐圧1Amp.Name = "labelNewAur耐圧1Amp";
+            this.labelNewAur耐圧1Amp.Size = new System.Drawing.Size(66, 18);
+            this.labelNewAur耐圧1Amp.TabIndex = 12;
+            this.labelNewAur耐圧1Amp.Text = "**mA以下";
+            // 
+            // label86
+            // 
+            this.label86.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label86.Location = new System.Drawing.Point(430, 27);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(61, 20);
+            this.label86.TabIndex = 10;
+            this.label86.Text = "印加時間";
+            // 
+            // labelNewAur耐圧2Amp
+            // 
+            this.labelNewAur耐圧2Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2Amp.AutoSize = true;
+            this.labelNewAur耐圧2Amp.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2Amp.Location = new System.Drawing.Point(499, 72);
+            this.labelNewAur耐圧2Amp.Name = "labelNewAur耐圧2Amp";
+            this.labelNewAur耐圧2Amp.Size = new System.Drawing.Size(66, 18);
+            this.labelNewAur耐圧2Amp.TabIndex = 39;
+            this.labelNewAur耐圧2Amp.Text = "**mA以下";
+            // 
+            // labelNewAur耐圧1Time
+            // 
+            this.labelNewAur耐圧1Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1Time.AutoSize = true;
+            this.labelNewAur耐圧1Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1Time.Location = new System.Drawing.Point(438, 51);
+            this.labelNewAur耐圧1Time.Name = "labelNewAur耐圧1Time";
+            this.labelNewAur耐圧1Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur耐圧1Time.TabIndex = 18;
+            this.labelNewAur耐圧1Time.Text = "*.*sec";
+            // 
+            // label89
+            // 
+            this.label89.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label89.Location = new System.Drawing.Point(362, 27);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(61, 20);
+            this.label89.TabIndex = 8;
+            this.label89.Text = "印加電圧";
+            // 
+            // labelNewAur耐圧2Time
+            // 
+            this.labelNewAur耐圧2Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2Time.AutoSize = true;
+            this.labelNewAur耐圧2Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2Time.Location = new System.Drawing.Point(438, 72);
+            this.labelNewAur耐圧2Time.Name = "labelNewAur耐圧2Time";
+            this.labelNewAur耐圧2Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur耐圧2Time.TabIndex = 38;
+            this.labelNewAur耐圧2Time.Text = "*.*sec";
+            // 
+            // labelNewAur耐圧1Volt
+            // 
+            this.labelNewAur耐圧1Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1Volt.AutoSize = true;
+            this.labelNewAur耐圧1Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1Volt.Location = new System.Drawing.Point(362, 51);
+            this.labelNewAur耐圧1Volt.Name = "labelNewAur耐圧1Volt";
+            this.labelNewAur耐圧1Volt.Size = new System.Drawing.Size(60, 18);
+            this.labelNewAur耐圧1Volt.TabIndex = 11;
+            this.labelNewAur耐圧1Volt.Text = "AC****V";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label92.Location = new System.Drawing.Point(315, 1);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(40, 23);
+            this.label92.TabIndex = 28;
+            this.label92.Text = "CH6";
+            // 
+            // labelNewAur耐圧2Volt
+            // 
+            this.labelNewAur耐圧2Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2Volt.AutoSize = true;
+            this.labelNewAur耐圧2Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2Volt.Location = new System.Drawing.Point(362, 72);
+            this.labelNewAur耐圧2Volt.Name = "labelNewAur耐圧2Volt";
+            this.labelNewAur耐圧2Volt.Size = new System.Drawing.Size(60, 18);
+            this.labelNewAur耐圧2Volt.TabIndex = 37;
+            this.labelNewAur耐圧2Volt.Text = "AC****V";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label94.Location = new System.Drawing.Point(315, 25);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(34, 23);
+            this.label94.TabIndex = 29;
+            this.label94.Text = "ｱｰｽ";
+            // 
+            // label95
+            // 
+            this.label95.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label95.Location = new System.Drawing.Point(268, 1);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(40, 23);
+            this.label95.TabIndex = 27;
+            this.label95.Text = "CH5";
+            // 
+            // label96
+            // 
+            this.label96.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label96.Location = new System.Drawing.Point(216, 1);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(40, 23);
+            this.label96.TabIndex = 26;
+            this.label96.Text = "CH4";
+            // 
+            // labelNewAur耐圧1_CH6
+            // 
+            this.labelNewAur耐圧1_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH6.AutoSize = true;
+            this.labelNewAur耐圧1_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH6.Location = new System.Drawing.Point(324, 50);
+            this.labelNewAur耐圧1_CH6.Name = "labelNewAur耐圧1_CH6";
+            this.labelNewAur耐圧1_CH6.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH6.TabIndex = 30;
+            this.labelNewAur耐圧1_CH6.Text = "H";
+            // 
+            // label98
+            // 
+            this.label98.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label98.Location = new System.Drawing.Point(271, 25);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(34, 23);
+            this.label98.TabIndex = 22;
+            this.label98.Text = "ﾓﾆﾀ";
+            // 
+            // label99
+            // 
+            this.label99.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label99.Location = new System.Drawing.Point(211, 25);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(50, 23);
+            this.label99.TabIndex = 6;
+            this.label99.Text = "ﾀﾞﾝﾊﾟ";
+            // 
+            // labelNewAur耐圧2_CH6
+            // 
+            this.labelNewAur耐圧2_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH6.AutoSize = true;
+            this.labelNewAur耐圧2_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH6.Location = new System.Drawing.Point(324, 71);
+            this.labelNewAur耐圧2_CH6.Name = "labelNewAur耐圧2_CH6";
+            this.labelNewAur耐圧2_CH6.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH6.TabIndex = 35;
+            this.labelNewAur耐圧2_CH6.Text = "H";
+            // 
+            // labelNewAur耐圧1_CH5
+            // 
+            this.labelNewAur耐圧1_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH5.AutoSize = true;
+            this.labelNewAur耐圧1_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH5.Location = new System.Drawing.Point(277, 50);
+            this.labelNewAur耐圧1_CH5.Name = "labelNewAur耐圧1_CH5";
+            this.labelNewAur耐圧1_CH5.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH5.TabIndex = 15;
+            this.labelNewAur耐圧1_CH5.Text = "H";
+            // 
+            // labelNewAur耐圧2_CH5
+            // 
+            this.labelNewAur耐圧2_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH5.AutoSize = true;
+            this.labelNewAur耐圧2_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH5.Location = new System.Drawing.Point(277, 71);
+            this.labelNewAur耐圧2_CH5.Name = "labelNewAur耐圧2_CH5";
+            this.labelNewAur耐圧2_CH5.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH5.TabIndex = 34;
+            this.labelNewAur耐圧2_CH5.Text = "H";
+            // 
+            // labelNewAur耐圧1_CH4
+            // 
+            this.labelNewAur耐圧1_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH4.AutoSize = true;
+            this.labelNewAur耐圧1_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH4.Location = new System.Drawing.Point(225, 50);
+            this.labelNewAur耐圧1_CH4.Name = "labelNewAur耐圧1_CH4";
+            this.labelNewAur耐圧1_CH4.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH4.TabIndex = 14;
+            this.labelNewAur耐圧1_CH4.Text = "H";
+            // 
+            // label104
+            // 
+            this.label104.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label104.AutoSize = true;
+            this.label104.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label104.Location = new System.Drawing.Point(163, 1);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(40, 23);
+            this.label104.TabIndex = 41;
+            this.label104.Text = "CH3";
+            // 
+            // labelNewAur耐圧2_CH4
+            // 
+            this.labelNewAur耐圧2_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH4.AutoSize = true;
+            this.labelNewAur耐圧2_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH4.Location = new System.Drawing.Point(225, 71);
+            this.labelNewAur耐圧2_CH4.Name = "labelNewAur耐圧2_CH4";
+            this.labelNewAur耐圧2_CH4.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH4.TabIndex = 33;
+            this.labelNewAur耐圧2_CH4.Text = "H";
+            // 
+            // label106
+            // 
+            this.label106.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label106.AutoSize = true;
+            this.label106.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label106.Location = new System.Drawing.Point(162, 25);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(42, 23);
+            this.label106.TabIndex = 42;
+            this.label106.Text = "ﾌﾚｰﾑ";
+            // 
+            // labelNewAur耐圧1_CH3
+            // 
+            this.labelNewAur耐圧1_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧1_CH3.AutoSize = true;
+            this.labelNewAur耐圧1_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧1_CH3.Location = new System.Drawing.Point(172, 50);
+            this.labelNewAur耐圧1_CH3.Name = "labelNewAur耐圧1_CH3";
+            this.labelNewAur耐圧1_CH3.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧1_CH3.TabIndex = 43;
+            this.labelNewAur耐圧1_CH3.Text = "H";
+            // 
+            // labelNewAur耐圧2_CH3
+            // 
+            this.labelNewAur耐圧2_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH3.AutoSize = true;
+            this.labelNewAur耐圧2_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH3.Location = new System.Drawing.Point(172, 71);
+            this.labelNewAur耐圧2_CH3.Name = "labelNewAur耐圧2_CH3";
+            this.labelNewAur耐圧2_CH3.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH3.TabIndex = 44;
+            this.labelNewAur耐圧2_CH3.Text = "H";
+            // 
+            // labelNewAur耐圧2_CH2
+            // 
+            this.labelNewAur耐圧2_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH2.AutoSize = true;
+            this.labelNewAur耐圧2_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH2.Location = new System.Drawing.Point(124, 71);
+            this.labelNewAur耐圧2_CH2.Name = "labelNewAur耐圧2_CH2";
+            this.labelNewAur耐圧2_CH2.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH2.TabIndex = 32;
+            this.labelNewAur耐圧2_CH2.Text = "H";
+            // 
+            // labelNewAur耐圧2_CH1
+            // 
+            this.labelNewAur耐圧2_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧2_CH1.AutoSize = true;
+            this.labelNewAur耐圧2_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧2_CH1.Location = new System.Drawing.Point(77, 71);
+            this.labelNewAur耐圧2_CH1.Name = "labelNewAur耐圧2_CH1";
+            this.labelNewAur耐圧2_CH1.Size = new System.Drawing.Size(22, 20);
+            this.labelNewAur耐圧2_CH1.TabIndex = 36;
+            this.labelNewAur耐圧2_CH1.Text = "H";
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.BackColor = System.Drawing.Color.Transparent;
+            this.label111.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label111.ForeColor = System.Drawing.Color.Black;
+            this.label111.Location = new System.Drawing.Point(434, 9);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(234, 28);
+            this.label111.TabIndex = 94;
+            this.label111.Text = "AUR455/355 検査データ";
+            // 
+            // labelNewAur耐圧3ステップ
+            // 
+            this.labelNewAur耐圧3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3ステップ.AutoSize = true;
+            this.labelNewAur耐圧3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3ステップ.Location = new System.Drawing.Point(4, 92);
+            this.labelNewAur耐圧3ステップ.Name = "labelNewAur耐圧3ステップ";
+            this.labelNewAur耐圧3ステップ.Size = new System.Drawing.Size(57, 21);
+            this.labelNewAur耐圧3ステップ.TabIndex = 45;
+            this.labelNewAur耐圧3ステップ.Text = "STEP3";
+            // 
+            // labelNewAur耐圧3_CH5
+            // 
+            this.labelNewAur耐圧3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH5.AutoSize = true;
+            this.labelNewAur耐圧3_CH5.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH5.Location = new System.Drawing.Point(277, 92);
+            this.labelNewAur耐圧3_CH5.Name = "labelNewAur耐圧3_CH5";
+            this.labelNewAur耐圧3_CH5.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH5.TabIndex = 46;
+            this.labelNewAur耐圧3_CH5.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH4
+            // 
+            this.labelNewAur耐圧3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH4.AutoSize = true;
+            this.labelNewAur耐圧3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH4.Location = new System.Drawing.Point(225, 92);
+            this.labelNewAur耐圧3_CH4.Name = "labelNewAur耐圧3_CH4";
+            this.labelNewAur耐圧3_CH4.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH4.TabIndex = 47;
+            this.labelNewAur耐圧3_CH4.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH6
+            // 
+            this.labelNewAur耐圧3_CH6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH6.AutoSize = true;
+            this.labelNewAur耐圧3_CH6.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH6.Location = new System.Drawing.Point(324, 92);
+            this.labelNewAur耐圧3_CH6.Name = "labelNewAur耐圧3_CH6";
+            this.labelNewAur耐圧3_CH6.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH6.TabIndex = 48;
+            this.labelNewAur耐圧3_CH6.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH1
+            // 
+            this.labelNewAur耐圧3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH1.AutoSize = true;
+            this.labelNewAur耐圧3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH1.Location = new System.Drawing.Point(77, 92);
+            this.labelNewAur耐圧3_CH1.Name = "labelNewAur耐圧3_CH1";
+            this.labelNewAur耐圧3_CH1.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH1.TabIndex = 49;
+            this.labelNewAur耐圧3_CH1.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH2
+            // 
+            this.labelNewAur耐圧3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH2.AutoSize = true;
+            this.labelNewAur耐圧3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH2.Location = new System.Drawing.Point(124, 92);
+            this.labelNewAur耐圧3_CH2.Name = "labelNewAur耐圧3_CH2";
+            this.labelNewAur耐圧3_CH2.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH2.TabIndex = 50;
+            this.labelNewAur耐圧3_CH2.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH3
+            // 
+            this.labelNewAur耐圧3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH3.AutoSize = true;
+            this.labelNewAur耐圧3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH3.Location = new System.Drawing.Point(172, 92);
+            this.labelNewAur耐圧3_CH3.Name = "labelNewAur耐圧3_CH3";
+            this.labelNewAur耐圧3_CH3.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH3.TabIndex = 51;
+            this.labelNewAur耐圧3_CH3.Text = "H";
+            // 
+            // labelNewAur耐圧3Volt
+            // 
+            this.labelNewAur耐圧3Volt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3Volt.AutoSize = true;
+            this.labelNewAur耐圧3Volt.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3Volt.Location = new System.Drawing.Point(362, 93);
+            this.labelNewAur耐圧3Volt.Name = "labelNewAur耐圧3Volt";
+            this.labelNewAur耐圧3Volt.Size = new System.Drawing.Size(60, 18);
+            this.labelNewAur耐圧3Volt.TabIndex = 52;
+            this.labelNewAur耐圧3Volt.Text = "AC****V";
+            // 
+            // labelNewAur耐圧3Time
+            // 
+            this.labelNewAur耐圧3Time.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3Time.AutoSize = true;
+            this.labelNewAur耐圧3Time.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3Time.Location = new System.Drawing.Point(438, 93);
+            this.labelNewAur耐圧3Time.Name = "labelNewAur耐圧3Time";
+            this.labelNewAur耐圧3Time.Size = new System.Drawing.Size(45, 18);
+            this.labelNewAur耐圧3Time.TabIndex = 53;
+            this.labelNewAur耐圧3Time.Text = "*.*sec";
+            // 
+            // labelNewAur耐圧3Amp
+            // 
+            this.labelNewAur耐圧3Amp.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3Amp.AutoSize = true;
+            this.labelNewAur耐圧3Amp.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3Amp.Location = new System.Drawing.Point(499, 93);
+            this.labelNewAur耐圧3Amp.Name = "labelNewAur耐圧3Amp";
+            this.labelNewAur耐圧3Amp.Size = new System.Drawing.Size(66, 18);
+            this.labelNewAur耐圧3Amp.TabIndex = 54;
+            this.labelNewAur耐圧3Amp.Text = "**mA以下";
+            // 
+            // labelNewAur耐圧3計測値
+            // 
+            this.labelNewAur耐圧3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labelNewAur耐圧3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3計測値.Location = new System.Drawing.Point(585, 93);
+            this.labelNewAur耐圧3計測値.Name = "labelNewAur耐圧3計測値";
+            this.labelNewAur耐圧3計測値.Size = new System.Drawing.Size(59, 18);
+            this.labelNewAur耐圧3計測値.TabIndex = 55;
+            this.labelNewAur耐圧3計測値.Text = "*.**mA";
+            this.labelNewAur耐圧3計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // timerLed
+            // 
+            this.timerLed.Tick += new System.EventHandler(this.TimerLed_Tick);
             // 
             // MainForm
             // 
@@ -2363,6 +3781,12 @@
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2421,37 +3845,37 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label labelAur絶縁1_CH2;
+        private System.Windows.Forms.Label labelQ890絶縁1_CH2;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label labelAur絶縁1ステップ;
+        private System.Windows.Forms.Label labelQ890絶縁1ステップ;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label labelAur絶縁1_CH1;
+        private System.Windows.Forms.Label labelQ890絶縁1_CH1;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label labelAur絶縁1計測値;
+        private System.Windows.Forms.Label labelQ890絶縁1計測値;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label labelAur絶縁1Res;
-        private System.Windows.Forms.Label labelAur絶縁1Time;
-        private System.Windows.Forms.Label labelAur絶縁1Volt;
+        private System.Windows.Forms.Label labelQ890絶縁1Res;
+        private System.Windows.Forms.Label labelQ890絶縁1Time;
+        private System.Windows.Forms.Label labelQ890絶縁1Volt;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label labelAur耐圧1_CH2;
+        private System.Windows.Forms.Label labelQ890耐圧1_CH2;
         private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Label label68;
-        private System.Windows.Forms.Label labelAur耐圧1ステップ;
+        private System.Windows.Forms.Label labelQ890耐圧1ステップ;
         private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label labelAur耐圧1_CH1;
+        private System.Windows.Forms.Label labelQ890耐圧1_CH1;
         private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label labelAur耐圧1計測値;
+        private System.Windows.Forms.Label labelQ890耐圧1計測値;
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label labelAur耐圧1Amp;
-        private System.Windows.Forms.Label labelAur耐圧1Time;
-        private System.Windows.Forms.Label labelAur耐圧1Volt;
+        private System.Windows.Forms.Label labelQ890耐圧1Amp;
+        private System.Windows.Forms.Label labelQ890耐圧1Time;
+        private System.Windows.Forms.Label labelQ890耐圧1Volt;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label labelBcr耐圧1_CH1;
         private System.Windows.Forms.Label labelBcr耐圧1_CH4;
@@ -2504,15 +3928,15 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label labelAur絶縁1_CH3;
-        private System.Windows.Forms.Label labelAur絶縁1_CH4;
+        private System.Windows.Forms.Label labelQ890絶縁1_CH3;
+        private System.Windows.Forms.Label labelQ890絶縁1_CH4;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label labelAur耐圧1_CH3;
-        private System.Windows.Forms.Label labelAur耐圧1_CH4;
+        private System.Windows.Forms.Label labelQ890耐圧1_CH3;
+        private System.Windows.Forms.Label labelQ890耐圧1_CH4;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label38;
@@ -2546,6 +3970,113 @@
         private System.Windows.Forms.Label labelBcr絶縁1_CH3;
         private System.Windows.Forms.Label labelBcr絶縁2_CH3;
         private System.Windows.Forms.Label labelBcr絶縁3_CH3;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.Label labelNewAur絶縁3ステップ;
+        private System.Windows.Forms.Label labelNewAur絶縁2ステップ;
+        private System.Windows.Forms.Label labelNewAur絶縁1ステップ;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH1;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH1;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH2;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH2;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH1;
+        private System.Windows.Forms.Label label120;
+        private System.Windows.Forms.Label label121;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Label label123;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.Label label125;
+        private System.Windows.Forms.Label labelNewAur絶縁1計測値;
+        private System.Windows.Forms.Label labelNewAur絶縁2計測値;
+        private System.Windows.Forms.Label label128;
+        private System.Windows.Forms.Label label129;
+        private System.Windows.Forms.Label label130;
+        private System.Windows.Forms.Label labelNewAur絶縁3計測値;
+        private System.Windows.Forms.Label labelNewAur絶縁1Res;
+        private System.Windows.Forms.Label labelNewAur絶縁2Res;
+        private System.Windows.Forms.Label labelNewAur絶縁3Res;
+        private System.Windows.Forms.Label labelNewAur絶縁1Time;
+        private System.Windows.Forms.Label labelNewAur絶縁2Time;
+        private System.Windows.Forms.Label labelNewAur絶縁3Time;
+        private System.Windows.Forms.Label labelNewAur絶縁1Volt;
+        private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.Label labelNewAur絶縁2Volt;
+        private System.Windows.Forms.Label labelNewAur絶縁3Volt;
+        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.Label label143;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Label label146;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH6;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH6;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH6;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH5;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH5;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH5;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH4;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH4;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.Label labelNewAur絶縁1_CH3;
+        private System.Windows.Forms.Label labelNewAur絶縁2_CH3;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH3;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH2;
+        private System.Windows.Forms.Label labelNewAur絶縁3_CH4;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Label labelNewAur耐圧1ステップ;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH1;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH2;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label labelNewAur耐圧2ステップ;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label labelNewAur耐圧1計測値;
+        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label labelNewAur耐圧2計測値;
+        private System.Windows.Forms.Label labelNewAur耐圧1Amp;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label labelNewAur耐圧2Amp;
+        private System.Windows.Forms.Label labelNewAur耐圧1Time;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label labelNewAur耐圧2Time;
+        private System.Windows.Forms.Label labelNewAur耐圧1Volt;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label labelNewAur耐圧2Volt;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH6;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH6;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH5;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH5;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH4;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH4;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label labelNewAur耐圧1_CH3;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH3;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH2;
+        private System.Windows.Forms.Label labelNewAur耐圧2_CH1;
+        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.Label labelNewAur耐圧3ステップ;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH5;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH3;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH2;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH1;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH4;
+        private System.Windows.Forms.Label labelNewAur耐圧3_CH6;
+        private System.Windows.Forms.Label labelNewAur耐圧3Volt;
+        private System.Windows.Forms.Label labelNewAur耐圧3Time;
+        private System.Windows.Forms.Label labelNewAur耐圧3Amp;
+        private System.Windows.Forms.Label labelNewAur耐圧3計測値;
+        private System.Windows.Forms.Timer timerLed;
     }
 }
 

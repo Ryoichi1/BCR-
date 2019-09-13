@@ -208,7 +208,7 @@ namespace BCR耐電圧_絶縁抵抗試験
             Method.InterLock発動();
 
             //ＡＵＲ　ＣＨ１－２の導通チェック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
-            pictureBox1.ImageLocation = Constants.SetAurPath;
+            pictureBox1.ImageLocation = Constants.SetQ890Path;
 
             labelMessage.Text = "ＡＵＲ側の治具に点検用サンプルをセットしてください";
             MessageBox.Show("ＡＵＲ側の治具に点検用サンプルをセットしてください");

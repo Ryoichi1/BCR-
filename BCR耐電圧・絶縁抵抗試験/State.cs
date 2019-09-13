@@ -40,13 +40,22 @@ namespace BCR耐電圧_絶縁抵抗試験
 
     public static class State
     {
+        public enum CATEGORY { BCR, Q890, NEW_AUR}
+
+        public static CATEGORY Category { get; set; }
+
+
+
     //ジェネリックコレクション◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆◆
         //parameter.odsﾌｧｲﾙからロードした生データの保存用コレクション
         private static List<耐電圧試験スペック> Parameter耐圧スペックBcr = new List<耐電圧試験スペック>(); //耐電圧試験の規格
         private static List<絶縁抵抗試験スペック> Parameter絶縁スペックBcr = new List<絶縁抵抗試験スペック>(); //絶縁抵抗試験の格値
 
-        private static List<耐電圧試験スペック> Parameter耐圧スペックAur = new List<耐電圧試験スペック>(); //耐電圧試験の規格
-        private static List<絶縁抵抗試験スペック> Parameter絶縁スペックAur = new List<絶縁抵抗試験スペック>(); //絶縁抵抗試験の格値
+        private static List<耐電圧試験スペック> Parameter耐圧スペックQ890 = new List<耐電圧試験スペック>(); //耐電圧試験の規格
+        private static List<絶縁抵抗試験スペック> Parameter絶縁スペックQ890 = new List<絶縁抵抗試験スペック>(); //絶縁抵抗試験の格値
+
+        private static List<耐電圧試験スペック> Parameter耐圧スペックAUR = new List<耐電圧試験スペック>(); //耐電圧試験の規格
+        private static List<絶縁抵抗試験スペック> Parameter絶縁スペックAUR = new List<絶縁抵抗試験スペック>(); //絶縁抵抗試験の格値
 
         private static List<string> ParameterOperator = new List<string>();  //作業者一覧
 
@@ -71,21 +80,39 @@ namespace BCR耐電圧_絶縁抵抗試験
         }
 
 
-        //AUR890耐電圧試験スペック
+        //Q890耐電圧試験スペック
+        public static List<耐電圧試験スペック> 耐電圧スペックリストQ890
+        {
+            get
+            {
+                return Parameter耐圧スペックQ890;
+            }
+        }
+
+        //Q890絶縁抵抗試験スペック
+        public static List<絶縁抵抗試験スペック> 絶縁抵抗スペックリストQ890
+        {
+            get
+            {
+                return Parameter絶縁スペックQ890;
+            }
+        }
+
+        //AUR455/355耐電圧試験スペック
         public static List<耐電圧試験スペック> 耐電圧スペックリストAur
         {
             get
             {
-                return Parameter耐圧スペックAur;
+                return Parameter耐圧スペックAUR;
             }
         }
 
-        //AUR890絶縁抵抗試験スペック
+        //AUR455/355絶縁抵抗試験スペック
         public static List<絶縁抵抗試験スペック> 絶縁抵抗スペックリストAur
         {
             get
             {
-                return Parameter絶縁スペックAur;
+                return Parameter絶縁スペックAUR;
             }
         }
 
@@ -137,8 +164,13 @@ namespace BCR耐電圧_絶縁抵抗試験
                 //すべての要素をクリア
                 State.Parameter耐圧スペックBcr.Clear();
                 State.Parameter絶縁スペックBcr.Clear();
-                State.Parameter耐圧スペックAur.Clear();
-                State.Parameter絶縁スペックAur.Clear();
+
+                State.Parameter耐圧スペックQ890.Clear();
+                State.Parameter絶縁スペックQ890.Clear();
+
+                State.Parameter耐圧スペックAUR.Clear();
+                State.Parameter絶縁スペックAUR.Clear();
+
                 State.ParameterOperator.Clear();
 
                 //parameterファイルを開く
@@ -203,6 +235,61 @@ namespace BCR耐電圧_絶縁抵抗試験
                 }
 
                 // sheetを取得
+                calc.SelectSheet("SpecQ890");
+
+                //耐電圧試験 規格値の読み出し
+                splashMessage("Q890耐電圧試験 規格値のロード・・・");
+                i = 2;//3行目から読み込む
+                for (; ; )
+                {
+                    Application.DoEvents();
+                    if (calc.sheet.getCellByPosition(0, i).getFormula() == "") break;
+                    var spec = new 耐電圧試験スペック()
+                    {
+                        ステップ = calc.sheet.getCellByPosition(0, i).getFormula(),
+                        CH1 = calc.sheet.getCellByPosition(1, i).getFormula(),
+                        CH2 = calc.sheet.getCellByPosition(2, i).getFormula(),
+                        CH3 = calc.sheet.getCellByPosition(3, i).getFormula(),
+                        CH4 = calc.sheet.getCellByPosition(4, i).getFormula(),
+                        CH5 = calc.sheet.getCellByPosition(5, i).getFormula(),
+                        CH6 = calc.sheet.getCellByPosition(6, i).getFormula(),
+                        CH7 = calc.sheet.getCellByPosition(7, i).getFormula(),
+                        CH8 = calc.sheet.getCellByPosition(8, i).getFormula(),
+                        印加電圧 = Double.Parse(calc.sheet.getCellByPosition(9, i).getFormula()),
+                        印加時間 = Double.Parse(calc.sheet.getCellByPosition(10, i).getFormula()),
+                        漏れ電流 = Double.Parse(calc.sheet.getCellByPosition(11, i).getFormula())
+                    };
+                    Parameter耐圧スペックQ890.Add(spec);
+                    i++;
+                }
+
+                //絶縁抵抗試験 規格値の読み出し
+                splashMessage("Q890絶縁抵抗試験 規格値のロード・・・");
+                i = 10;//11行目から読み込む
+                for (; ; )
+                {
+                    Application.DoEvents();
+                    if (calc.sheet.getCellByPosition(0, i).getFormula() == "") break;
+                    var spec = new 絶縁抵抗試験スペック()
+                    {
+                        ステップ = calc.sheet.getCellByPosition(0, i).getFormula(),
+                        CH1 = calc.sheet.getCellByPosition(1, i).getFormula(),
+                        CH2 = calc.sheet.getCellByPosition(2, i).getFormula(),
+                        CH3 = calc.sheet.getCellByPosition(3, i).getFormula(),
+                        CH4 = calc.sheet.getCellByPosition(4, i).getFormula(),
+                        CH5 = calc.sheet.getCellByPosition(5, i).getFormula(),
+                        CH6 = calc.sheet.getCellByPosition(6, i).getFormula(),
+                        CH7 = calc.sheet.getCellByPosition(7, i).getFormula(),
+                        CH8 = calc.sheet.getCellByPosition(8, i).getFormula(),
+                        印加電圧 = Double.Parse(calc.sheet.getCellByPosition(9, i).getFormula()),
+                        印加時間 = Double.Parse(calc.sheet.getCellByPosition(10, i).getFormula()),
+                        絶縁抵抗値 = Double.Parse(calc.sheet.getCellByPosition(11, i).getFormula())
+                    };
+                    Parameter絶縁スペックQ890.Add(spec);
+                    i++;
+                }
+
+                // sheetを取得
                 calc.SelectSheet("SpecAur");
 
                 //耐電圧試験 規格値の読み出し
@@ -227,7 +314,7 @@ namespace BCR耐電圧_絶縁抵抗試験
                         印加時間 = Double.Parse(calc.sheet.getCellByPosition(10, i).getFormula()),
                         漏れ電流 = Double.Parse(calc.sheet.getCellByPosition(11, i).getFormula())
                     };
-                    Parameter耐圧スペックAur.Add(spec);
+                    Parameter耐圧スペックAUR.Add(spec);
                     i++;
                 }
 
@@ -253,9 +340,10 @@ namespace BCR耐電圧_絶縁抵抗試験
                         印加時間 = Double.Parse(calc.sheet.getCellByPosition(10, i).getFormula()),
                         絶縁抵抗値 = Double.Parse(calc.sheet.getCellByPosition(11, i).getFormula())
                     };
-                    Parameter絶縁スペックAur.Add(spec);
+                    Parameter絶縁スペックAUR.Add(spec);
                     i++;
                 }
+
 
                 // sheetを取得　"OperatorName"
                 calc.SelectSheet("OperatorName");
