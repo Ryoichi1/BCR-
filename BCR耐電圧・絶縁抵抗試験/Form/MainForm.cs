@@ -272,7 +272,7 @@ namespace BCR耐電圧_絶縁抵抗試験
                     }
 
                     //ログデータ内で検索する文字列を生成
-                    State.index = $"FCM{(buf[1].Insert(6, "0")).Substring(2)}";//西暦2桁をFCMに変換、連番部を3桁→4桁に変換
+                    State.index = "FCM"+ (buf[1].Insert(6, "0")).Substring(2);//西暦2桁をFCMに変換、連番部を3桁→4桁に変換
 
                     string index_model = State.index + "," + State.model;//ログデータ内で検索する文字列
 
@@ -374,6 +374,8 @@ namespace BCR耐電圧_絶縁抵抗試験
                     //該当する治具のパイロットランプを点滅させる処理を追加
                     timerLed.Start();
 
+
+                    
                     var tm = new GeneralTimer(15000);
                     tm.Start();
                     while (true)
@@ -613,6 +615,15 @@ namespace BCR耐電圧_絶縁抵抗試験
             if (!シリアル)
             {
                 textBoxSerial.Focus();
+                labelMessage.Text = Constants.MessQr;
+                //General.PlaySound2(Constants.SoundSet);
+                return;
+            }
+
+            Application.DoEvents();
+            if (!SetJigu)
+            {
+                textBoxSerial.Focus();
                 labelMessage.Text = Constants.MessSet;
                 //General.PlaySound2(Constants.SoundSet);
                 return;
@@ -660,6 +671,20 @@ namespace BCR耐電圧_絶縁抵抗試験
                 SetFocus();
             }
         }
+
+        private bool SetJigu
+        {
+            get
+            {
+                return Flags.FlagSetJigu;
+            }
+            set
+            {
+                Flags.FlagSetJigu = value;
+                SetFocus();
+            }
+        }
+
 
         private void buttonClearOperator_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {

@@ -261,6 +261,10 @@
             this.label162 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelNewAur耐圧3_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH2 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH1 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3_CH4 = new System.Windows.Forms.Label();
             this.labelNewAur耐圧1ステップ = new System.Windows.Forms.Label();
             this.labelNewAur耐圧1_CH1 = new System.Windows.Forms.Label();
             this.labelNewAur耐圧1_CH2 = new System.Windows.Forms.Label();
@@ -300,18 +304,14 @@
             this.labelNewAur耐圧2_CH3 = new System.Windows.Forms.Label();
             this.labelNewAur耐圧2_CH2 = new System.Windows.Forms.Label();
             this.labelNewAur耐圧2_CH1 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
-            this.labelNewAur耐圧3ステップ = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3_CH5 = new System.Windows.Forms.Label();
-            this.labelNewAur耐圧3_CH4 = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3_CH6 = new System.Windows.Forms.Label();
-            this.labelNewAur耐圧3_CH1 = new System.Windows.Forms.Label();
-            this.labelNewAur耐圧3_CH2 = new System.Windows.Forms.Label();
-            this.labelNewAur耐圧3_CH3 = new System.Windows.Forms.Label();
+            this.labelNewAur耐圧3ステップ = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3Volt = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3Time = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3Amp = new System.Windows.Forms.Label();
             this.labelNewAur耐圧3計測値 = new System.Windows.Forms.Label();
+            this.label111 = new System.Windows.Forms.Label();
             this.timerLed = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -352,13 +352,13 @@
             this.MenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItemFile_Close});
             this.MenuItemFile.Name = "MenuItemFile";
-            this.MenuItemFile.Size = new System.Drawing.Size(53, 20);
+            this.MenuItemFile.Size = new System.Drawing.Size(51, 20);
             this.MenuItemFile.Text = "ファイル";
             // 
             // MenuItemFile_Close
             // 
             this.MenuItemFile_Close.Name = "MenuItemFile_Close";
-            this.MenuItemFile_Close.Size = new System.Drawing.Size(98, 22);
+            this.MenuItemFile_Close.Size = new System.Drawing.Size(94, 22);
             this.MenuItemFile_Close.Text = "終了";
             this.MenuItemFile_Close.Click += new System.EventHandler(this.MenuItemFile_Close_Click);
             // 
@@ -368,20 +368,20 @@
             this.MenuItemUtility_SelfCheck,
             this.MenuItemUtility_SetOperator});
             this.MenuItemUtility.Name = "MenuItemUtility";
-            this.MenuItemUtility.Size = new System.Drawing.Size(77, 20);
+            this.MenuItemUtility.Size = new System.Drawing.Size(76, 20);
             this.MenuItemUtility.Text = "ユーティリティ";
             // 
             // MenuItemUtility_SelfCheck
             // 
             this.MenuItemUtility_SelfCheck.Name = "MenuItemUtility_SelfCheck";
-            this.MenuItemUtility_SelfCheck.Size = new System.Drawing.Size(164, 22);
+            this.MenuItemUtility_SelfCheck.Size = new System.Drawing.Size(160, 22);
             this.MenuItemUtility_SelfCheck.Text = "日常点検";
             this.MenuItemUtility_SelfCheck.Click += new System.EventHandler(this.MenuItemUtility_SelfCheck_Click);
             // 
             // MenuItemUtility_SetOperator
             // 
             this.MenuItemUtility_SetOperator.Name = "MenuItemUtility_SetOperator";
-            this.MenuItemUtility_SetOperator.Size = new System.Drawing.Size(164, 22);
+            this.MenuItemUtility_SetOperator.Size = new System.Drawing.Size(160, 22);
             this.MenuItemUtility_SetOperator.Text = "作業者追加・変更";
             this.MenuItemUtility_SetOperator.Click += new System.EventHandler(this.MenuItemUtility_SetOperator_Click);
             // 
@@ -391,20 +391,20 @@
             this.MenuItemHelp_Manual,
             this.MenuItemHelp_VerInfo});
             this.MenuItemHelp.Name = "MenuItemHelp";
-            this.MenuItemHelp.Size = new System.Drawing.Size(48, 20);
+            this.MenuItemHelp.Size = new System.Drawing.Size(46, 20);
             this.MenuItemHelp.Text = "ヘルプ";
             // 
             // MenuItemHelp_Manual
             // 
             this.MenuItemHelp_Manual.Name = "MenuItemHelp_Manual";
-            this.MenuItemHelp_Manual.Size = new System.Drawing.Size(144, 22);
+            this.MenuItemHelp_Manual.Size = new System.Drawing.Size(140, 22);
             this.MenuItemHelp_Manual.Text = "取扱い説明書";
             this.MenuItemHelp_Manual.Click += new System.EventHandler(this.MenuItemHelp_Manual_Click);
             // 
             // MenuItemHelp_VerInfo
             // 
             this.MenuItemHelp_VerInfo.Name = "MenuItemHelp_VerInfo";
-            this.MenuItemHelp_VerInfo.Size = new System.Drawing.Size(144, 22);
+            this.MenuItemHelp_VerInfo.Size = new System.Drawing.Size(140, 22);
             this.MenuItemHelp_VerInfo.Text = "バージョン情報";
             this.MenuItemHelp_VerInfo.Click += new System.EventHandler(this.MenuItemHelp_VerInfo_Click);
             // 
@@ -438,7 +438,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1ステップ, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH1, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelBcr耐圧1_CH2, 2, 2);
@@ -593,7 +593,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(601, 27);
+            this.label1.Location = new System.Drawing.Point(602, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(48, 20);
             this.label1.TabIndex = 20;
@@ -604,7 +604,7 @@
             this.labelBcr耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(595, 51);
+            this.labelBcr耐圧1計測値.Location = new System.Drawing.Point(596, 51);
             this.labelBcr耐圧1計測値.Name = "labelBcr耐圧1計測値";
             this.labelBcr耐圧1計測値.Size = new System.Drawing.Size(59, 18);
             this.labelBcr耐圧1計測値.TabIndex = 21;
@@ -627,7 +627,7 @@
             this.labelBcr耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(595, 73);
+            this.labelBcr耐圧2計測値.Location = new System.Drawing.Point(596, 73);
             this.labelBcr耐圧2計測値.Name = "labelBcr耐圧2計測値";
             this.labelBcr耐圧2計測値.Size = new System.Drawing.Size(59, 18);
             this.labelBcr耐圧2計測値.TabIndex = 40;
@@ -1153,10 +1153,10 @@
             this.tabPage1.Controls.Add(this.label23);
             this.tabPage1.Controls.Add(this.tableLayoutPanel1);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 21);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(687, 341);
+            this.tabPage1.Size = new System.Drawing.Size(687, 342);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "BC-R";
             // 
@@ -1174,7 +1174,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁3ステップ, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁2ステップ, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.labelBcr絶縁1ステップ, 0, 2);
@@ -1385,7 +1385,7 @@
             this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label63.Location = new System.Drawing.Point(606, 27);
+            this.label63.Location = new System.Drawing.Point(607, 27);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(48, 20);
             this.label63.TabIndex = 20;
@@ -1396,7 +1396,7 @@
             this.labelBcr絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(598, 53);
+            this.labelBcr絶縁1計測値.Location = new System.Drawing.Point(599, 53);
             this.labelBcr絶縁1計測値.Name = "labelBcr絶縁1計測値";
             this.labelBcr絶縁1計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁1計測値.TabIndex = 38;
@@ -1408,7 +1408,7 @@
             this.labelBcr絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(598, 78);
+            this.labelBcr絶縁2計測値.Location = new System.Drawing.Point(599, 78);
             this.labelBcr絶縁2計測値.Name = "labelBcr絶縁2計測値";
             this.labelBcr絶縁2計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁2計測値.TabIndex = 39;
@@ -1453,7 +1453,7 @@
             this.labelBcr絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelBcr絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelBcr絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(598, 104);
+            this.labelBcr絶縁3計測値.Location = new System.Drawing.Point(599, 104);
             this.labelBcr絶縁3計測値.Name = "labelBcr絶縁3計測値";
             this.labelBcr絶縁3計測値.Size = new System.Drawing.Size(64, 18);
             this.labelBcr絶縁3計測値.TabIndex = 40;
@@ -1808,10 +1808,10 @@
             this.tabPage2.Controls.Add(this.label62);
             this.tabPage2.Controls.Add(this.tableLayoutPanel4);
             this.tabPage2.Controls.Add(this.label82);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 21);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(687, 341);
+            this.tabPage2.Size = new System.Drawing.Size(687, 342);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Q890";
             // 
@@ -2432,10 +2432,10 @@
             this.tabPage3.Controls.Add(this.label57);
             this.tabPage3.Controls.Add(this.tableLayoutPanel5);
             this.tabPage3.Controls.Add(this.label111);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 21);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(687, 341);
+            this.tabPage3.Size = new System.Drawing.Size(687, 342);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "AUR455/355";
             // 
@@ -2453,7 +2453,7 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
             this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁3ステップ, 0, 4);
             this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁2ステップ, 0, 3);
             this.tableLayoutPanel6.Controls.Add(this.labelNewAur絶縁1ステップ, 0, 2);
@@ -2664,7 +2664,7 @@
             this.label125.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label125.AutoSize = true;
             this.label125.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label125.Location = new System.Drawing.Point(597, 27);
+            this.label125.Location = new System.Drawing.Point(598, 27);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(48, 20);
             this.label125.TabIndex = 20;
@@ -2675,7 +2675,7 @@
             this.labelNewAur絶縁1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur絶縁1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur絶縁1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur絶縁1計測値.Location = new System.Drawing.Point(589, 53);
+            this.labelNewAur絶縁1計測値.Location = new System.Drawing.Point(590, 53);
             this.labelNewAur絶縁1計測値.Name = "labelNewAur絶縁1計測値";
             this.labelNewAur絶縁1計測値.Size = new System.Drawing.Size(64, 18);
             this.labelNewAur絶縁1計測値.TabIndex = 38;
@@ -2687,7 +2687,7 @@
             this.labelNewAur絶縁2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur絶縁2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur絶縁2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur絶縁2計測値.Location = new System.Drawing.Point(589, 78);
+            this.labelNewAur絶縁2計測値.Location = new System.Drawing.Point(590, 78);
             this.labelNewAur絶縁2計測値.Name = "labelNewAur絶縁2計測値";
             this.labelNewAur絶縁2計測値.Size = new System.Drawing.Size(64, 18);
             this.labelNewAur絶縁2計測値.TabIndex = 39;
@@ -2732,7 +2732,7 @@
             this.labelNewAur絶縁3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur絶縁3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur絶縁3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur絶縁3計測値.Location = new System.Drawing.Point(589, 103);
+            this.labelNewAur絶縁3計測値.Location = new System.Drawing.Point(590, 103);
             this.labelNewAur絶縁3計測値.Name = "labelNewAur絶縁3計測値";
             this.labelNewAur絶縁3計測値.Size = new System.Drawing.Size(64, 18);
             this.labelNewAur絶縁3計測値.TabIndex = 40;
@@ -3101,7 +3101,7 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH3, 0, 4);
             this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH2, 0, 4);
             this.tableLayoutPanel5.Controls.Add(this.labelNewAur耐圧3_CH1, 0, 4);
@@ -3163,6 +3163,50 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel5.Size = new System.Drawing.Size(658, 114);
             this.tableLayoutPanel5.TabIndex = 93;
+            // 
+            // labelNewAur耐圧3_CH3
+            // 
+            this.labelNewAur耐圧3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH3.AutoSize = true;
+            this.labelNewAur耐圧3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH3.Location = new System.Drawing.Point(172, 92);
+            this.labelNewAur耐圧3_CH3.Name = "labelNewAur耐圧3_CH3";
+            this.labelNewAur耐圧3_CH3.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH3.TabIndex = 51;
+            this.labelNewAur耐圧3_CH3.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH2
+            // 
+            this.labelNewAur耐圧3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH2.AutoSize = true;
+            this.labelNewAur耐圧3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH2.Location = new System.Drawing.Point(124, 92);
+            this.labelNewAur耐圧3_CH2.Name = "labelNewAur耐圧3_CH2";
+            this.labelNewAur耐圧3_CH2.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH2.TabIndex = 50;
+            this.labelNewAur耐圧3_CH2.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH1
+            // 
+            this.labelNewAur耐圧3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH1.AutoSize = true;
+            this.labelNewAur耐圧3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH1.Location = new System.Drawing.Point(77, 92);
+            this.labelNewAur耐圧3_CH1.Name = "labelNewAur耐圧3_CH1";
+            this.labelNewAur耐圧3_CH1.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH1.TabIndex = 49;
+            this.labelNewAur耐圧3_CH1.Text = "H";
+            // 
+            // labelNewAur耐圧3_CH4
+            // 
+            this.labelNewAur耐圧3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3_CH4.AutoSize = true;
+            this.labelNewAur耐圧3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3_CH4.Location = new System.Drawing.Point(225, 92);
+            this.labelNewAur耐圧3_CH4.Name = "labelNewAur耐圧3_CH4";
+            this.labelNewAur耐圧3_CH4.Size = new System.Drawing.Size(22, 21);
+            this.labelNewAur耐圧3_CH4.TabIndex = 47;
+            this.labelNewAur耐圧3_CH4.Text = "H";
             // 
             // labelNewAur耐圧1ステップ
             // 
@@ -3268,7 +3312,7 @@
             this.label80.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label80.AutoSize = true;
             this.label80.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label80.Location = new System.Drawing.Point(590, 27);
+            this.label80.Location = new System.Drawing.Point(591, 27);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(48, 20);
             this.label80.TabIndex = 20;
@@ -3279,7 +3323,7 @@
             this.labelNewAur耐圧1計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur耐圧1計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur耐圧1計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧1計測値.Location = new System.Drawing.Point(585, 51);
+            this.labelNewAur耐圧1計測値.Location = new System.Drawing.Point(586, 51);
             this.labelNewAur耐圧1計測値.Name = "labelNewAur耐圧1計測値";
             this.labelNewAur耐圧1計測値.Size = new System.Drawing.Size(59, 18);
             this.labelNewAur耐圧1計測値.TabIndex = 21;
@@ -3302,7 +3346,7 @@
             this.labelNewAur耐圧2計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur耐圧2計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur耐圧2計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧2計測値.Location = new System.Drawing.Point(585, 72);
+            this.labelNewAur耐圧2計測値.Location = new System.Drawing.Point(586, 72);
             this.labelNewAur耐圧2計測値.Name = "labelNewAur耐圧2計測値";
             this.labelNewAur耐圧2計測値.Size = new System.Drawing.Size(59, 18);
             this.labelNewAur耐圧2計測値.TabIndex = 40;
@@ -3593,29 +3637,6 @@
             this.labelNewAur耐圧2_CH1.TabIndex = 36;
             this.labelNewAur耐圧2_CH1.Text = "H";
             // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.BackColor = System.Drawing.Color.Transparent;
-            this.label111.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label111.ForeColor = System.Drawing.Color.Black;
-            this.label111.Location = new System.Drawing.Point(434, 9);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(234, 28);
-            this.label111.TabIndex = 94;
-            this.label111.Text = "AUR455/355 検査データ";
-            // 
-            // labelNewAur耐圧3ステップ
-            // 
-            this.labelNewAur耐圧3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelNewAur耐圧3ステップ.AutoSize = true;
-            this.labelNewAur耐圧3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3ステップ.Location = new System.Drawing.Point(4, 92);
-            this.labelNewAur耐圧3ステップ.Name = "labelNewAur耐圧3ステップ";
-            this.labelNewAur耐圧3ステップ.Size = new System.Drawing.Size(57, 21);
-            this.labelNewAur耐圧3ステップ.TabIndex = 45;
-            this.labelNewAur耐圧3ステップ.Text = "STEP3";
-            // 
             // labelNewAur耐圧3_CH5
             // 
             this.labelNewAur耐圧3_CH5.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -3626,17 +3647,6 @@
             this.labelNewAur耐圧3_CH5.Size = new System.Drawing.Size(22, 21);
             this.labelNewAur耐圧3_CH5.TabIndex = 46;
             this.labelNewAur耐圧3_CH5.Text = "H";
-            // 
-            // labelNewAur耐圧3_CH4
-            // 
-            this.labelNewAur耐圧3_CH4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelNewAur耐圧3_CH4.AutoSize = true;
-            this.labelNewAur耐圧3_CH4.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3_CH4.Location = new System.Drawing.Point(225, 92);
-            this.labelNewAur耐圧3_CH4.Name = "labelNewAur耐圧3_CH4";
-            this.labelNewAur耐圧3_CH4.Size = new System.Drawing.Size(22, 21);
-            this.labelNewAur耐圧3_CH4.TabIndex = 47;
-            this.labelNewAur耐圧3_CH4.Text = "H";
             // 
             // labelNewAur耐圧3_CH6
             // 
@@ -3649,38 +3659,16 @@
             this.labelNewAur耐圧3_CH6.TabIndex = 48;
             this.labelNewAur耐圧3_CH6.Text = "H";
             // 
-            // labelNewAur耐圧3_CH1
+            // labelNewAur耐圧3ステップ
             // 
-            this.labelNewAur耐圧3_CH1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelNewAur耐圧3_CH1.AutoSize = true;
-            this.labelNewAur耐圧3_CH1.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3_CH1.Location = new System.Drawing.Point(77, 92);
-            this.labelNewAur耐圧3_CH1.Name = "labelNewAur耐圧3_CH1";
-            this.labelNewAur耐圧3_CH1.Size = new System.Drawing.Size(22, 21);
-            this.labelNewAur耐圧3_CH1.TabIndex = 49;
-            this.labelNewAur耐圧3_CH1.Text = "H";
-            // 
-            // labelNewAur耐圧3_CH2
-            // 
-            this.labelNewAur耐圧3_CH2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelNewAur耐圧3_CH2.AutoSize = true;
-            this.labelNewAur耐圧3_CH2.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3_CH2.Location = new System.Drawing.Point(124, 92);
-            this.labelNewAur耐圧3_CH2.Name = "labelNewAur耐圧3_CH2";
-            this.labelNewAur耐圧3_CH2.Size = new System.Drawing.Size(22, 21);
-            this.labelNewAur耐圧3_CH2.TabIndex = 50;
-            this.labelNewAur耐圧3_CH2.Text = "H";
-            // 
-            // labelNewAur耐圧3_CH3
-            // 
-            this.labelNewAur耐圧3_CH3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.labelNewAur耐圧3_CH3.AutoSize = true;
-            this.labelNewAur耐圧3_CH3.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3_CH3.Location = new System.Drawing.Point(172, 92);
-            this.labelNewAur耐圧3_CH3.Name = "labelNewAur耐圧3_CH3";
-            this.labelNewAur耐圧3_CH3.Size = new System.Drawing.Size(22, 21);
-            this.labelNewAur耐圧3_CH3.TabIndex = 51;
-            this.labelNewAur耐圧3_CH3.Text = "H";
+            this.labelNewAur耐圧3ステップ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelNewAur耐圧3ステップ.AutoSize = true;
+            this.labelNewAur耐圧3ステップ.Font = new System.Drawing.Font("メイリオ", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.labelNewAur耐圧3ステップ.Location = new System.Drawing.Point(4, 92);
+            this.labelNewAur耐圧3ステップ.Name = "labelNewAur耐圧3ステップ";
+            this.labelNewAur耐圧3ステップ.Size = new System.Drawing.Size(57, 21);
+            this.labelNewAur耐圧3ステップ.TabIndex = 45;
+            this.labelNewAur耐圧3ステップ.Text = "STEP3";
             // 
             // labelNewAur耐圧3Volt
             // 
@@ -3720,12 +3708,24 @@
             this.labelNewAur耐圧3計測値.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNewAur耐圧3計測値.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelNewAur耐圧3計測値.Font = new System.Drawing.Font("ＭＳ Ｐゴシック", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelNewAur耐圧3計測値.Location = new System.Drawing.Point(585, 93);
+            this.labelNewAur耐圧3計測値.Location = new System.Drawing.Point(586, 93);
             this.labelNewAur耐圧3計測値.Name = "labelNewAur耐圧3計測値";
             this.labelNewAur耐圧3計測値.Size = new System.Drawing.Size(59, 18);
             this.labelNewAur耐圧3計測値.TabIndex = 55;
             this.labelNewAur耐圧3計測値.Text = "*.**mA";
             this.labelNewAur耐圧3計測値.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.BackColor = System.Drawing.Color.Transparent;
+            this.label111.Font = new System.Drawing.Font("メイリオ", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label111.ForeColor = System.Drawing.Color.Black;
+            this.label111.Location = new System.Drawing.Point(434, 9);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(234, 28);
+            this.label111.TabIndex = 94;
+            this.label111.Text = "AUR455/355 検査データ";
             // 
             // timerLed
             // 

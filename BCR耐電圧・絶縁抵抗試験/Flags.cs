@@ -13,6 +13,7 @@ namespace BCR耐電圧_絶縁抵抗試験
         //各種フラグ
         public  static bool FlagOpeName; //作業者名が正しく選択されていればTrue
         public  static bool FlagSerial;　//シリアルが正しく入力されていればTrue
+        public static bool FlagSetJigu;　//該当の治具にセットできたらTrue
         private static bool FlagDailyCheck;//日常点検が実施されていればTrue
 
         

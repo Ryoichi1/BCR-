@@ -48,7 +48,8 @@ namespace BCR耐電圧_絶縁抵抗試験
         //作業者へのメッセージ
         public const string MessOperator = "作業者名を選択してください";
         public const string MessDailyCheck = "日常点検を実施してください";
-        public const string MessSet = "製品をセットして、ＱＲコードを読み取ってください";
+        public const string MessQr = "ＱＲコードを読み取ってください";
+        public const string MessSet = "製品を治具にセットしてください";
         public const string MessRemove = "製品を取り外してください";
         public const string MessWait = "検査中！　治具から離れてお待ちください・・・";
         public const string MessWarning = "治具から離れてください！　高電圧印加まで ";
